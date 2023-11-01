@@ -5,7 +5,7 @@ IconName: TrophyTheElder
 CustomIcon: 
 FlashIcon: false
 CooldownIcon: false
-Tooltip: $se_theelder_tooltip
+Tooltip: '$se_theelder_tooltip Improved regeneration'
 Attributes: None
 StartMessageLoc: Center
 StartMessage: $se_theelder_start
@@ -34,9 +34,9 @@ SeData:
   m_jumpStaminaUseModifier: 0
   m_eitrOverTime: 0
   m_eitrOverTimeDuration: 0
-  m_healthRegenMultiplier: 1.15
-  m_staminaRegenMultiplier: 1.15
-  m_eitrRegenMultiplier: 1.15
+  m_healthRegenMultiplier: 1.1
+  m_staminaRegenMultiplier: 1.2
+  m_eitrRegenMultiplier: 1.2
   m_raiseSkill: None
   m_raiseSkillModifier: 0
   m_skillLevel: None

@@ -1,0 +1,11 @@
+name: GB_Parchment_Tool
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- FineWood:10:0:True

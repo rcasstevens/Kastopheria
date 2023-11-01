@@ -53,7 +53,8 @@ m_toolTier: 1
 m_maxQuality: 4
 m_value: 0
 ConsumableStatusEffect: 
-damageModifiers: []
+damageModifiers:
+- Water:Resistant
 GEffects:
   Hit_Effects: 
   Hit_Terrain_Effects: 

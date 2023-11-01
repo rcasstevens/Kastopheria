@@ -213,12 +213,6 @@ Bat:
       0: 0
       1: default
 
-Hen:
-  stars: [9, 1, 0.1]
-
-Chicken:
-  stars: [9, 1, 0.1]
-
 # Example yaml file. Feel free to customize this. Everything that is not defined in this file will use the configuration file instead.
 # Find some detailed documentation at the bottom of this file.
 
