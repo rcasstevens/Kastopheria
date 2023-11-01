@@ -1,0 +1,248 @@
+﻿groups:
+  Non Meats:
+  - CloudBerry
+  - RaspBerry
+  - BlueBerries
+  - Honey
+  - Mushroom
+  - MushroomYellow
+  - MushroomJotunPuffs
+  - MushroomMagecap
+  - Carrot
+  - Turnip
+  - Onion
+  - Thistle
+  - Dandelion
+  Fishies:
+  - Fish1
+  - Fish10
+  - Fish11
+  - Fish12
+  - Fish2
+  - Fish3
+  - Fish4_cave
+  - Fish5
+  - Fish6
+  - Fish7
+  - Fish8
+  - Fish9
+  Raw Meats:
+  - RawMeat
+  - SerpentMeat
+  - DeerMeat
+  - NeckTail
+  - LoxMeat
+  - WolfMeat
+  - FishRaw
+  - HareMeat
+  - ChickenMeat
+  - BugMeat
+  Building Materials:
+  - Stone
+  - Coal
+  - BlackMarble
+  - Crystal
+  - YggdrasilWood
+  Misc Twenty:
+  - SurtlingCore
+  - YmirRemains
+  - Thunderstone
+  Misc Fifty:
+  - AncientSeed
+  - WitheredBone
+  - GoblinTotem
+  - Flint
+  - BarleyFlour
+  - SoftTissue
+  - ChickenEgg
+  - WolfClaw
+  Misc Hundred:
+  - GreydwarfEye
+  - BoneFragments
+  - Entrails
+  - LeatherScraps
+  - DeerHide
+  - TrollHide
+  - WolfPelt
+  - LoxPelt
+  - Feathers
+  - Wisp
+  - ScaleHide
+  - Carapace
+  - Tar
+  - JuteRed
+  - JuteBlue
+  Misc Extra:
+  - Resin
+  - Pukeberries
+  - WitheredBone
+  - AncientSeed
+  - GoblinTotem
+  More Quarter:
+  - Stone
+  - Wood
+  - BlackMarble
+  - Obsidian
+  - ElderBark
+  - Coal
+  - Honey
+  - Chitin
+  - CloudBerry
+  - Entrails
+  - Barley
+  - Flax
+  - SerpentScale
+  More Third:
+  - Flint
+  - RaspBerry
+  - BlueBerries
+  - YggdrasilWood
+  - Mushroom
+  - MushroomYellow
+  - MushroomBlue
+  - Thistle
+  - Dandelion
+  - RawMeat
+  - DeerMeat
+  - NeckTail
+  - LoxMeat
+  - WolfMeat
+  - SerpentMeat
+  - HareMeat
+  - BugMeat
+  - ChickenMeat
+  - Ooze
+  - Guck
+  - Needle
+  - JuteBlue
+  - JuteRed
+  - WolfHairBundle
+  - WolfFang
+  - WolfClaw
+  More Half:
+  - CopperOre
+  - TinOre
+  - IronOre
+  - SilverOre
+  - IronScrap
+  - CopperScrap
+  - FineWood
+  - RoundLog
+  - Tar
+  - Crystal
+  - Feathers
+  - Bilebag
+  - Bloodbag
+  - Carapace
+  - Chain
+  - FreezeGland
+  - GiantBloodSack
+  - GoblinTotem
+  - LeatherScraps
+  - RoyalJelly
+  More Extreme:
+  - Acorn
+  - BirchSeeds
+  - FirCone
+  - PineCone
+
+#Lets everything float on the water's surface.
+all:
+  floating: yes
+
+#Coins.
+coins:
+  stack: 3000
+  weight factor: 0.5
+
+#Special category `seeds`
+seed:
+  stack: 200
+
+#Special category `valuable`
+valuable:
+  stack: 50
+
+#Special category `trophy`
+trophy:
+  stack: 200
+  weight factor: 0.33
+
+#Special category `boss trophy`
+boss trophy:
+  stack: 200
+  weight factor: 0.33
+
+#Special category `woods`
+woods:
+  stack: 100
+  weight factor: 0.80
+
+#Prevents weird behavior with `wood` doubling it's stack-size.
+wood:
+  stack: 100
+
+#Defined categories
+Building Materials:
+  stack: 100
+  weight factor: 0.80
+
+Fishies:
+  stack: 20
+
+Misc Twenty:
+  stack: 20
+
+Misc Fifty:
+  stack: 50
+
+Misc Hundred:
+  stack: 100
+
+Misc Extra:
+  stack: 200
+
+Raw Meats:
+  stack: 50
+
+Non Meats:
+  stack: 100
+
+More Quarter:
+  amount: 1.25
+
+More Third:
+  amount: 1.33
+
+More Half:
+  amount: 1.5
+
+More Extreme:
+  amount: 2.1
+
+# Example ItemConfig.yml
+# Do not forget to turn the YAML file on in the settings.
+
+# Predefined groups:
+# all, ore, metal, food, potions, woods, trophy, boss trophy, valuable, seed, crop, stackable.
+# pants, chest, helmet, cape, armor.
+# axes, clubs, knives, pickaxes, polearms, spears, swords, bows, crossbows, weapon, arrows, bolts, ammo.
+# round shield, tower shield, shield.
+# special (fishing rod and megingjord), tool, equipment.
+
+# Things you can change: amount, weight, weight factor, stack, stack factor, pickup, floating, teleportable, loss.
+# Things you can configure per world level: amount, pickup, teleportable, loss.
+
+# Note: If you are using mods that create custom items / prefabs, you might need to add and configure them
+#       explicitly by creating your own groups for those. Predefined groups only contain Valheim's original
+#       items.
+
+# Define your own groups here and assign items via display name (or the internal ID) to your groups.
+# Hint: If you want to find the internal ID of an item, you can look it up in the wiki.
+# https://valheim.fandom.com
+# For custom items, please refer to the documentation of the mod that adds them.
+#
+# groups:
+#   My Group:
+#      - Display Name
+#      - InternalID

@@ -1,0 +1,14 @@
+name: ct_livingroominabottle
+clonePrefabName: 
+craftingStation: ''
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- MeadBaseTasty:2:0:True
+- QueensJam:16:0:True
+- OnionSoup:4:0:True
+- BarleyWineBase:1:0:True

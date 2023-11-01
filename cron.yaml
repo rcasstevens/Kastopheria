@@ -1,0 +1,86 @@
+timezone: UTC
+# Jobs checked every minute.
+interval: 60
+jobs:
+  #Restart the server every Tuesday/Friday @ ~6am.
+  #  #Alert players.
+  #- command: broadcast center <color=red>Warning - Server Restart in 5 Minutes!</color>
+  #  schedule: "55 5 * * 2,5"
+  #- command: broadcast center <color=red>Warning - Server Restart in 4 Minutes!</color>
+  #  schedule: "56 5 * * 2,5"
+  #- command: broadcast center <color=red>Warning - Server Restart in 3 Minutes!</color>
+  #  schedule: "57 5 * * 2,5"
+  #- command: broadcast center <color=red>Warning - Server Restart in 2 Minutes!</color>
+  #  schedule: "58 5 * * 2,5"
+  #- command: broadcast center <color=red>Warning - Server Restart in 1 Minutes!</color>
+  #  schedule: "59 5 * * 2,5"
+  #- command: save
+  #  schedule: "59 5 * * 2,5"
+  #Regenerate the world every Monday @ ~6am.
+    #Alert players.
+  - command: broadcast center <color=red>Warning - Server Regeneration in 5 Minutes!</color>
+    schedule: "55 5 * * 1"
+  - command: broadcast center <color=red>Warning - Server Regeneration in 4 Minutes!</color>
+    schedule: "56 5 * * 1"
+  - command: broadcast center <color=red>Warning - Server Regeneration in 3 Minutes!</color>
+    schedule: "57 5 * * 1"
+  - command: broadcast center <color=red>Warning - Server Regeneration in 2 Minutes!</color>
+    schedule: "58 5 * * 1"
+  - command: broadcast center <color=red>Warning - Server Regeneration in 1 Minutes!</color>
+    schedule: "59 5 * * 1"
+  - command: backup
+    schedule: "59 5 * * 1"
+    #Meadows
+  - command: broadcast center <color=orange>Regenerating... Meadows</color>
+    schedule: "0 6 * * 1"
+  - command: zones_reset safeZones=2 biomes=Meadows start
+    schedule: "0 6 * * 1"
+  - command: chests_reset looted biomes=Meadows
+    schedule: "0 6 * * 1"
+    #BlackForest
+  - command: broadcast center <color=orange>Regenerating... BlackForest</color>
+    schedule: "1 6 * * 1"
+  - command: zones_reset safeZones=2 biomes=BlackForest start
+    schedule: "1 6 * * 1"
+  - command: chests_reset looted biomes=BlackForest
+    schedule: "1 6 * * 1"
+    #Ocean
+  - command: broadcast center <color=orange>Regenerating... Ocean</color>
+    schedule: "2 6 * * 1"
+  - command: zones_reset safeZones=2 biomes=Ocean start
+    schedule: "2 6 * * 1"
+  - command: chests_reset looted biomes=Ocean
+    schedule: "2 6 * * 1"
+    #Swamp
+  - command: broadcast center <color=orange>Regenerating... Swamp</color>
+    schedule: "3 6 * * 1"
+  - command: zones_reset safeZones=2 biomes=Swamp start
+    schedule: "3 6 * * 1"
+  - command: chests_reset looted biomes=Swamp
+    schedule: "3 6 * * 1"
+    #Mountain
+  - command: broadcast center <color=orange>Regenerating... Mountain</color>
+    schedule: "4 6 * * 1"
+  - command: zones_reset safeZones=2 biomes=Mountain start
+    schedule: "4 6 * * 1"
+  - command: chests_reset looted biomes=Mountain
+    schedule: "4 6 * * 1"
+    #Plains
+  - command: broadcast center <color=orange>Regenerating... Plains</color>
+    schedule: "5 6 * * 1"
+  - command: zones_reset safeZones=2 biomes=Plains start
+    schedule: "5 6 * * 1"
+  - command: chests_reset looted biomes=Plains
+    schedule: "5 6 * * 1"
+    #Mistlands
+  - command: broadcast center <color=orange>Regenerating... Mistlands</color>
+    schedule: "6 6 * * 1"
+  - command: zones_reset safeZones=2 biomes=Mistlands start
+    schedule: "6 6 * * 1"
+  - command: chests_reset looted biomes=Mistlands
+    schedule: "6 6 * * 1"
+    #Complete
+  - command: broadcast center <color=green>Regenerating... Complete</color>
+    schedule: "7 6 * * 1"
+  - command: say Regenerating... Complete
+    schedule: "7 6 * * 1"

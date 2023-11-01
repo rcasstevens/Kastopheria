@@ -1,0 +1,12 @@
+name: ct_campfireinabottle
+clonePrefabName: 
+craftingStation: ''
+minStationLevel: 1
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- MeadBaseTasty:1:0:True
+- QueensJam:4:0:True
