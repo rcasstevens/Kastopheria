@@ -1,35 +1,35 @@
-name: wood_beam_26
+name: GB_Small_Chest
 piecehammer: Hammer
-m_name: $piece_woodbeam26
+m_name: $GB_Small_Chest
 sizeMultiplier: 1
-m_description: ''
+m_description: $GB_Small_Chest_Description
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
 craftingStation: $piece_workbench
-piecehammerCategory: Building
+piecehammerCategory: Kingdom
 minStationLevel: 1
 amount: 1
-disabled: false
+disabled: true
 adminonly: false
 comfort: 
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: false
+noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 400
+  health: 1000
   damageModifiers:
-    m_blunt: Normal
-    m_slash: Normal
-    m_pierce: Normal
-    m_chop: Normal
-    m_pickaxe: Weak
+    m_blunt: Resistant
+    m_slash: Resistant
+    m_pierce: Resistant
+    m_chop: Resistant
+    m_pickaxe: Resistant
     m_fire: Resistant
     m_frost: Resistant
     m_lightning: Normal
@@ -37,15 +37,20 @@ wearNTearData:
     m_spirit: Immune
   noRoofWear: false
   noSupportWear: true
-  supports: true
+  supports: false
   triggerPrivateArea: true
 craftingStationData: 
 cSExtensionData: 
-contData: 
+contData:
+  Width: 6
+  Height: 3
+  CheckWard: false
+  AutoDestoryIfEmpty: false
 smelterData: 
 cookingStationData: 
 beehiveData: 
 fermStationData: 
 sapData: 
 build:
-- Wood:2:1:True
+- Wood:8:1:True
+- Bronze:1:1:True

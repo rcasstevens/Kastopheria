@@ -1,8 +1,8 @@
-name: Cart
+name: Raft
 piecehammer: Hammer
-m_name: $tool_cart
+m_name: $ship_raft
 sizeMultiplier: 1
-m_description: ''
+m_description: 'It floats!'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -16,28 +16,28 @@ adminonly: false
 comfort: 
 groundPiece: false
 ground: false
-waterPiece: false
+waterPiece: true
 noInWater: false
 notOnFloor: false
 onlyinTeleportArea: false
-allowedInDungeons: true
-canBeRemoved: true
+allowedInDungeons: false
+canBeRemoved: false
 wearNTearData:
-  health: 1000
+  health: 400
   damageModifiers:
-    m_blunt: Resistant
-    m_slash: Resistant
+    m_blunt: Normal
+    m_slash: Normal
     m_pierce: Resistant
     m_chop: Weak
     m_pickaxe: Resistant
-    m_fire: Weak
+    m_fire: Normal
     m_frost: Resistant
     m_lightning: Resistant
     m_poison: Immune
     m_spirit: Immune
   noRoofWear: false
   noSupportWear: false
-  supports: false
+  supports: true
   triggerPrivateArea: true
 craftingStationData: 
 cSExtensionData: 
@@ -48,5 +48,5 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- Wood:20:1:True
-- BronzeNails:10:1:True
+- RoundLog:20:1:True
+- LeatherScraps:10:1:True

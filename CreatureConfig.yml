@@ -137,21 +137,6 @@ creature:
       Poison: default
       Chaos: default
       Spirit: default
-  effect:
-    0:
-      Aggressive: 0
-      Regenerating: 0
-      Curious: 0
-      Splitting: 0
-      Armored: 0
-      Quick: 0
-    1:
-      Aggressive: default
-      Regenerating: default
-      Curious: default
-      Splitting: default
-      Armored: default
-      Quick: default
 
 # Prevent early bosses from being too annoying
 boss:
@@ -169,11 +154,11 @@ boss:
 # Prevent high health enemies from being too annoying
 High Health Mobs:
   health per star:
-    0: 0.3
-    1: 0.35
-    2: 0.4
-    3: 0.45
-    4: 0.3
+    0: 0.5
+    1: 0.55
+    2: 0.6
+    3: 0.65
+    4: 0.7
 
 # Give certain enemies an innate resistance
 Lightning Resistant:
@@ -203,8 +188,8 @@ Wolf:
         0: 0
         1: [9, 1]
         2: [9, 3]
-        3: [18, 6, 1]
-        4: [27, 9, 3, 1]
+        3: [18, 6]
+        4: [27, 9, 0.1]
   Tamed:
     stars: default
 
@@ -215,7 +200,7 @@ Lox:
     1: [9, 1]
     2: [9, 3]
     3: [18, 6]
-    4: [27, 9, 1]
+    4: [27, 9, 0.1]
 
 # Example yaml file. Feel free to customize this. Everything that is not defined in this file will use the configuration file instead.
 # Find some detailed documentation at the bottom of this file.

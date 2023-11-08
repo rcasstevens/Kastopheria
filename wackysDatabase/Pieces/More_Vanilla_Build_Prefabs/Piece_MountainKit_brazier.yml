@@ -1,0 +1,38 @@
+name: MountainKit_brazier
+piecehammer: Hammer
+m_name: Standing brazier (everburning)
+sizeMultiplier: 1
+m_description: Burns eternally without fuel.
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_forge
+piecehammerCategory: Furniture
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: false
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData: 
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+build:
+- Bronze:5:1:True
+- Coal:2:1:True
+- BlackCore:1:1:True
+- WolfClaw:3:1:True

@@ -1,14 +1,14 @@
-name: portal_obsidian
+name: Trailership
 piecehammer: Hammer
-m_name: $item_obsidian $piece_portal
+m_name: 'Knarr'
 sizeMultiplier: 1
-m_description: '$piece_portal_description <color=red>Cannot be removed. </color>Teleports: \n<color=green>Ancient Portal + Silver Ore & Black Metal Scrap'
+m_description: 'It floats!'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation:
-piecehammerCategory: Transport
+craftingStation: $piece_workbench
+piecehammerCategory: Misc
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -16,27 +16,27 @@ adminonly: false
 comfort: 
 groundPiece: false
 ground: false
-waterPiece: false
+waterPiece: true
 noInWater: false
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: false
 wearNTearData:
-  health: 10000
+  health: 2000
   damageModifiers:
     m_blunt: Resistant
-    m_slash: Normal
+    m_slash: Resistant
     m_pierce: Resistant
     m_chop: Weak
     m_pickaxe: Resistant
-    m_fire: Normal
-    m_frost: Normal
-    m_lightning: Normal
+    m_fire: Weak
+    m_frost: Resistant
+    m_lightning: Resistant
     m_poison: Immune
     m_spirit: Immune
   noRoofWear: false
-  noSupportWear: true
+  noSupportWear: false
   supports: true
   triggerPrivateArea: true
 craftingStationData: 
@@ -48,8 +48,7 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- Obsidian:1000:1:True
-- Crystal:300:1:True
-- Guck:100:1:True
-- SurtlingCore:20:1:True
-- TrophyDragonQueen:1:1:True
+- IronNails:100:1:True
+- DeerHide:40:1:True
+- FineWood:30:1:True
+- ElderBark:70:1:True

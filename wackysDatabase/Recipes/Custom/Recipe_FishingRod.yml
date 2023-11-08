@@ -1,15 +1,15 @@
 name: FishingRod
-clonePrefabName: FishingRod
+clonePrefabName: 
 craftingStation: $piece_workbench
-minStationLevel: 2
+minStationLevel: 3
 maxStationLevelCap: 5
 repairStation: $piece_workbench
 amount: 1
 disabled: false
 requireOnlyOneIngredient: false
 reqs:
-- Wood:7:0:True
-- Thistle:21:0:True
-- FineWood:0:7:True
-- Flint:0:3:True
+- Iron:8:0:True
+- LinenThread:6:0:True
+- Silver:0:3:True
+- Bronze:0:1:True
 - LinenThread:0:4:True

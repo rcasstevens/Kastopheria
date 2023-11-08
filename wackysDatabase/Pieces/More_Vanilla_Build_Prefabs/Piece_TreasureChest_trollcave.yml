@@ -1,14 +1,14 @@
-name: wood_floor
+name: TreasureChest_trollcave
 piecehammer: Hammer
-m_name: $piece_woodfloor2x2
+m_name: Stone chest (troll)
 sizeMultiplier: 1
 m_description: ''
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_workbench
-piecehammerCategory: Building
+craftingStation: $piece_stonecutter
+piecehammerCategory: Furniture
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -17,35 +17,40 @@ comfort:
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: false
+noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 400
+  health: 200
   damageModifiers:
-    m_blunt: Normal
-    m_slash: Normal
+    m_blunt: Resistant
+    m_slash: Resistant
     m_pierce: Resistant
-    m_chop: Weak
-    m_pickaxe: Normal
-    m_fire: Normal
-    m_frost: Normal
+    m_chop: Resistant
+    m_pickaxe: Resistant
+    m_fire: Resistant
+    m_frost: Resistant
     m_lightning: Normal
-    m_poison: Immune
-    m_spirit: Immune
+    m_poison: Normal
+    m_spirit: Normal
   noRoofWear: false
   noSupportWear: true
   supports: true
   triggerPrivateArea: true
 craftingStationData: 
 cSExtensionData: 
-contData: 
+contData:
+  Width: 6
+  Height: 2
+  CheckWard: false
+  AutoDestoryIfEmpty: false
 smelterData: 
 cookingStationData: 
 beehiveData: 
 fermStationData: 
 sapData: 
 build:
-- Wood:2:1:True
+- Stone:10:1:True
+- RoundLog:2:1:True

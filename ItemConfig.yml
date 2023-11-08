@@ -256,9 +256,6 @@ Building Materials:
   stack: 100
   weight factor: 0.75
 
-Ironpit:
-  teleportable: yes
-
 Fishies:
   stack: 20
 

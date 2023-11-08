@@ -1,14 +1,14 @@
-name: wood_beam
+name: portal
 piecehammer: Hammer
-m_name: $piece_woodbeam2
+m_name: $piece_portal
 sizeMultiplier: 1
-m_description: ''
+m_description: $piece_portal_description
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_workbench
-piecehammerCategory: Building
+craftingStation: $piece_stonecutter
+piecehammerCategory: Misc
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -17,21 +17,21 @@ comfort:
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: false
+noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 400
+  health: 1000
   damageModifiers:
-    m_blunt: Normal
-    m_slash: Normal
-    m_pierce: Normal
-    m_chop: Normal
-    m_pickaxe: Weak
-    m_fire: Resistant
-    m_frost: Resistant
+    m_blunt: Resistant
+    m_slash: Resistant
+    m_pierce: Resistant
+    m_chop: Resistant
+    m_pickaxe: Normal
+    m_fire: Immune
+    m_frost: Immune
     m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
@@ -48,4 +48,6 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- Wood:2:1:True
+- GreydwarfEye:10:1:True
+- Stone:20:1:True
+- SurtlingCore:2:1:True

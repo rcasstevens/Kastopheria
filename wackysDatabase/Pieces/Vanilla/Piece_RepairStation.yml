@@ -1,14 +1,14 @@
-name: portal_ancient
+name: RepairStation
 piecehammer: Hammer
-m_name: Ancient $piece_portal
+m_name: $piece_repairstation
 sizeMultiplier: 1
-m_description: '$piece_portal_description <color=red>Cannot be removed. </color>Teleports: \n<color=green>Portal + Copper, Tin, & Iron Ores'
+m_description: 'Repairs all of your equipment at once.'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation:
-piecehammerCategory: Transport
+craftingStation: $piece_forge
+piecehammerCategory: Misc
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -20,22 +20,22 @@ waterPiece: false
 noInWater: false
 notOnFloor: false
 onlyinTeleportArea: false
-allowedInDungeons: false
-canBeRemoved: false
+allowedInDungeons: true
+canBeRemoved: true
 wearNTearData:
-  health: 10000
+  health: 1000
   damageModifiers:
     m_blunt: Resistant
-    m_slash: Normal
+    m_slash: Resistant
     m_pierce: Resistant
-    m_chop: Weak
+    m_chop: Resistant
     m_pickaxe: Resistant
-    m_fire: Normal
-    m_frost: Normal
-    m_lightning: Normal
+    m_fire: Resistant
+    m_frost: Resistant
+    m_lightning: Resistant
     m_poison: Immune
     m_spirit: Immune
-  noRoofWear: false
+  noRoofWear: true
   noSupportWear: true
   supports: true
   triggerPrivateArea: true
@@ -48,8 +48,6 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- ElderBark:1000:1:True
-- WitheredBone:300:1:True
-- AncientSeed:100:1:True
-- SurtlingCore:20:1:True
-- TrophyBonemass:1:1:True
+- Stone:30:1:True
+- Iron:10:1:True
+- SurtlingCore:3:1:True

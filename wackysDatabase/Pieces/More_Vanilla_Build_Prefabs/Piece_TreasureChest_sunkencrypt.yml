@@ -1,14 +1,14 @@
-name: portal_blackmarble
+name: TreasureChest_sunkencrypt
 piecehammer: Hammer
-m_name: $item_blackmarble $piece_portal
+m_name: Stone chest (crypt)
 sizeMultiplier: 1
-m_description: '$piece_portal_description <color=red>Cannot be removed. </color>Teleports: \n<color=green>Obsidian Portal + Everything Else'
+m_description: ''
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: ''
-piecehammerCategory: Transport
+craftingStation: $piece_stonecutter
+piecehammerCategory: Furniture
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -17,39 +17,40 @@ comfort:
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: false
+noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
-canBeRemoved: false
+canBeRemoved: true
 wearNTearData:
-  health: 10000
+  health: 200
   damageModifiers:
     m_blunt: Resistant
-    m_slash: Normal
+    m_slash: Resistant
     m_pierce: Resistant
-    m_chop: Weak
+    m_chop: Resistant
     m_pickaxe: Resistant
-    m_fire: Normal
-    m_frost: Normal
+    m_fire: Resistant
+    m_frost: Resistant
     m_lightning: Normal
-    m_poison: Immune
-    m_spirit: Immune
+    m_poison: Normal
+    m_spirit: Normal
   noRoofWear: false
   noSupportWear: true
   supports: true
   triggerPrivateArea: true
 craftingStationData: 
 cSExtensionData: 
-contData: 
+contData:
+  Width: 6
+  Height: 2
+  CheckWard: false
+  AutoDestoryIfEmpty: false
 smelterData: 
 cookingStationData: 
 beehiveData: 
 fermStationData: 
 sapData: 
 build:
-- BlackMarble:1000:1:True
-- Carapace:100:1:True
-- BlackMetal:300:1:True
-- SurtlingCore:20:1:True
-- TrophyGoblinKing:1:1:True
+- Stone:10:1:True
+- ElderBark:2:1:True

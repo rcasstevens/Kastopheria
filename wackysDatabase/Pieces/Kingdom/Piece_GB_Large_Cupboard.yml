@@ -1,14 +1,14 @@
-name: wood_pole2
+name: GB_Large_Cupboard
 piecehammer: Hammer
-m_name: $piece_woodpole2
+m_name: $GB_Large_Cupboard
 sizeMultiplier: 1
-m_description: ''
+m_description: $GB_Large_Cupboard_Description
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
 craftingStation: $piece_workbench
-piecehammerCategory: Building
+piecehammerCategory: Kingdom
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -23,7 +23,7 @@ onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 400
+  health: 250
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
@@ -41,11 +41,16 @@ wearNTearData:
   triggerPrivateArea: true
 craftingStationData: 
 cSExtensionData: 
-contData: 
+contData:
+  Width: 6
+  Height: 4
+  CheckWard: false
+  AutoDestoryIfEmpty: false
 smelterData: 
 cookingStationData: 
 beehiveData: 
 fermStationData: 
 sapData: 
 build:
-- Wood:2:1:True
+- FineWood:14:1:True
+- BronzeNails:4:1:True

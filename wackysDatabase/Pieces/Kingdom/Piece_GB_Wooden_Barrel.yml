@@ -1,14 +1,14 @@
-name: wood_wall_quarter
+name: GB_Wooden_Barrel
 piecehammer: Hammer
-m_name: $piece_woodwallquarter
+m_name: $GB_Wooden_Barrel
 sizeMultiplier: 1
-m_description: ''
+m_description: $GB_Wooden_Barrel_Description
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
 craftingStation: $piece_workbench
-piecehammerCategory: Building
+piecehammerCategory: Kingdom
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -23,7 +23,7 @@ onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 400
+  health: 50
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
@@ -41,11 +41,15 @@ wearNTearData:
   triggerPrivateArea: true
 craftingStationData: 
 cSExtensionData: 
-contData: 
+contData:
+  Width: 2
+  Height: 3
+  CheckWard: false
+  AutoDestoryIfEmpty: false
 smelterData: 
 cookingStationData: 
 beehiveData: 
 fermStationData: 
 sapData: 
 build:
-- Wood:1:1:True
+- Wood:5:1:True
