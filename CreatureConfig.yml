@@ -1,28 +1,22 @@
 groups:
-  Zero Star Creatures:
+  Lightning Resistant:
+    - Greyling
+    - Greydwarf
+    - Greydwarf Brute
+    - Greydwarf Shaman
     - Abomination
-    - Bat
+    - TentaRoot
+    - The Elder
+  Fire Resistant:
+    - Surtling
+  Frost Resistant:
+    - Stone Golem
+  Poison Resistant:
+    - Draugr
+    - Draugr_Elite
     - Blob
     - BlobElite
-    - BlobTar
-    - Ghost
-    - Hatchling
-    - Lox
-    - Serpent
-    - StoneGolem
-    - Wraith
-    - Deathsquito
-    - TentaRoot
-  Creatures Tamed:
-    - Boar
-    - Hen
-    - Lox
-    - Wolf
-  Creatures Taming:
-    - Boar_piggy
-    - Chicken
-    - Lox_Calf
-    - Wolf_cub
+    - Bonemass
   Post Eikthyr:
     - Greydwarf
   Post Elder:
@@ -46,16 +40,15 @@ groups:
     - Tick
     - Seeker
     - SeekerBrood
-
-#Prevent certain creatures from spawning with stars to match vanilla.
-# - reduce impact of stars for these mobs in the event of admin spawning
-Zero Star Creatures:
-  stars: 0
-  loot per star: 0
-  damage per star: 0
-  health per star: 0
-  attack speed per star: 0
-  movement speed per star: 0
+  High Health Mobs:
+    - Troll
+    - Abomination
+    - Stone Golem
+    - Lox
+    - Seeker Soldier
+    - Gjall
+  Event Mobs:
+    - Wolf
 
 #Greydwarf
 # Lowers night frequency; nerfs meadow apperances
@@ -63,18 +56,18 @@ Post Eikthyr:
   Night:
     Meadows:
       amount:
-        0: 0.5
+        0: 0.7
         1: default
     Black Forest:
       amount:
-        0: 0.75
+        0: 0.8
         1: default
   Meadows:
     damage taken:
-      0: 1.33
+      0: 1.2
       1: default
     damage:
-      0: 0.6
+      0: 0.8
       1: default
 
 #Greydwarf Brute, Shaman
@@ -83,40 +76,21 @@ Post Elder:
   Night:
     Meadows:
       amount:
-        0: 0.5
+        0: 0.7
         1: default
     Black Forest:
       amount:
-        0: 0.75
+        0: 0.8
         1: default
   Meadows:
     stars:
       0: 0
       1: default
     damage taken:
-      0: 1.33
+      0: 1.2
       1: default
     damage:
-      0: 0.6
-      1: default
-    movement speed:
-      0: 0.90
-      1: default
-
-#Skeleton, *_Poison, Bat, Blob, BlobElite, Surtling
-# Prevent starred apperances and nerf meadow stats
-Post Bonemass:
-  Night:
-    Meadows:
-      stars:
-        0: 0
-        1: default
-  Meadows:
-    damage taken:
-      0: 1.3
-      1: default
-    damage:
-      0: 0.75
+      0: 0.8
       1: default
 
 #Fuling
@@ -137,81 +111,111 @@ Post Queen:
     Black Forest:
       amount: 0
 
-#Taming modifications (Haven't tested which one is necessary.
-Creatures Taming:
-  damage taken: 0.85
+# Prevent early creatures from being too annoying.
+creature:
+  #Let there be more creatures!
+  amount: 1.12
+  infusion:
+    0:
+      Lightning: 0
+      Fire: 0
+      Frost: 0
+      Poison: 0
+      Chaos: 0
+      Spirit: 0
+    1:
+      Lightning: 0
+      Fire: 0
+      Frost: 0
+      Poison: 0
+      Chaos: 0
+      Spirit: 0
+    2:
+      Lightning: default
+      Fire: default
+      Frost: default
+      Poison: default
+      Chaos: default
+      Spirit: default
   effect:
-    Aggressive: 1
-    Quick: 1
-    Curious: 1
-    Regenerating: 1
-    Armored: 1
-    Splitting: 0
+    0:
+      Aggressive: 0
+      Regenerating: 0
+      Curious: 0
+      Splitting: 0
+      Armored: 0
+      Quick: 0
+    1:
+      Aggressive: default
+      Regenerating: default
+      Curious: default
+      Splitting: default
+      Armored: default
+      Quick: default
 
-#Taming modifications (Haven't tested which one is necessary.
-Creatures Tamed:
-  damage taken: 0.85
-  effect:
-    Aggressive: 1
-    Quick: 1
-    Curious: 1
-    Regenerating: 1
-    Armored: 1
-    Splitting: 0
+# Prevent early bosses from being too annoying
+boss:
+  affix:
+    0:
+      mending: 0
+      other: 100
+    1:
+      mending: 0
+      other: 100
+    2:
+      mending: default
+      other: default
 
-#Prevent daytime starred spawns
-# Rare chance of a 3* wolf.
+# Prevent high health enemies from being too annoying
+High Health Mobs:
+  health per star:
+    0: 0.3
+    1: 0.35
+    2: 0.4
+    3: 0.45
+    4: 0.3
+
+# Give certain enemies an innate resistance
+Lightning Resistant:
+  damage:
+    Lightning: 0.3
+    Chop: 1.33
+
+Fire Resistant:
+  damage:
+    Fire: 0.3
+
+Frost Resistant:
+  damage:
+    Frost: 0.3
+
+Poison Resistant:
+  damage:
+    Poison: 0.3
+
+# Nerf wolfs
 Wolf:
-  Mountain:
-    Day:
-      stars: 0
-    Night:
-      stars: [9, 1, 0.1]
-
-#Let starred skeletons spawn.
-Skeleton:
-  Mountain:
-    stars: [9, 1, 0.1]
-  Plains:
-    stars: [9, 1, 0.1]
-
-#Rare chance of starred lox | 5% chance of fun.
-# Lower damage from pierce (deathsquitos)
-Lox:
-  stars: [0.1, 0.1]
-  size: 0.33
-  tamed:
-    damage taken:
-      Pierce: 0.33
-  effect:
-    Regenerating: 3
-
-#Rare chance of starred serpents. | ~10-20% chance of fun (12.5%?)
-# size increases per star
-Serpent:
-  Night:
-    stars: [9, 1, 0.1]
-    size: 1
-  effect:
-    Aggressive: 3
-    Curious: 3
-
-#Rare chance of starred deathsquitos. | 5% chance of fun
-# size increases per star, 50% chance of extra loot per star.
-Deathsquito:
   Day:
-    stars: [9, 1, 0.1]
-    size: 1
-    loot per star: 0.5
-  effect:
-    Splitting: 3
+    stars: 0
+  Mountain:
+    Night:
+      stars:
+        0: 0
+        1: [9, 1]
+        2: [9, 3]
+        3: [18, 6, 1]
+        4: [27, 9, 3, 1]
+  Tamed:
+    stars: default
 
-#Prevent Bats from appearing in New Player area period.
-Bat:
-  Meadows:
-    amount:
-      0: 0
-      1: default
+# Nerf loxes
+Lox:
+  stars:
+    0: 0
+    1: [9, 1]
+    2: [9, 3]
+    3: [18, 6]
+    4: [27, 9, 1]
 
 # Example yaml file. Feel free to customize this. Everything that is not defined in this file will use the configuration file instead.
 # Find some detailed documentation at the bottom of this file.

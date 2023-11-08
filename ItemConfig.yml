@@ -1,4 +1,50 @@
-﻿groups:
+groups:
+  Jewelcrafting Chests:
+  - JC_Blue_Chest
+  - JC_Blue_Item_Chest
+  Jewelcrafting Raw Gems:
+  - Uncut_Black_Stone
+  - Uncut_Blue_Stone
+  - Uncut_Red_Stone
+  - Uncut_Yellow_Stone
+  - Uncut_Green_Stone
+  - Uncut_Purple_Stone
+  - Uncut_Orange_Stone
+  - Uncut_Cyan_Stone
+  Jewelcrafting Cut Gems:
+  - Simple_Black_Socket
+  - Simple_Blue_Socket
+  - Simple_Red_Socket
+  - Simple_Yellow_Socket
+  - Simple_Green_Socket
+  - Simple_Purple_Socket
+  - Simple_Orange_Socket
+  - Simple_Cyan_Socket
+  - Advanced_Black_Socket
+  - Advanced_Blue_Socket
+  - Advanced_Red_Socket
+  - Advanced_Yellow_Socket
+  - Advanced_Green_Socket
+  - Advanced_Purple_Socket
+  - Advanced_Orange_Socket
+  - Advanced_Cyan_Socket
+  - Perfect_Black_Socket
+  - Perfect_Blue_Socket
+  - Perfect_Red_Socket
+  - Perfect_Yellow_Socket
+  - Perfect_Green_Socket
+  - Perfect_Purple_Socket
+  - Perfect_Orange_Socket
+  - Perfect_Cyan_Socket
+  Jewelcrafting Broken Gems:
+  - Shattered_Black_Crystal
+  - Shattered_Blue_Crystal
+  - Shattered_Red_Crystal
+  - Shattered_Yellow_Crystal
+  - Shattered_Green_Crystal
+  - Shattered_Purple_Crystal
+  - Shattered_Orange_Crystal
+  - Shattered_Cyan_Crystal
   Non Meats:
   - CloudBerry
   - RaspBerry
@@ -65,9 +111,9 @@
   - TrollHide
   - WolfPelt
   - LoxPelt
+  - ScaleHide
   - Feathers
   - Wisp
-  - ScaleHide
   - Carapace
   - Tar
   - JuteRed
@@ -79,20 +125,20 @@
   - AncientSeed
   - GoblinTotem
   More Quarter:
-  - Stone
-  - Wood
-  - BlackMarble
-  - Obsidian
-  - ElderBark
   - Coal
   - Honey
   - Chitin
   - CloudBerry
   - Entrails
+  - BoneFragments
+  - Resin
+  - GreydwarfEye
   - Barley
   - Flax
   - SerpentScale
+  - Wisp
   More Third:
+  - BlackMetalScrap
   - Flint
   - RaspBerry
   - BlueBerries
@@ -119,13 +165,19 @@
   - WolfHairBundle
   - WolfFang
   - WolfClaw
-  More Half:
+  - Sap
   - CopperOre
+  - SilverOre
+  More Half:
+  - Stone
+  - Wood
+  - BlackMarble
+  - Obsidian
+  - ElderBark
+  - CopperScrap
   - TinOre
   - IronOre
-  - SilverOre
   - IronScrap
-  - CopperScrap
   - FineWood
   - RoundLog
   - Tar
@@ -134,17 +186,34 @@
   - Bilebag
   - Bloodbag
   - Carapace
+  - Mandible
   - Chain
   - FreezeGland
   - GiantBloodSack
   - GoblinTotem
   - LeatherScraps
   - RoyalJelly
+  - Ruby
+  - Amber
+  - AmberPearl
+  - SoftTissue
+  - DeerHide
+  - TrollHide
+  - WolfPelt
+  - LoxPelt
+  - ScaleHide
+  - Root
   More Extreme:
   - Acorn
   - BirchSeeds
   - FirCone
   - PineCone
+  Keys:
+  - CryptKey
+  - Wishbone
+  - DvergrKey
+  - DvergrKeyFragment
+  - Wisplight
 
 #Lets everything float on the water's surface.
 all:
@@ -152,25 +221,25 @@ all:
 
 #Coins.
 coins:
-  stack: 3000
-  weight factor: 0.5
+  stack: 5000
+  weight factor: 0.33
 
 #Special category `seeds`
 seed:
-  stack: 200
+  stack: 250
 
 #Special category `valuable`
 valuable:
-  stack: 50
+  stack: 100
 
 #Special category `trophy`
 trophy:
-  stack: 200
+  stack: 50
   weight factor: 0.33
 
 #Special category `boss trophy`
 boss trophy:
-  stack: 200
+  stack: 50
   weight factor: 0.33
 
 #Special category `woods`
@@ -185,9 +254,15 @@ wood:
 #Defined categories
 Building Materials:
   stack: 100
-  weight factor: 0.80
+  weight factor: 0.75
+
+Ironpit:
+  teleportable: yes
 
 Fishies:
+  stack: 20
+
+Keys:
   stack: 20
 
 Misc Twenty:
@@ -219,6 +294,24 @@ More Half:
 
 More Extreme:
   amount: 2.1
+
+#Jewelcrafting
+Jewelcrafting Chests:
+  stack: 30
+
+Jewelcrafting Raw Gems:
+  stack: 50
+  amount: 1.12
+
+Jewelcrafting Cut Gems:
+  stack: 30
+
+Jewelcrafting Broken Gems:
+  stack: 100
+  
+#Ironpit is craftable
+ironpit:
+  teleportable: yes
 
 # Example ItemConfig.yml
 # Do not forget to turn the YAML file on in the settings.

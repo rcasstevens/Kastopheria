@@ -1,5 +1,5 @@
-name: Chain
-clonePrefabName: Chain
+name: Recipe_Ironpit
+clonePrefabName: Ironpit
 craftingStation: $piece_forge
 minStationLevel: 5
 maxStationLevelCap: 
@@ -8,4 +8,5 @@ amount: 1
 disabled: false
 requireOnlyOneIngredient: false
 reqs:
-- Iron:3:1:True
+- Iron:24:1:True
+- Coal:12:1:True
