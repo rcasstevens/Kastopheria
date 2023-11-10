@@ -1,1155 +1,21 @@
-Floor_Cobblestone_Mat (Instance)
-Door_02_Mat (Instance)
-dfk_ironfence (Instance)
-Floor_Cobblestone_Mat
-Door_02_Mat
-dfk_ironfence
-Floor_Cobblestone_Mat
-Door_02_Mat
-dfk_ironfence
-Floor_Cobblestone_Mat (Instance)
-Door_02_Mat (Instance)
-dfk_ironfence (Instance)
-Floor_Cobblestone_Mat (Instance)
-Door_02_Mat (Instance)
-dfk_ironfence (Instance)
-Floor_Cobblestone_Mat (Instance)
-Door_02_Mat (Instance)
-dfk_ironfence (Instance)
-Floor_Cobblestone_Mat
-Door_02_Mat
-dfk_ironfence
-dfk_wall_b2 (Instance)
-Floor_Cobblestone_Mat4 (Instance)
-dfk_wall_b2
-Floor_Cobblestone_Mat4
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-Guardstone_Oden_marble (Instance)
-Guardstone_OdenGlow_mat (Instance)
-Guardstone_Oden_marble
-Guardstone_OdenGlow_mat
-Guardstone_Oden_marble
-Guardstone_OdenGlow_mat
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-station_radius (Instance)
-Guardstone_Oden_marble (Instance)
-Guardstone_OdenGlow_mat (Instance)
-Guardstone_Oden_marble (Instance)
-Guardstone_OdenGlow_mat (Instance)
-Guardstone_Oden_marble
-Guardstone_OdenGlow_mat
-barrel_iron
-barrel_iron
-barrel_iron (Instance)
-barrel_iron
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-Crate_mat (Instance)
-Crate_worn_mat (Instance)
-Crate_worn_mat (Instance)
-Crate_worn_mat (Instance)
-CrateContentOpaque_mat (Instance)
-Crate_Content (Instance)
-Crate_worn_mat (Instance)
-Crate_worn_mat (Instance)
-Crate_worn_mat (Instance)
-Crate_worn_mat (Instance)
-CrateContentOpaque_mat (Instance)
-Crate_Content (Instance)
-Crate_worn_mat (Instance)
-Crate_mat (Instance)
-Crate_mat (Instance)
-Crate_mat (Instance)
-CrateContentOpaque_mat (Instance)
-Crate_Content (Instance)
-Crate_mat (Instance)
-Crate_mat
-Crate_mat
-Crate_mat
-CrateContentOpaque_mat
-Crate_Content
-Crate_mat
-Crate_mat
-Crate_mat
-Crate_mat
-CrateContentOpaque_mat
-Crate_Content
-Crate_mat
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-woodpole (Instance)
-Crate_mat (Instance)
-Crate_worn_mat (Instance)
-Crate_worn_mat (Instance)
-Crate_worn_mat (Instance)
-CrateContentOpaque_mat (Instance)
-Crate_Content (Instance)
-Crate_worn_mat (Instance)
-Crate_worn_mat (Instance)
-Crate_worn_mat (Instance)
-Crate_worn_mat (Instance)
-CrateContentOpaque_mat (Instance)
-Crate_Content (Instance)
-Crate_worn_mat (Instance)
-Crate_mat (Instance)
-Crate_mat (Instance)
-Crate_mat (Instance)
-CrateContentOpaque_mat (Instance)
-Crate_Content (Instance)
-Crate_mat (Instance)
-Crate_mat
-Crate_mat
-Crate_mat
-CrateContentOpaque_mat
-Crate_Content
-Crate_mat
-dvergr_metal_furnmiture
-DvergrCrate_mat
-dvergr_metal_furnmiture
-DvergrCrate_mat
-dvergr_metal_furnmiture (Instance)
-DvergrCrate_mat (Instance)
-dvergr_metal_furnmiture (Instance)
-DvergrCrate_mat (Instance)
-DvergrCrate_mat (Instance)
-DvergrCrate_mat (Instance)
-DvergrCrate_mat (Instance)
-DvergrCrate_mat (Instance)
-DvergrCrate_mat (Instance)
-DvergrCrate_mat (Instance)
-DvergrCrate_mat (Instance)
-dvergr_metal_furnmiture (Instance)
-DvergrCrate_mat (Instance)
-dvergr_metal_furnmiture (Instance)
-DvergrCrate_mat (Instance)
-sail (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_shadow (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-blackhole (Instance)
-smallboat (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-ship (Instance)
-ship (Instance)
-ship (Instance)
-shields (Instance)
-shields (Instance)
-shieldwood (Instance) (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-barrel_iron (Instance)
-barrel_iron (Instance)
-barrel_iron (Instance)
-fi_village_lighting (Instance)
-ShipTentHolder_mat (Instance)
-ShipTentHolder_mat (Instance)
-ShipTent_mat (Instance)
-ShipTent_mat (Instance)
-ShipTent2_mat (Instance)
-ShipTent2beam_mat (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-smallboat_worn (Instance)
-ship_wood_worn (Instance)
-ship_wood_worn (Instance)
-ship_worn (Instance)
-ship_worn (Instance)
-smallboat_worn (Instance)
-ship_wood_worn (Instance)
-ship_wood_worn (Instance)
-ship_worn (Instance)
-ship_worn (Instance)
-smallboat (Instance)
-ship_wood (Instance)
-ship_wood (Instance)
-ship (Instance)
-ship (Instance)
-ship (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-watermask (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-dvergr_metal_furnmiture (Instance)
-DvergrCrate_mat (Instance)
-dvergr_metal_furnmiture
-DvergrCrate_mat
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-blackhole (Instance)
-smallboat (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-cart_rope (Instance)
-cart_rope (Instance)
-cart_rope (Instance)
-shieldwood (Instance) (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-barrel_iron (Instance)
-barrel_iron (Instance)
-barrel_iron (Instance)
-fi_village_lighting (Instance)
-ShipTentHolder_mat (Instance)
-ShipTentHolder_mat (Instance)
-ShipTent2_mat (Instance)
-ShipTent2beam_mat (Instance)
-smallboat (Instance)
-ship_wood (Instance)
-ship_wood (Instance)
-ship (Instance)
-ship (Instance)
-sail (Instance)
-cart_rope (Instance)
-cart_rope (Instance)
-ship (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-watermask (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-sail (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_shadow (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-blackhole (Instance)
-smallboat (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-ship (Instance)
-ship (Instance)
-ship (Instance)
-shields (Instance)
-shields (Instance)
-shieldwood (Instance) (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-barrel_iron (Instance)
-barrel_iron (Instance)
-barrel_iron (Instance)
-fi_village_lighting (Instance)
-ShipTentHolder_mat (Instance)
-ShipTentHolder_mat (Instance)
-ShipTent_mat (Instance)
-ShipTent_mat (Instance)
-ShipTent2_mat (Instance)
-ShipTent2beam_mat (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-smallboat_worn (Instance)
-ship_wood_worn (Instance)
-ship_wood_worn (Instance)
-ship_worn (Instance)
-ship_worn (Instance)
-smallboat_worn (Instance)
-ship_wood_worn (Instance)
-ship_wood_worn (Instance)
-ship_worn (Instance)
-ship_worn (Instance)
-smallboat (Instance)
-ship_wood (Instance)
-ship_wood (Instance)
-ship (Instance)
-ship (Instance)
-ship (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-watermask (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-sail
-ship_hatch
-ship_hatch
-ship_hatch
-ship_hatch
-ship_hatch
-ship_hatch
-ship_hatch
-blackhole
-smallboat
-worn_shipplank
-worn_shipplank
-shieldwood (Instance)
-braded_box
-braded_box
-braded_box
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-braded_box
-braded_box
-braded_box
-braded_box
-braded_box
-braded_box
-braded_box
-barrel_iron
-barrel_iron
-barrel_iron
-fi_village_lighting
-ShipTentHolder_mat
-ShipTentHolder_mat
-ShipTent2_mat
-ShipTent2beam_mat
-smallboat
-ship_wood
-ship_wood
-ship
-ship
-ship
-Default-Material
-Default-Material
-watermask
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-sail
-ship_hatch
-ship_hatch
-ship_hatch
-ship_hatch
-ship_hatch
-ship_hatch
-ship_hatch
-blackhole
-smallboat
-worn_shipplank
-worn_shipplank
-shieldwood (Instance)
-braded_box
-braded_box
-braded_box
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-braded_box
-braded_box
-braded_box
-braded_box
-braded_box
-braded_box
-braded_box
-barrel_iron
-barrel_iron
-barrel_iron
-fi_village_lighting
-ShipTentHolder_mat
-ShipTentHolder_mat
-ShipTent2_mat
-ShipTent2beam_mat
-smallboat
-ship_wood
-ship_wood
-ship
-ship
-ship
-Default-Material
-Default-Material
-watermask
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-sail (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_shadow (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-blackhole (Instance)
-smallboat (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-ship (Instance)
-ship (Instance)
-ship (Instance)
-shields (Instance)
-shields (Instance)
-shieldwood (Instance) (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-barrel_iron (Instance)
-barrel_iron (Instance)
-barrel_iron (Instance)
-fi_village_lighting (Instance)
-ShipTentHolder_mat (Instance)
-ShipTentHolder_mat (Instance)
-ShipTent_mat (Instance)
-ShipTent_mat (Instance)
-ShipTent2_mat (Instance)
-ShipTent2beam_mat (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-smallboat_worn (Instance)
-ship_wood_worn (Instance)
-ship_wood_worn (Instance)
-ship_worn (Instance)
-ship_worn (Instance)
-smallboat_worn (Instance)
-ship_wood_worn (Instance)
-ship_wood_worn (Instance)
-ship_worn (Instance)
-ship_worn (Instance)
-smallboat (Instance)
-ship_wood (Instance)
-ship_wood (Instance)
-ship (Instance)
-ship (Instance)
-ship (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-watermask (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-blackhole (Instance)
-smallboat (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-cart_rope (Instance)
-cart_rope (Instance)
-cart_rope (Instance)
-shieldwood (Instance) (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-barrel_iron (Instance)
-barrel_iron (Instance)
-barrel_iron (Instance)
-fi_village_lighting (Instance)
-ShipTentHolder_mat (Instance)
-ShipTentHolder_mat (Instance)
-ShipTent2_mat (Instance)
-ShipTent2beam_mat (Instance)
-smallboat (Instance)
-ship_wood (Instance)
-ship_wood (Instance)
-ship (Instance)
-ship (Instance)
-sail (Instance)
-cart_rope (Instance)
-cart_rope (Instance)
-ship (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-watermask (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-ship_hatch (Instance)
-blackhole (Instance)
-smallboat (Instance)
-worn_shipplank (Instance)
-worn_shipplank (Instance)
-cart_rope (Instance)
-cart_rope (Instance)
-cart_rope (Instance)
-shieldwood (Instance) (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-shieldwood (Instance) (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-braded_box (Instance)
-barrel_iron (Instance)
-barrel_iron (Instance)
-barrel_iron (Instance)
-fi_village_lighting (Instance)
-ShipTentHolder_mat (Instance)
-ShipTentHolder_mat (Instance)
-ShipTent2_mat (Instance)
-ShipTent2beam_mat (Instance)
-smallboat (Instance)
-ship_wood (Instance)
-ship_wood (Instance)
-ship (Instance)
-ship (Instance)
-sail (Instance)
-cart_rope (Instance)
-cart_rope (Instance)
-ship (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-watermask (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-Default-Material (Instance)
-sail
-ship_hatch
-ship_hatch
-ship_hatch
-ship_hatch
-ship_hatch
-ship_hatch
-ship_hatch
-blackhole
-smallboat
-worn_shipplank
-worn_shipplank
-shieldwood (Instance)
-braded_box
-braded_box
-braded_box
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-shieldwood (Instance)
-braded_box
-braded_box
-braded_box
-braded_box
-braded_box
-braded_box
-braded_box
-barrel_iron
-barrel_iron
-barrel_iron
-fi_village_lighting
-ShipTentHolder_mat
-ShipTentHolder_mat
-ShipTent2_mat
-ShipTent2beam_mat
-smallboat
-ship_wood
-ship_wood
-ship
-ship
-ship
-Default-Material
-Default-Material
-watermask
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-Default-Material
-portal (Instance)
-portal (Instance)
-portal (Instance)
-portal (Instance)
-portal (Instance)
-portal (Instance)
-portal (Instance)
-portal
-portal
-water (Instance)
-water (Instance)
-water (Instance)
-water (Instance)
-water (Instance)
-water (Instance)
-water (Instance)
-water (Instance)
-water (Instance)
-water (Instance)
-Heightmap_basematerial
-water (Instance)
-Heightmap_basematerial
-water (Instance)
-Heightmap_basematerial
-water (Instance)
-Heightmap_basematerial
-water (Instance)
-Heightmap_basematerial
-portal (Instance)
-portal (Instance)
-stone (Instance)
-stonekit_floor_interior (Instance)
-portal (Instance)
-portal (Instance)
-portal (Instance)
-portal (Instance)
-portal (Instance)
-portal (Instance)
-portal (Instance)
-portal (Instance)
-portal (Instance)
-portal (Instance)
-portal (Instance)
-portal (Instance)
-portal
-Hidden/Internal-GUITextureClipText
-Hidden/Internal-GUIRoundedRectWithColorPerBorder
-Hidden/Internal-GUIRoundedRect
-Hidden/Internal-GUITexture
-Hidden/Internal-GUITextureClip
 PlayerHair (Instance)
 PlayerMaterial (Instance)
 neck
+Guardstone_Oden_marble (Instance)
+Guardstone_OdenGlow_mat (Instance)
+portal (Instance)
 bossstone_metal (Instance)
 bossstone_yagluth_mat (Instance)
-bossstone_dragonqueen_mat (Instance)
-bossstone_metal (Instance)
 bossstone_metal (Instance)
 bossstone_seekerqueen_mat (Instance)
+bossstone_dragonqueen_mat (Instance)
 bossstone_metal (Instance)
-bossstone_bonemass (Instance)
 bossstone_eikthyr (Instance)
 bossstone_metal (Instance)
 bossstone_metal (Instance)
 bossstone_theelder (Instance)
+bossstone_metal (Instance)
+bossstone_bonemass (Instance)
 water (Instance)
 Heightmap_basematerial
 water (Instance)
@@ -1187,15 +53,19 @@ Heightmap_basematerial
 water (Instance)
 Heightmap_basematerial
 water (Instance)
-water (Instance)
+Heightmap_basematerial
 water (Instance)
 Heightmap_basematerial
 water (Instance)
-water (Instance)
-water (Instance)
+Heightmap_basematerial
 water (Instance)
 Heightmap_basematerial
-cloud_plane (Instance)
+water (Instance)
+Heightmap_basematerial
+water (Instance)
+Heightmap_basematerial
+water (Instance)
+Heightmap_basematerial
 Heightmap_basematerial_lod
 Heightmap_basematerial_lod
 Heightmap_basematerial_lod
@@ -1210,6 +80,7 @@ PostFX - Uber Shader
 Hidden/Internal-CombineDepthNormals
 PostFX - Fog
 PostFX - Temporal Anti-aliasing
+cloud_plane (Instance)
 minimap(Clone)
 minimap(Clone)
 Hidden/SimpleClear
@@ -1471,8 +342,6 @@ Hidden/Internal-ScreenSpaceShadows
 PlayerHair (Instance)
 Arial
 PlayerMaterial (Instance)
-HelmetOdin
-CapeOdin
 WoodenCrossbow
 SilverCrossbow
 IronCrossbow
@@ -1496,6 +365,36 @@ ToonDeferredShading2017
 Default UI Material
 JC_Material_High (Instance)
 JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
 JC_Material_High (Instance)
 JC_Material_High (Instance)
 JC_Material_High (Instance)
@@ -1530,6 +429,42 @@ JC_Material_Low (Instance)
 JC_Material_High (Instance)
 JC_Material_Low (Instance)
 JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomStoneColor (Instance)
+CustomStoneColor (Instance)
+CustomStoneColor (Instance)
+CustomStoneColor (Instance)
+CustomStoneColor (Instance)
 CustomStoneColor (Instance)
 Sprites/Mask
 
@@ -1716,6 +651,8 @@ Battlements_Mat
 Door_02_Mat
 Floor_Wood8
 _REPLACE_wood_floor
+Vines_Mat
+VinesBranch_mat
 dfk_wall_b10
 Floor_Cobblestone_Mat5
 Floor_Wood7
@@ -1845,7 +782,6 @@ CustomRawStone
 LiberationSans SDF Material
 Font Material
 VFX_Trail_1_mat
-item_particle
 light_glow
 lightning_sparcs
 aoe_shockwave
@@ -1862,6 +798,8 @@ CustomStoneColor
 VFX_Car_Trail_Boost_trail_mat
 Epic Front Beam 1
 glow_capsule_fire_add
+crystal_shield_d_f2
+dust_particle
 StoneBlue 6
 skeleton_eye 1
 Staff08_D
@@ -1945,6 +883,9 @@ Staff07_D
 REAPER_Flame_Body
 sparkle_atlas
 beam_essence
+StonePurple 3
+Crossbow09
+Crossbow08
 potion_glass_flat 4
 glow_ground
 StoneBlue 8
@@ -1968,10 +909,10 @@ book 1
 Magic Back Beam
 Magic Front Beam
 Magic Back Beam Second
+s1_3d
 Warlock_bag
 StonePurple 5
 glow_dot_fire_add
-dust_particle
 s8_1d
 Crack4bcg
 electric animation 5x4
@@ -2060,13 +1001,6 @@ axe9_d
 spear6_d1
 mace2_d1
 sword10_d
-LiberationSans SDF Material
-Font Material
-LiberationSans SDF Material
-Font Material
-Font Material
-Font Material
-LiberationSans SDF - Outline
 Material.002
 Material
 Default-Particle

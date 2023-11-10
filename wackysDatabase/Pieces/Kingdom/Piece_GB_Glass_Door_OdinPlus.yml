@@ -1,17 +1,17 @@
-name: BSE_LargeElevator
+name: GB_Glass_Door_OdinPlus
 piecehammer: Hammer
-m_name: $bse_largeelevator
+m_name: $GB_Glass_Door_OdinPlus
 sizeMultiplier: 1
-m_description: $bse_largeelevator_description
+m_description: $GB_Glass_Door_OdinPlus_Description
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
 craftingStation: $piece_workbench
-piecehammerCategory: Elevators
+piecehammerCategory: Building
 minStationLevel: 1
 amount: 1
-disabled: false
+disabled: true
 adminonly: false
 comfort: 
 groundPiece: false
@@ -23,12 +23,12 @@ onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 2000
+  health: 1000
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
     m_pierce: Resistant
-    m_chop: Weak
+    m_chop: Normal
     m_pickaxe: Normal
     m_fire: Normal
     m_frost: Normal
@@ -48,6 +48,5 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- SurtlingCore:1:0:True
-- Copper:16:0:True
-- Wood:30:0:True
+- Wood:6:1:True
+- Crystal:2:1:True

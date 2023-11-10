@@ -1,13 +1,14 @@
 name: ct_bonfireinabottle
 clonePrefabName: 
-craftingStation: ''
-minStationLevel: 2
+craftingStation: piece_cauldron
+minStationLevel: 3
 maxStationLevelCap: 
 repairStation: 
-amount: 1
-disabled: true
+amount: 2
+disabled: false
 requireOnlyOneIngredient: false
 reqs:
-- MeadBaseTasty:1:0:True
-- QueensJam:12:0:True
-- OnionSoup:2:0:True
+- Entrails:48:0:True
+- Crystal:36:0:True
+- YmirRemains:12:0:True
+- SerpentScale:24:0:True

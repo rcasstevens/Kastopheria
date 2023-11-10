@@ -11,7 +11,7 @@ craftingStation: $piece_blackforge
 piecehammerCategory: Furniture
 minStationLevel: 1
 amount: 1
-disabled: false
+disabled: true
 adminonly: false
 comfort:
 groundPiece: false

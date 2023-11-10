@@ -49,5 +49,5 @@ fermStationData:
 sapData: 
 build:
 - SurtlingCore:1:0:True
-- Iron:4:0:True
+- BlackMetal:8:0:True
 - BlackMarble:40:0:True

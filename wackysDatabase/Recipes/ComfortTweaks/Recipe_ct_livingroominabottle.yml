@@ -1,14 +1,14 @@
 name: ct_livingroominabottle
 clonePrefabName: 
-craftingStation: ''
-minStationLevel: 3
+craftingStation: piece_cauldron
+minStationLevel: 5
 maxStationLevelCap: 
 repairStation: 
-amount: 1
-disabled: true
+amount: 2
+disabled: false
 requireOnlyOneIngredient: false
 reqs:
-- MeadBaseTasty:2:0:True
-- QueensJam:16:0:True
-- OnionSoup:4:0:True
-- BarleyWineBase:1:0:True
+- Eitr:12:0:True
+- Carapace:36:0:True
+- Wisp:24:0:True
+- DragpmEgg:2:0:True

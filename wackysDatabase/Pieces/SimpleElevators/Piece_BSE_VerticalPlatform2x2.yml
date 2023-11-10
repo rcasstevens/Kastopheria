@@ -49,5 +49,5 @@ fermStationData:
 sapData: 
 build:
 - SurtlingCore:1:0:True
-- Copper:3:0:True
+- Copper:4:0:True
 - Wood:20:0:True

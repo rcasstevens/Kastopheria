@@ -203,7 +203,7 @@ groups:
   - LoxPelt
   - ScaleHide
   - Root
-  More Extreme:
+  More Double:
   - Acorn
   - BirchSeeds
   - FirCone
@@ -214,6 +214,15 @@ groups:
   - DvergrKey
   - DvergrKeyFragment
   - Wisplight
+  Lockouts:
+  - TrophyBonemass    #Week3
+  - TrophyDragonQueen #Week3
+  - TrophyGoblinKing  #Week5
+  - TrophySeekerQueen #Week5
+
+#Block necessary stuff
+Lockouts:
+  amount: 0
 
 #Lets everything float on the water's surface.
 all:
@@ -226,7 +235,7 @@ coins:
 
 #Special category `seeds`
 seed:
-  stack: 250
+  stack: 200
 
 #Special category `valuable`
 valuable:
@@ -289,8 +298,8 @@ More Third:
 More Half:
   amount: 1.5
 
-More Extreme:
-  amount: 2.1
+More Double:
+  amount: 2.02
 
 #Jewelcrafting
 Jewelcrafting Chests:

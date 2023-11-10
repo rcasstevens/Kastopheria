@@ -1,12 +1,14 @@
 name: ct_campfireinabottle
 clonePrefabName: 
-craftingStation: ''
+craftingStation: piece_cauldron
 minStationLevel: 1
 maxStationLevelCap: 
 repairStation: 
-amount: 1
-disabled: true
+amount: 2
+disabled: false
 requireOnlyOneIngredient: false
 reqs:
-- MeadBaseTasty:1:0:True
-- QueensJam:4:0:True
+- Dandelion:48:0:True
+- AncientSeed:12:0:True
+- GreydwarfEye:24:0:True
+- Resin:36:0:True
