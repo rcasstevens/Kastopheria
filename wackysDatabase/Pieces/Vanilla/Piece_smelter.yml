@@ -48,10 +48,10 @@ smelterData:
   emptyOreTooltip: $piece_smelter_empty
   fuelItem:
     name: Coal
-  maxOre: 10
-  maxFuel: 20
-  fuelPerProduct: 2
-  secPerProduct: 30
+  maxOre: 20
+  maxFuel: 40
+  fuelPerProduct: 3
+  secPerProduct: 90
   spawnStack: false
   requiresRoof: false
   addOreAnimationLength: 0

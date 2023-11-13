@@ -23,7 +23,7 @@ onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 500
+  health: 2000
   damageModifiers:
     m_blunt: Resistant
     m_slash: Normal

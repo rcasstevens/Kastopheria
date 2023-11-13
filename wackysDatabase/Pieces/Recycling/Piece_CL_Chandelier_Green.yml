@@ -2,7 +2,7 @@ name: CL_Chandelier_Green
 piecehammer: Hammer
 m_name: $CL_Chandelier_Green
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>$CL_Chandelier_Green_description'
+m_description: '<color=red>♻️<color=white>'
 customIcon: 
 clonePrefabName: 
 material: 

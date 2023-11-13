@@ -1,0 +1,12 @@
+name: ArmorPaddedGreaves
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 2
+maxStationLevelCap: 
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- BlackMetal:10:3:True
+- LinenThread:20:10:True

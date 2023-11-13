@@ -214,6 +214,14 @@ groups:
   - DvergrKey
   - DvergrKeyFragment
   - Wisplight
+  Proper Metal:
+  - ironpit
+  - Silver
+  - Copper
+  - Tin
+  - Iron
+  - Bronze
+  - BlackMetal
   Lockouts:
   - TrophyBonemass    #Week3
   - TrophyDragonQueen #Week3
@@ -303,21 +311,24 @@ More Double:
 
 #Jewelcrafting
 Jewelcrafting Chests:
-  stack: 30
+  stack: 20
 
 Jewelcrafting Raw Gems:
   stack: 50
-  amount: 1.12
 
 Jewelcrafting Cut Gems:
-  stack: 30
+  stack: 50
 
 Jewelcrafting Broken Gems:
   stack: 100
   
-#Ironpit is craftable
-ironpit:
+#Let certain metals be teleported
+Proper Metal:
   teleportable: yes
+  
+#Jeweler's Bag doesn't go away on death.
+JC_Gem_Bag:
+  loss: no
 
 # Example ItemConfig.yml
 # Do not forget to turn the YAML file on in the settings.

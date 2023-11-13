@@ -1,14 +1,14 @@
-name: BSE_LargeElevator
+name: piece_stonecutter
 piecehammer: Hammer
-m_name: $bse_largeelevator
+m_name: $piece_stonecutter
 sizeMultiplier: 1
-m_description: $bse_largeelevator_description
+m_description: '<color=red>♻️<color=white>$piece_craftingstation'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
 craftingStation: $piece_workbench
-piecehammerCategory: Elevators
+piecehammerCategory: Crafting
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -17,13 +17,13 @@ comfort:
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: false
+noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 2000
+  health: 200
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
@@ -37,9 +37,17 @@ wearNTearData:
     m_spirit: Immune
   noRoofWear: true
   noSupportWear: true
-  supports: true
+  supports: false
   triggerPrivateArea: true
-craftingStationData: 
+craftingStationData:
+  cStationCustomIcon: 
+  discoveryRange: 4
+  buildRange: 20
+  craftRequiresRoof: true
+  craftRequiresFire: false
+  showBasicRecipes: false
+  useDistance: 2
+  useAnimation: 1
 cSExtensionData: 
 contData: 
 smelterData: 
@@ -48,6 +56,6 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- SurtlingCore:1:0:True
-- Copper:16:0:True
-- Wood:30:0:True
+- Wood:10:1:True
+- Bronze:3:1:True
+- Stone:4:1:True

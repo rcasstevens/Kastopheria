@@ -7,7 +7,7 @@ customIcon:
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_blackforge
+craftingStation: $piece_forge
 piecehammerCategory: Furniture
 minStationLevel: 1
 amount: 1

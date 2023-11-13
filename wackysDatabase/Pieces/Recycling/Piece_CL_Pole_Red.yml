@@ -2,7 +2,7 @@ name: CL_Pole_Red
 piecehammer: Hammer
 m_name: $CL_Pole_Red
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>$CL_Pole_Red_description'
+m_description: '<color=red>♻️<color=white>'
 customIcon: 
 clonePrefabName: 
 material: 

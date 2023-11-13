@@ -2,7 +2,7 @@ name: CL_Raw_Orange
 piecehammer: Hammer
 m_name: $CL_Raw_Orange
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>$CL_Raw_Orange_description'
+m_description: '<color=red>♻️<color=white>'
 customIcon: 
 clonePrefabName: 
 material: 
