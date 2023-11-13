@@ -64,10 +64,10 @@ Post Eikthyr:
         1: default
   Meadows:
     damage taken:
-      0: 1.2
+      0: 1.25
       1: default
     damage:
-      0: 0.8
+      0: 0.75
       1: default
 
 #Greydwarf Brute, Shaman
@@ -137,19 +137,6 @@ creature:
       Poison: default
       Chaos: default
       Spirit: default
-
-# Prevent early bosses from being too annoying
-boss:
-  affix:
-    0:
-      mending: 0
-      other: 100
-    1:
-      mending: 0
-      other: 100
-    2:
-      mending: default
-      other: default
 
 # Prevent high health enemies from being too annoying
 High Health Mobs:

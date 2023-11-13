@@ -49,7 +49,7 @@ SeData:
   m_damageModifier: 1
   m_noiseModifier: 0
   m_stealthModifier: 0
-  m_addMaxCarryWeight: 200
+  m_addMaxCarryWeight: 100
   m_speedModifier: 0
   m_maxMaxFallSpeed: 0
   m_fallDamageModifier: 0
