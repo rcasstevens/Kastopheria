@@ -50,37 +50,37 @@ fermStationData:
   fermConversion:
   - FromName: MeadBaseHealthMinor
     ToName: MeadHealthMinor
-    Amount: 6
+    Amount: 7
   - FromName: MeadBaseHealthMedium
     ToName: MeadHealthMedium
-    Amount: 6
+    Amount: 7
   - FromName: MeadBaseStaminaMinor
     ToName: MeadStaminaMinor
-    Amount: 6
+    Amount: 7
   - FromName: MeadBaseStaminaMedium
     ToName: MeadStaminaMedium
-    Amount: 6
+    Amount: 7
   - FromName: MeadBasePoisonResist
     ToName: MeadPoisonResist
-    Amount: 6
+    Amount: 7
   - FromName: MeadBaseFrostResist
     ToName: MeadFrostResist
-    Amount: 6
+    Amount: 7
   - FromName: BarleyWineBase
     ToName: BarleyWine
-    Amount: 6
+    Amount: 7
   - FromName: MeadBaseTasty
     ToName: MeadTasty
-    Amount: 6
+    Amount: 7
   - FromName: MeadBaseHealthMajor
     ToName: MeadHealthMajor
-    Amount: 6
+    Amount: 7
   - FromName: MeadBaseStaminaLingering
     ToName: MeadStaminaLingering
-    Amount: 6
+    Amount: 7
   - FromName: MeadBaseEitrMinor
     ToName: MeadEitrMinor
-    Amount: 6
+    Amount: 7
 sapData: 
 build:
 - FineWood:30:1:True

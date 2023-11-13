@@ -33,49 +33,49 @@ jobs:
     #Meadows
   - command: broadcast center <color=orange>Recycling... Meadows</color>
     schedule: "0 6 * * 1"
-  - command: zones_reset safeZones=2 biomes=Meadows start
+  - command: zones_reset safeZones=3 biomes=Meadows start
     schedule: "0 6 * * 1"
   - command: chests_reset looted biomes=Meadows
     schedule: "0 6 * * 1"
     #BlackForest
   - command: broadcast center <color=orange>Recycling... BlackForest</color>
     schedule: "1 6 * * 1"
-  - command: zones_reset safeZones=2 biomes=BlackForest start
+  - command: zones_reset safeZones=3 biomes=BlackForest start
     schedule: "1 6 * * 1"
   - command: chests_reset looted biomes=BlackForest
     schedule: "1 6 * * 1"
     #Ocean
   - command: broadcast center <color=orange>Recycling... Ocean</color>
     schedule: "2 6 * * 1"
-  - command: zones_reset safeZones=2 biomes=Ocean start
+  - command: zones_reset safeZones=3 biomes=Ocean start
     schedule: "2 6 * * 1"
   - command: chests_reset looted biomes=Ocean
     schedule: "2 6 * * 1"
     #Swamp
   - command: broadcast center <color=orange>Recycling... Swamp</color>
     schedule: "3 6 * * 1"
-  - command: zones_reset safeZones=2 biomes=Swamp start
+  - command: zones_reset safeZones=3 biomes=Swamp start
     schedule: "3 6 * * 1"
   - command: chests_reset looted biomes=Swamp
     schedule: "3 6 * * 1"
     #Mountain
   - command: broadcast center <color=orange>Recycling... Mountain</color>
     schedule: "4 6 * * 1"
-  - command: zones_reset safeZones=2 biomes=Mountain start
+  - command: zones_reset safeZones=3 biomes=Mountain start
     schedule: "4 6 * * 1"
   - command: chests_reset looted biomes=Mountain
     schedule: "4 6 * * 1"
     #Plains
   - command: broadcast center <color=orange>Recycling... Plains</color>
     schedule: "5 6 * * 1"
-  - command: zones_reset safeZones=2 biomes=Plains start
+  - command: zones_reset safeZones=3 biomes=Plains start
     schedule: "5 6 * * 1"
   - command: chests_reset looted biomes=Plains
     schedule: "5 6 * * 1"
     #Mistlands
   - command: broadcast center <color=orange>Recycling... Mistlands</color>
     schedule: "6 6 * * 1"
-  - command: zones_reset safeZones=2 biomes=Mistlands start
+  - command: zones_reset safeZones=3 biomes=Mistlands start
     schedule: "6 6 * * 1"
   - command: chests_reset looted biomes=Mistlands
     schedule: "6 6 * * 1"

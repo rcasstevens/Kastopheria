@@ -43,7 +43,7 @@ craftingStationData:
   cStationCustomIcon: 
   discoveryRange: 4
   buildRange: 20
-  craftRequiresRoof: true
+  craftRequiresRoof: false
   craftRequiresFire: false
   showBasicRecipes: false
   useDistance: 1.7

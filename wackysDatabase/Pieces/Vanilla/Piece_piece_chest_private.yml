@@ -42,14 +42,16 @@ wearNTearData:
 craftingStationData: 
 cSExtensionData: 
 contData:
-  Width: 3
-  Height: 3
-  CheckWard: true
+  Width: 6
+  Height: 2
+  CheckWard: false
   AutoDestoryIfEmpty: false
 smelterData: 
 cookingStationData: 
+beehiveData: 
 fermStationData: 
 sapData: 
 build:
-- FineWood:10:1:True
-- AncientSeed:8:1:True
+- FineWood:12:1:True
+- BronzeNails:8:1:True
+- Resin:6:1:True

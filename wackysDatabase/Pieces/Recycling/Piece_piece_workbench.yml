@@ -1,13 +1,13 @@
-name: windmill
+name: piece_workbench
 piecehammer: Hammer
-m_name: $piece_windmill
+m_name: $piece_workbench
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>'
+m_description: '<color=red>♻️<color=white>$piece_craftingstation'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_artisanstation
+craftingStation: ''
 piecehammerCategory: Crafting
 minStationLevel: 1
 amount: 1
@@ -23,45 +23,37 @@ onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 1000
+  health: 200
   damageModifiers:
-    m_blunt: Resistant
-    m_slash: Resistant
+    m_blunt: Normal
+    m_slash: Normal
     m_pierce: Resistant
-    m_chop: Resistant
+    m_chop: Weak
     m_pickaxe: Normal
-    m_fire: Immune
-    m_frost: Immune
+    m_fire: Normal
+    m_frost: Normal
     m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
-  noRoofWear: false
+  noRoofWear: true
   noSupportWear: true
   supports: false
   triggerPrivateArea: true
-craftingStationData: 
+craftingStationData:
+  cStationCustomIcon: 
+  discoveryRange: 4
+  buildRange: 20
+  craftRequiresRoof: true
+  craftRequiresFire: false
+  showBasicRecipes: true
+  useDistance: 2
+  useAnimation: 1
 cSExtensionData: 
 contData: 
-smelterData:
-  smelterName: windmill
-  addOreTooltip: $piece_smelter_add
-  emptyOreTooltip: $piece_smelter_empty
-  fuelItem: 
-  maxOre: 50
-  maxFuel: 
-  fuelPerProduct: 
-  secPerProduct: 10
-  spawnStack: 
-  requiresRoof: 
-  addOreAnimationLength: 
-  smelterConversion:
-  - FromName: Barley
-    ToName: BarleyFlour
+smelterData: 
 cookingStationData: 
 beehiveData: 
 fermStationData: 
 sapData: 
 build:
-- Stone:20:1:True
-- Wood:30:1:True
-- IronNails:30:1:True
+- Wood:10:1:True

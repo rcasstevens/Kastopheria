@@ -14,8 +14,8 @@ amount: 1
 disabled: false
 adminonly: false
 comfort:
-  comfort: 2
-  comfortGroup: Chair
+  comfort: 1
+  comfortGroup: None
   comfortObject: 
 groundPiece: false
 ground: false

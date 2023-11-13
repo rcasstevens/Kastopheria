@@ -42,7 +42,7 @@ wearNTearData:
 craftingStationData: 
 cSExtensionData: 
 contData:
-  Width: 7
+  Width: 6
   Height: 2
   CheckWard: true
   AutoDestoryIfEmpty: false

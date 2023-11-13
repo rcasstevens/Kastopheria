@@ -1,13 +1,13 @@
-name: forge
+name: piece_spinningwheel
 piecehammer: Hammer
-m_name: $piece_forge
+m_name: $piece_spinningwheel
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>$piece_craftingstation'
+m_description: '<color=red>♻️<color=white>'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_workbench
+craftingStation: $piece_artisanstation
 piecehammerCategory: Crafting
 minStationLevel: 1
 amount: 1
@@ -25,13 +25,13 @@ canBeRemoved: true
 wearNTearData:
   health: 200
   damageModifiers:
-    m_blunt: Normal
-    m_slash: Normal
+    m_blunt: Resistant
+    m_slash: Resistant
     m_pierce: Resistant
-    m_chop: Weak
+    m_chop: Resistant
     m_pickaxe: Normal
-    m_fire: Normal
-    m_frost: Normal
+    m_fire: Immune
+    m_frost: Immune
     m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
@@ -39,24 +39,29 @@ wearNTearData:
   noSupportWear: true
   supports: false
   triggerPrivateArea: true
-craftingStationData:
-  cStationCustomIcon: 
-  discoveryRange: 4
-  buildRange: 20
-  craftRequiresRoof: false
-  craftRequiresFire: false
-  showBasicRecipes: false
-  useDistance: 1.7
-  useAnimation: 2
+craftingStationData: 
 cSExtensionData: 
 contData: 
-smelterData: 
+smelterData:
+  smelterName: piece_spinningwheel
+  addOreTooltip: $piece_smelter_add $item_flax
+  emptyOreTooltip: $piece_smelter_empty
+  fuelItem: 
+  maxOre: 50
+  maxFuel: 
+  fuelPerProduct: 
+  secPerProduct: 30
+  spawnStack: 
+  requiresRoof: 
+  addOreAnimationLength: 
+  smelterConversion:
+  - FromName: Flax
+    ToName: LinenThread
 cookingStationData: 
 beehiveData: 
 fermStationData: 
 sapData: 
 build:
-- Stone:4:1:True
-- Coal:4:1:True
-- Wood:10:1:True
-- Copper:6:1:True
+- FineWood:20:1:True
+- IronNails:10:1:True
+- LeatherScraps:5:1:True

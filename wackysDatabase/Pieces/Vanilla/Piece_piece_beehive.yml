@@ -49,7 +49,7 @@ beehiveData:
   maxCover: 0.6
   biomes: Meadows, BlackForest, Plains
   secPerUnit: 1200
-  maxAmount: 4
+  maxAmount: 5
   dropItem: Honey
   effects:
   - sfx_pickable_pick
