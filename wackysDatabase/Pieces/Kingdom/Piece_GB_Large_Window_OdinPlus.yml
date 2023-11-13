@@ -8,7 +8,7 @@ clonePrefabName:
 material: 
 damagedMaterial: 
 craftingStation: $piece_workbench
-piecehammerCategory: Building
+piecehammerCategory: Kingdom
 minStationLevel: 1
 amount: 1
 disabled: true

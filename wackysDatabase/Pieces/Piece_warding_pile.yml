@@ -2,7 +2,7 @@ name: warding_pile
 piecehammer: Hammer
 m_name: 'Warding Stones'
 sizeMultiplier: 1
-m_description: '<color=red>Excludes nearby areas from regeneration.</color>\n- Covers a <color=orange>3x3</color> zone grid with these rocks in the center zone.'
+m_description: '<color=red>♻️ Prevents nearby areas from recycling.</color>\n- Exclusion area is a <color=orange>5x5</color> zone grid with ♻ prefab in the center zone.'
 customIcon: 
 clonePrefabName: coal_pile
 material: greydwarfeye_outermat
@@ -48,6 +48,5 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- Stone:30:1:True
-- GreydwarfEye:15:1:True
-- SurtlingCore:2:1:True
+- Stone:25:1:True
+- GreydwarfEye:5:1:True

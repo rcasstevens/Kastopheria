@@ -1,21 +1,21 @@
-name: dverger_demister_large
+name: piece_dvergr_sharpstakes
 piecehammer: Hammer
-m_name: Dvergr demister large
+m_name: $piece_dvergr_sharpstakes
 sizeMultiplier: 1
-m_description: ''
+m_description: 'Reinforced: 2k Health'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
 craftingStation: $piece_blackforge
-piecehammerCategory: Furniture
+piecehammerCategory: Misc
 minStationLevel: 1
 amount: 1
 disabled: false
 adminonly: false
 comfort: 
 groundPiece: false
-ground: false
+ground: true
 waterPiece: false
 noInWater: false
 notOnFloor: false
@@ -23,16 +23,16 @@ onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 200
+  health: 2000
   damageModifiers:
-    m_blunt: Normal
-    m_slash: Normal
+    m_blunt: Resistant
+    m_slash: Resistant
     m_pierce: Resistant
-    m_chop: Normal
-    m_pickaxe: Normal
-    m_fire: Immune
-    m_frost: Immune
-    m_lightning: Normal
+    m_chop: Resistant
+    m_pickaxe: Resistant
+    m_fire: Resistant
+    m_frost: Resistant
+    m_lightning: Resistant
     m_poison: Immune
     m_spirit: Immune
   noRoofWear: false
@@ -48,5 +48,5 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- BlackMetal:5:1:True
-- Wisp:3:1:True
+- YggdrasilWood:5:1:False
+- BlackMetal:2:1:True

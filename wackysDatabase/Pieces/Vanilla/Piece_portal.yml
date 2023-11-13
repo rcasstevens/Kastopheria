@@ -2,7 +2,7 @@ name: portal
 piecehammer: Hammer
 m_name: $piece_portal
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>$piece_portal_description'
+m_description: '<color=red>♻ Portal cannot be removed after placement.\n️</color>Teleports:<color=#AFC> Players, Carts, <color=white>and a chance of nearby <color=orange>Hostiles<color=white>. <color=#AFC>Refined metal <color=white>passes freely, but <color=orange>half<color=white> of any raw ore is <color=red>consumed</color> during transport.'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -21,21 +21,21 @@ noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
-canBeRemoved: true
+canBeRemoved: false
 wearNTearData:
-  health: 5000
+  health: 20000
   damageModifiers:
     m_blunt: Resistant
     m_slash: Resistant
     m_pierce: Resistant
     m_chop: Resistant
-    m_pickaxe: Normal
+    m_pickaxe: Weak
     m_fire: Immune
     m_frost: Immune
-    m_lightning: Normal
+    m_lightning: Resistant
     m_poison: Immune
     m_spirit: Immune
-  noRoofWear: false
+  noRoofWear: true
   noSupportWear: true
   supports: true
   triggerPrivateArea: true
@@ -48,6 +48,7 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- GreydwarfEye:10:1:True
-- Stone:20:1:True
-- SurtlingCore:2:1:True
+- AncientSeed:10:1:True
+- GreydwarfEye:15:1:True
+- Stone:150:1:True
+- SurtlingCore:5:1:True

@@ -1,14 +1,14 @@
-name: dverger_demister_large
+name: stake_wall
 piecehammer: Hammer
-m_name: Dvergr demister large
+m_name: $piece_stakewall
 sizeMultiplier: 1
-m_description: ''
+m_description: 'Reinforced: 3k Health'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_blackforge
-piecehammerCategory: Furniture
+craftingStation: $piece_workbench
+piecehammerCategory: Misc
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -23,21 +23,21 @@ onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 200
+  health: 3000
   damageModifiers:
-    m_blunt: Normal
+    m_blunt: Resistant
     m_slash: Normal
     m_pierce: Resistant
-    m_chop: Normal
+    m_chop: Weak
     m_pickaxe: Normal
-    m_fire: Immune
-    m_frost: Immune
-    m_lightning: Normal
+    m_fire: Normal
+    m_frost: Resistant
+    m_lightning: Resistant
     m_poison: Immune
     m_spirit: Immune
   noRoofWear: false
   noSupportWear: true
-  supports: false
+  supports: true
   triggerPrivateArea: true
 craftingStationData: 
 cSExtensionData: 
@@ -48,5 +48,5 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- BlackMetal:5:1:True
-- Wisp:3:1:True
+- Wood:4:1:True
+- Resin:1:1:True

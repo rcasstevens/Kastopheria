@@ -1,13 +1,13 @@
-name: piece_chest
+name: dverger_guardstone
 piecehammer: Hammer
-m_name: $piece_chest
+m_name: Dvergr ward
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>'
+m_description: 'Decorative ward.'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_workbench
+craftingStation: $piece_blackforge
 piecehammerCategory: Furniture
 minStationLevel: 1
 amount: 1
@@ -17,40 +17,37 @@ comfort:
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: true
+noInWater: false
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 1000
+  health: 2000
   damageModifiers:
-    m_blunt: Resistant
-    m_slash: Resistant
+    m_blunt: Normal
+    m_slash: Normal
     m_pierce: Resistant
-    m_chop: Resistant
-    m_pickaxe: Resistant
-    m_fire: Resistant
+    m_chop: Ignore
+    m_pickaxe: Ignore
+    m_fire: Normal
     m_frost: Resistant
     m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
   noRoofWear: false
-  noSupportWear: true
+  noSupportWear: false
   supports: false
   triggerPrivateArea: true
 craftingStationData: 
 cSExtensionData: 
-contData:
-  Width: 6
-  Height: 4
-  CheckWard: true
-  AutoDestoryIfEmpty: false
+contData: 
 smelterData: 
 cookingStationData: 
 beehiveData: 
 fermStationData: 
 sapData: 
 build:
-- FineWood:10:1:True
-- Iron:2:1:True
+- YggdrasilWood:5:1:True
+- BlackMarble:5:1:True
+- BlackCore:1:1:True

@@ -2,7 +2,7 @@ name: piece_chest_wooden_drawer
 piecehammer: Hammer
 m_name: $piece_mpwoodendrawer
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>$piece_mpwoodendrawer_description'
+m_description: '<color=red>♻️<color=white>Storage 6x4'
 customIcon: 
 clonePrefabName: 
 material: 

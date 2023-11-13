@@ -23,6 +23,22 @@ onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData: 
+  health: 100
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Normal
+    m_chop: Normal
+    m_pickaxe: Normal
+    m_fire: Immune
+    m_frost: Immune
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: false
+  triggerPrivateArea: true
 craftingStationData: 
 cSExtensionData: 
 contData: 
@@ -34,5 +50,5 @@ sapData:
 build:
 - Bronze:5:1:True
 - GreydwarfEye:2:1:True
-- BlackCore:1:1:True
+- SurtlingCore:5:1:True
 - WolfClaw:3:1:True

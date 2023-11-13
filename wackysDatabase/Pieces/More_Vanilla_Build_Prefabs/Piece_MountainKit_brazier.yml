@@ -2,7 +2,7 @@ name: MountainKit_brazier
 piecehammer: Hammer
 m_name: Standing brazier (everburning)
 sizeMultiplier: 1
-m_description: Burns eternally without fuel.
+m_description: 'Burns eternally without fuel.'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -13,16 +13,32 @@ minStationLevel: 1
 amount: 1
 disabled: false
 adminonly: false
-comfort: 
+comfort:
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: false
+noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
-wearNTearData: 
+wearNTearData:
+  health: 100
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Normal
+    m_chop: Normal
+    m_pickaxe: Normal
+    m_fire: Immune
+    m_frost: Immune
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: false
+  triggerPrivateArea: true
 craftingStationData: 
 cSExtensionData: 
 contData: 
@@ -33,6 +49,6 @@ fermStationData:
 sapData: 
 build:
 - Bronze:5:1:True
-- Coal:2:1:True
-- BlackCore:1:1:True
+- Coal:2:1:False
 - WolfClaw:3:1:True
+- SurtlingCore:5:1:True

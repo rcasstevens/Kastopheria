@@ -1,13 +1,13 @@
-name: dverger_demister_large
+name: piece_chest_blackmetal
 piecehammer: Hammer
-m_name: Dvergr demister large
+m_name: $piece_chestblackmetal
 sizeMultiplier: 1
-m_description: ''
+m_description: '<color=red>♻️<color=white>Storage 8x4'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_blackforge
+craftingStation: $piece_workbench
 piecehammerCategory: Furniture
 minStationLevel: 1
 amount: 1
@@ -17,21 +17,21 @@ comfort:
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: false
+noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 200
+  health: 1000
   damageModifiers:
-    m_blunt: Normal
-    m_slash: Normal
+    m_blunt: Resistant
+    m_slash: Resistant
     m_pierce: Resistant
-    m_chop: Normal
-    m_pickaxe: Normal
-    m_fire: Immune
-    m_frost: Immune
+    m_chop: Resistant
+    m_pickaxe: Resistant
+    m_fire: Resistant
+    m_frost: Resistant
     m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
@@ -41,12 +41,17 @@ wearNTearData:
   triggerPrivateArea: true
 craftingStationData: 
 cSExtensionData: 
-contData: 
+contData:
+  Width: 8
+  Height: 4
+  CheckWard: true
+  AutoDestoryIfEmpty: false
 smelterData: 
 cookingStationData: 
 beehiveData: 
 fermStationData: 
 sapData: 
 build:
-- BlackMetal:5:1:True
-- Wisp:3:1:True
+- Wood:10:1:True
+- Tar:2:1:True
+- BlackMetal:6:1:True

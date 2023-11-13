@@ -2,7 +2,7 @@ name: portal_wood
 piecehammer: Hammer
 m_name: $piece_portal
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>$piece_portal_description'
+m_description: '<color=red>♻</color>Teleports:<color=#AFC> Players, Carts, <color=white>and a chance of nearby <color=orange>Hostiles<color=white>. <color=#AFC>Refined metal <color=white>passes freely, but <color=orange>half<color=white> of any raw ore is <color=red>consumed</color> during transport.'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -23,13 +23,13 @@ onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 2000
+  health: 1000
   damageModifiers:
-    m_blunt: Resistant
+    m_blunt: Normal
     m_slash: Normal
-    m_pierce: Resistant
-    m_chop: Weak
-    m_pickaxe: Resistant
+    m_pierce: Normal
+    m_chop: Normal
+    m_pickaxe: Normal
     m_fire: Normal
     m_frost: Normal
     m_lightning: Normal
@@ -49,5 +49,5 @@ fermStationData:
 sapData: 
 build:
 - GreydwarfEye:10:1:True
-- FineWood:20:1:True
+- YggdrasilWood:20:1:True
 - SurtlingCore:2:1:True

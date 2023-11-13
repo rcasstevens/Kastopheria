@@ -1,14 +1,14 @@
-name: piece_chest_blackmetal
+name: piece_dvergr_stake_wall
 piecehammer: Hammer
-m_name: $piece_chestblackmetal
+m_name: $piece_dvergr_stake_wall
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>'
+m_description: 'Reinforced: 5k Health'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_workbench
-piecehammerCategory: Furniture
+craftingStation: $piece_blackforge
+piecehammerCategory: Misc
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -17,13 +17,13 @@ comfort:
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: true
+noInWater: false
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 1000
+  health: 5000
   damageModifiers:
     m_blunt: Resistant
     m_slash: Resistant
@@ -32,26 +32,21 @@ wearNTearData:
     m_pickaxe: Resistant
     m_fire: Resistant
     m_frost: Resistant
-    m_lightning: Normal
+    m_lightning: Resistant
     m_poison: Immune
     m_spirit: Immune
   noRoofWear: false
   noSupportWear: true
-  supports: false
+  supports: true
   triggerPrivateArea: true
 craftingStationData: 
 cSExtensionData: 
-contData:
-  Width: 8
-  Height: 4
-  CheckWard: true
-  AutoDestoryIfEmpty: false
+contData: 
 smelterData: 
 cookingStationData: 
 beehiveData: 
 fermStationData: 
 sapData: 
 build:
-- Wood:10:1:True
-- Tar:2:1:True
-- BlackMetal:6:1:True
+- YggdrasilWood:8:1:True
+- BlackMetal:8:1:True

@@ -2,7 +2,7 @@ name: CastleKit_groundtorch_green
 piecehammer: Hammer
 m_name: Standing green-burning iron torch (everburning)
 sizeMultiplier: 1
-m_description: Burns eternally without fuel.
+m_description: 'Burns eternally without fuel.'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -23,22 +23,22 @@ onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 20
+  health: 200
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
-    m_pierce: Normal
+    m_pierce: Resistant
     m_chop: Normal
     m_pickaxe: Normal
-    m_fire: Normal
-    m_frost: Normal
+    m_fire: Immune
+    m_frost: Immune
     m_lightning: Normal
-    m_poison: Normal
-    m_spirit: Normal
+    m_poison: Immune
+    m_spirit: Immune
   noRoofWear: false
   noSupportWear: true
   supports: false
-  triggerPrivateArea: false
+  triggerPrivateArea: true
 craftingStationData: 
 cSExtensionData: 
 contData: 
@@ -50,4 +50,4 @@ sapData:
 build:
 - Iron:2:1:True
 - Guck:2:1:True
-- BlackCore:1:1:True
+- SurtlingCore:5:1:True
