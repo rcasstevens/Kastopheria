@@ -1,0 +1,70 @@
+name: eitrrefinery
+piecehammer: Hammer
+m_name: $piece_eitrrefinery
+sizeMultiplier: 1
+m_description: '<color=red>♻️<color=white>'
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_workbench
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 1000
+  damageModifiers:
+    m_blunt: Resistant
+    m_slash: Resistant
+    m_pierce: Resistant
+    m_chop: Resistant
+    m_pickaxe: Normal
+    m_fire: Immune
+    m_frost: Immune
+    m_lightning: Ignore
+    m_poison: Ignore
+    m_spirit: Ignore
+  noRoofWear: true
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData:
+  smelterName: eitrrefinery
+  addOreTooltip: $piece_smelter_additem
+  emptyOreTooltip: $piece_smelter_empty
+  fuelItem:
+    name: Sap
+  maxOre: 20
+  maxFuel: 20
+  fuelPerProduct: 1
+  secPerProduct: 40
+  spawnStack: false
+  requiresRoof: false
+  addOreAnimationLength: 2
+  smelterConversion:
+  - FromName: Softtissue
+    ToName: Eitr
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+build:
+- BlackMarble:20:1:True
+- BlackMetal:5:1:True
+- YggdrasilWood:10:1:True
+- BlackCore:5:1:True
+- Sap:3:1:True

@@ -225,8 +225,8 @@ Lockouts:
   amount: 0
 
 #Lets everything float on the water's surface.
-all:
-  floating: yes
+#all:
+#  floating: yes
 
 #Coins.
 coins:

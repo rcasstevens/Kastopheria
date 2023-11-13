@@ -1,0 +1,67 @@
+name: windmill
+piecehammer: Hammer
+m_name: $piece_windmill
+sizeMultiplier: 1
+m_description: '<color=red>♻️<color=white>'
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_artisanstation
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 1000
+  damageModifiers:
+    m_blunt: Resistant
+    m_slash: Resistant
+    m_pierce: Resistant
+    m_chop: Resistant
+    m_pickaxe: Normal
+    m_fire: Immune
+    m_frost: Immune
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: false
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData:
+  smelterName: windmill
+  addOreTooltip: $piece_smelter_add
+  emptyOreTooltip: $piece_smelter_empty
+  fuelItem: 
+  maxOre: 50
+  maxFuel: 
+  fuelPerProduct: 
+  secPerProduct: 10
+  spawnStack: 
+  requiresRoof: 
+  addOreAnimationLength: 
+  smelterConversion:
+  - FromName: Barley
+    ToName: BarleyFlour
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+build:
+- Stone:20:1:True
+- Wood:30:1:True
+- IronNails:30:1:True

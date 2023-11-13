@@ -1,0 +1,81 @@
+name: piece_oven
+piecehammer: Hammer
+m_name: $piece_oven
+sizeMultiplier: 1
+m_description: '<color=red>♻️<color=white>'
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_artisanstation
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 500
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Resistant
+    m_chop: Weak
+    m_pickaxe: Normal
+    m_fire: Normal
+    m_frost: Resistant
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData: 
+cookingStationData:
+  addItemTooltip: $piece_oven_additem
+  overcookedItem: Coal
+  fuelItem: Wood
+  requireFire: false
+  maxFuel: 10
+  secPerFuel: 2000
+  cookConversion:
+  - FromName: LoxPieUncooked
+    ToName: LoxPie
+    CookTime: 50
+  - FromName: BreadDough
+    ToName: Bread
+    CookTime: 50
+  - FromName: FishAndBreadUncooked
+    ToName: FishAndBread
+    CookTime: 50
+  - FromName: MeatPlatterUncooked
+    ToName: MeatPlatter
+    CookTime: 50
+  - FromName: HoneyGlazedChickenUncooked
+    ToName: HoneyGlazedChicken
+    CookTime: 50
+  - FromName: MisthareSupremeUncooked
+    ToName: MisthareSupreme
+    CookTime: 50
+  - FromName: MagicallyStuffedShroomUncooked
+    ToName: MagicallyStuffedShroom
+    CookTime: 50
+beehiveData: 
+fermStationData: 
+sapData: 
+build:
+- Iron:15:1:True
+- Stone:20:1:True
+- SurtlingCore:4:1:True

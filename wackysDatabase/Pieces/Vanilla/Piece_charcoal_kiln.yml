@@ -2,7 +2,7 @@ name: charcoal_kiln
 piecehammer: Hammer
 m_name: $piece_charcoalkiln
 sizeMultiplier: 1
-m_description: ''
+m_description: '<color=red>♻️<color=white>'
 customIcon: 
 clonePrefabName: 
 material: 

@@ -1,0 +1,67 @@
+name: piece_beehive
+piecehammer: Hammer
+m_name: $piece_beehive
+sizeMultiplier: 1
+m_description: '<color=red>♻️<color=white>'
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_workbench
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: false
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 100
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Resistant
+    m_chop: Weak
+    m_pickaxe: Normal
+    m_fire: Normal
+    m_frost: Normal
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: true
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData:
+  effectOnlyInDaylight: true
+  maxCover: 0.6
+  biomes: Meadows, BlackForest, Plains
+  secPerUnit: 1200
+  maxAmount: 4
+  dropItem: Honey
+  effects:
+  - sfx_pickable_pick
+  - vfx_pickable_pick
+  extractText: $piece_beehive_extract
+  checkText: $piece_beehive_check
+  areaText: $piece_beehive_area
+  freespaceText: $piece_beehive_freespace
+  sleepText: $piece_beehive_sleep
+  happyText: $piece_beehive_happy
+fermStationData: 
+sapData: 
+build:
+- Wood:10:1:True
+- QueenBee:1:1:True

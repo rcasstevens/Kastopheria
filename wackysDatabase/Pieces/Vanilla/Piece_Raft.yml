@@ -2,7 +2,7 @@ name: Raft
 piecehammer: Hammer
 m_name: $ship_raft
 sizeMultiplier: 1
-m_description: 'It floats!'
+m_description: '<color=red>♻️<color=white>'
 customIcon: 
 clonePrefabName: 
 material: 

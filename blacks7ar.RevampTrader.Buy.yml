@@ -1,0 +1,88 @@
+- Prefab: HelmetDverger
+  Stack: 1
+  Price: 850
+  Required Global Key: ''
+- Prefab: VDS_AtlantianCrown
+  Stack: 1
+  Price: 2350
+  Required Global Key: 'defeated_dragon'
+- Prefab: BeltStrength
+  Stack: 1
+  Price: 1250
+  Required Global Key: ''
+- Prefab: CryptKey
+  Stack: 1
+  Price: 700
+  Required Global Key: 'defeated_gdking'
+- Prefab: Wishbone
+  Stack: 1
+  Price: 1200
+  Required Global Key: 'defeated_bonemass'
+- Prefab: QueenBee
+  Stack: 1
+  Price: 1200
+  Required Global Key: 'defeated_eikthyr'
+- Prefab: YmirRemains
+  Stack: 1
+  Price: 100
+  Required Global Key: 'defeated_gdking'
+- Prefab: Thunderstone
+  Stack: 1
+  Price: 100
+  Required Global Key: 'defeated_gdking'
+- Prefab: ChickenEgg
+  Stack: 1
+  Price: 1500
+  Required Global Key: 'defeated_goblinking'
+- Prefab: MushroomBlue
+  Stack: 10
+  Price: 800
+  Required Global Key: 'defeated_gdking'
+- Prefab: FishingRod
+  Stack: 1
+  Price: 150
+  Required Global Key: ''
+- Prefab: FishingBait
+  Stack: 50
+  Price: 50
+  Required Global Key: ''
+- Prefab: FishingBaitOcean
+  Stack: 50
+  Price: 100
+  Required Global Key: 'defeated_eikthyr'
+- Prefab: FishingBaitForest
+  Stack: 50
+  Price: 150
+  Required Global Key: 'defeated_eikthyr'
+- Prefab: FishingBaitSwamp
+  Stack: 50
+  Price: 200
+  Required Global Key: 'defeated_gdking'
+- Prefab: FishingBaitCave
+  Stack: 50
+  Price: 300
+  Required Global Key: 'defeated_bonemass'
+- Prefab: FishingBaitPlains
+  Stack: 50
+  Price: 400
+  Required Global Key: 'defeated_dragon'
+- Prefab: FishingBaitMistlands
+  Stack: 50
+  Price: 500
+  Required Global Key: 'defeated_goblinking'
+- Prefab: FishingBaitAshlands
+  Stack: 50
+  Price: 600
+  Required Global Key: 'defeated_queen'
+- Prefab: FishingBaitDeepNorth
+  Stack: 50
+  Price: 600
+  Required Global Key: 'defeated_queen'
+- Prefab: HelmetYule
+  Stack: 1
+  Price: 150
+  Required Global Key: ''
+- Prefab: HelmetMidsummerCrown
+  Stack: 1
+  Price: 150
+  Required Global Key: ''

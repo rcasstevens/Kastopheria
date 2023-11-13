@@ -1,0 +1,88 @@
+name: fermenter
+piecehammer: Hammer
+m_name: $piece_fermenter
+sizeMultiplier: 1
+m_description: '<color=red>♻️<color=white>'
+customIcon: 
+clonePrefabName: 
+material: 
+damagedMaterial: 
+craftingStation: $piece_forge
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 1000
+  damageModifiers:
+    m_blunt: Resistant
+    m_slash: Resistant
+    m_pierce: Resistant
+    m_chop: Resistant
+    m_pickaxe: Normal
+    m_fire: Immune
+    m_frost: Immune
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: true
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData: 
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData:
+  fermDuration: 2400
+  fermConversion:
+  - FromName: MeadBaseHealthMinor
+    ToName: MeadHealthMinor
+    Amount: 6
+  - FromName: MeadBaseHealthMedium
+    ToName: MeadHealthMedium
+    Amount: 6
+  - FromName: MeadBaseStaminaMinor
+    ToName: MeadStaminaMinor
+    Amount: 6
+  - FromName: MeadBaseStaminaMedium
+    ToName: MeadStaminaMedium
+    Amount: 6
+  - FromName: MeadBasePoisonResist
+    ToName: MeadPoisonResist
+    Amount: 6
+  - FromName: MeadBaseFrostResist
+    ToName: MeadFrostResist
+    Amount: 6
+  - FromName: BarleyWineBase
+    ToName: BarleyWine
+    Amount: 6
+  - FromName: MeadBaseTasty
+    ToName: MeadTasty
+    Amount: 6
+  - FromName: MeadBaseHealthMajor
+    ToName: MeadHealthMajor
+    Amount: 6
+  - FromName: MeadBaseStaminaLingering
+    ToName: MeadStaminaLingering
+    Amount: 6
+  - FromName: MeadBaseEitrMinor
+    ToName: MeadEitrMinor
+    Amount: 6
+sapData: 
+build:
+- FineWood:30:1:True
+- Bronze:5:1:True
+- Resin:10:1:True
