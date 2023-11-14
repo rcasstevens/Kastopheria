@@ -29,7 +29,7 @@
 - Prefab: Thunderstone
   Stack: 1
   Price: 100
-  Required Global Key: 'defeated_gdking'
+  Required Global Key: 'defeated_eikthyr'
 - Prefab: ChickenEgg
   Stack: 1
   Price: 1500
@@ -37,7 +37,7 @@
 - Prefab: MushroomBlue
   Stack: 10
   Price: 800
-  Required Global Key: 'defeated_gdking'
+  Required Global Key: 'defeated_bonemass'
 - Prefab: FishingRod
   Stack: 1
   Price: 150

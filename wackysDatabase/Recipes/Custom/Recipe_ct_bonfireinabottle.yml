@@ -1,0 +1,14 @@
+name: ct_bonfireinabottle
+clonePrefabName: 
+craftingStation: ''
+minStationLevel: 3
+maxStationLevelCap: 
+repairStation: 
+amount: 2
+disabled: true
+requireOnlyOneIngredient: false
+reqs:
+- Entrails:48:0:True
+- Crystal:36:0:True
+- YmirRemains:12:0:True
+- SerpentScale:24:0:True
