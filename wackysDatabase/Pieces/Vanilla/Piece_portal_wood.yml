@@ -2,7 +2,7 @@ name: portal_wood
 piecehammer: Hammer
 m_name: $piece_portal
 sizeMultiplier: 1
-m_description: '<color=red>♻</color>Teleports:<color=#AFC> Players, Carts, <color=white>and a chance of nearby <color=orange>Hostiles<color=white>. <color=#AFC>Refined metal <color=white>passes freely, but <color=orange>half<color=white> of any raw ore is <color=red>consumed</color> during transport.'
+m_description: '<color=red>♻</color>Teleports:<color=#AFC> Players, tamed followers, carts, <color=white>and a chance of nearby <color=orange>Hostiles<color=white>.'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -17,7 +17,7 @@ comfort:
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: true
+noInWater: false
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false

@@ -1,14 +1,14 @@
-name: Cart
+name: blackforge_ext2_vise
 piecehammer: Hammer
-m_name: $tool_cart
+m_name: $piece_blackforge_ext2
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>Reinforced'
+m_description: $piece_blackforge $piece_upgrade
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation:
-piecehammerCategory: Misc
+craftingStation: $piece_blackforge
+piecehammerCategory: Crafting
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -17,30 +17,34 @@ comfort:
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: false
+noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
-allowedInDungeons: true
+allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 700
+  health: 100
   damageModifiers:
     m_blunt: Normal
-    m_slash: Resistant
+    m_slash: Normal
     m_pierce: Resistant
     m_chop: Weak
-    m_pickaxe: Resistant
-    m_fire: Weak
+    m_pickaxe: Normal
+    m_fire: Normal
     m_frost: Resistant
-    m_lightning: Resistant
+    m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
-  noRoofWear: false
-  noSupportWear: false
+  noRoofWear: true
+  noSupportWear: true
   supports: false
   triggerPrivateArea: true
 craftingStationData: 
-cSExtensionData: 
+cSExtensionData:
+  MainCraftingStationName: blackforge
+  maxStationDistance: 10
+  continousConnection: false
+  stack: false
 contData: 
 smelterData: 
 cookingStationData: 
@@ -48,5 +52,6 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- Wood:20:1:True
-- BronzeNails:10:1:True
+- Iron:5:1:True
+- Copper:8:1:True
+- MechanicalSpring:2:1:True

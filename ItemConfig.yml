@@ -10,7 +10,8 @@ groups:
   - Uncut_Green_Stone
   - Uncut_Purple_Stone
   - Uncut_Orange_Stone
-  - Uncut_Cyan_Stone
+  - Uncut_blueish_Stone
+  - Uncut_redish_Stone
   Jewelcrafting Cut Gems:
   - Simple_Black_Socket
   - Simple_Blue_Socket
@@ -19,7 +20,8 @@ groups:
   - Simple_Green_Socket
   - Simple_Purple_Socket
   - Simple_Orange_Socket
-  - Simple_Cyan_Socket
+  - Simple_blueish_Socket
+  - Simple_redish_Socket
   - Advanced_Black_Socket
   - Advanced_Blue_Socket
   - Advanced_Red_Socket
@@ -27,7 +29,8 @@ groups:
   - Advanced_Green_Socket
   - Advanced_Purple_Socket
   - Advanced_Orange_Socket
-  - Advanced_Cyan_Socket
+  - Advanced_blueish_Socket
+  - Advanced_redish_Socket
   - Perfect_Black_Socket
   - Perfect_Blue_Socket
   - Perfect_Red_Socket
@@ -35,7 +38,8 @@ groups:
   - Perfect_Green_Socket
   - Perfect_Purple_Socket
   - Perfect_Orange_Socket
-  - Perfect_Cyan_Socket
+  - Perfect_blueish_Socket
+  - Perfect_redish_Socket
   Jewelcrafting Broken Gems:
   - Shattered_Black_Crystal
   - Shattered_Blue_Crystal
@@ -44,7 +48,8 @@ groups:
   - Shattered_Green_Crystal
   - Shattered_Purple_Crystal
   - Shattered_Orange_Crystal
-  - Shattered_Cyan_Crystal
+  - Shattered_redish_Crystal
+  - Shattered_blueish_Crystal
   Non Meats:
   - CloudBerry
   - RaspBerry
@@ -214,27 +219,34 @@ groups:
   - DvergrKey
   - DvergrKeyFragment
   - Wisplight
-  Proper Metal:
-  - Ironpit
-  - Silver
-  - Copper
-  - Tin
-  - Iron
-  - Bronze
-  - BlackMetal
   Lockouts:
   - TrophyBonemass    #Week3
   - TrophyDragonQueen #Week3
   - TrophyGoblinKing  #Week5
   - TrophySeekerQueen #Week5
+  Floatable:
+  - armor
+  - weapon
+  - ammo
+  - equipment
+  - shield
+#  - ShatteredBackpackofPortability
+#  - SimpleBackpackofPortability
+#  - AdvancedBackpackofPortability
+#  - PerfectBackpackofPortability
+#  - MythicalBackpackofPortability
+#  - ExplorersSatchel
+#  - BuildersSatchel
+#  - PortableHole
 
 #Block necessary stuff
 Lockouts:
   amount: 0
+  teleportable: no
+  weight: 999
 
-#Lets everything float on the water's surface.
-#all:
-#  floating: yes
+Floatable:
+  floating: yes
 
 #Coins.
 coins:
@@ -321,14 +333,10 @@ Jewelcrafting Cut Gems:
 
 Jewelcrafting Broken Gems:
   stack: 100
-  
-#Let certain metals be teleported
-Proper Metal:
+
+#Let the iron pit be teleported.
+Ironpit:
   teleportable: yes
-  
-#Jeweler's Bag doesn't go away on death.
-JC_Gem_Bag:
-  loss: no
 
 # Example ItemConfig.yml
 # Do not forget to turn the YAML file on in the settings.

@@ -1,14 +1,14 @@
-name: MountainKit_brazier_blue
+name: piece_workbench_ext1
 piecehammer: Hammer
-m_name: Blue standing brazier (everburning)
+m_name: $piece_workbench_ext1
 sizeMultiplier: 1
-m_description: Burns eternally without fuel.
+m_description: $piece_workbench $piece_upgrade
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_forge
-piecehammerCategory: Furniture
+craftingStation: $piece_workbench
+piecehammerCategory: Crafting
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -17,30 +17,34 @@ comfort:
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: false
+noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
-wearNTearData: 
+wearNTearData:
   health: 100
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
-    m_pierce: Normal
-    m_chop: Normal
+    m_pierce: Resistant
+    m_chop: Weak
     m_pickaxe: Normal
-    m_fire: Immune
-    m_frost: Immune
+    m_fire: Normal
+    m_frost: Resistant
     m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
-  noRoofWear: false
+  noRoofWear: true
   noSupportWear: true
   supports: false
   triggerPrivateArea: true
 craftingStationData: 
-cSExtensionData: 
+cSExtensionData:
+  MainCraftingStationName: piece_workbench
+  maxStationDistance: 10
+  continousConnection: false
+  stack: false
 contData: 
 smelterData: 
 cookingStationData: 
@@ -48,7 +52,5 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- Bronze:5:1:True
-- GreydwarfEye:2:1:True
-- SurtlingCore:5:1:True
-- WolfClaw:3:1:True
+- Wood:10:1:True
+- Flint:10:1:True

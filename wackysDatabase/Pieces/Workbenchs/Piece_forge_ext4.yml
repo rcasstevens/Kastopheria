@@ -1,13 +1,13 @@
-name: piece_workbench
+name: forge_ext4
 piecehammer: Hammer
-m_name: $piece_workbench
+m_name: $piece_forge_ext4
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>$piece_craftingstation'
+m_description: $piece_forge $piece_upgrade
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: ''
+craftingStation: $piece_workbench
 piecehammerCategory: Crafting
 minStationLevel: 1
 amount: 1
@@ -23,7 +23,7 @@ onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 200
+  health: 1000
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
@@ -31,7 +31,7 @@ wearNTearData:
     m_chop: Weak
     m_pickaxe: Normal
     m_fire: Normal
-    m_frost: Normal
+    m_frost: Resistant
     m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
@@ -39,16 +39,12 @@ wearNTearData:
   noSupportWear: true
   supports: false
   triggerPrivateArea: true
-craftingStationData:
-  cStationCustomIcon: 
-  discoveryRange: 4
-  buildRange: 20
-  craftRequiresRoof: true
-  craftRequiresFire: false
-  showBasicRecipes: true
-  useDistance: 2
-  useAnimation: 1
-cSExtensionData: 
+craftingStationData: 
+cSExtensionData:
+  MainCraftingStationName: forge
+  maxStationDistance: 10
+  continousConnection: false
+  stack: false
 contData: 
 smelterData: 
 cookingStationData: 
@@ -56,4 +52,5 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- Wood:10:1:True
+- Iron:20:1:True
+- Wood:5:1:True

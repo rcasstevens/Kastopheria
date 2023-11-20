@@ -1,0 +1,105 @@
+equipment:
+  biome order:
+    - meadows
+    - black forest
+    - swamp
+    - ash lands
+    - ocean
+    - mountain
+    - plains
+    - mistlands
+  meadows:
+    low health: 30
+    high health: 75
+    resource map:
+      - deer hide
+      - flint
+  black forest:
+    low health: 55
+    high health: 150
+    resource map:
+      - bronze
+      - copper
+      - tin
+      - skeleton trophy
+      - core wood
+  swamp:
+    low health: 70
+    high health: 225
+    resource map:
+      - iron
+      - root
+  ash lands:
+    low health: 70
+    high health: 225
+    resource map:
+      - iron
+  mountain:
+    low health: 110
+    high health: 375
+    resource map:
+      - silver
+      - wolf pelt
+      - wolf fang
+      - obsidian
+  plains:
+    low health: 140
+    high health: 500
+    resource map:
+      - linen thread
+      - black metal
+      - lox pelt
+  mistlands:
+    low health: 180
+    high health: 800
+    resource map:
+      - refined eitr
+      - yggdrasil wood
+      - scale hide
+      - bilebag
+      - mandible
+      - carapace
+  ocean:
+    low health: 100
+    high health: 400
+    resource map:
+      - serpent scale
+      - chitin
+  blacklist:
+    - jewelers bag
+      
+gem drops:
+  meadows:
+    low health: 15
+    high health: 75
+# Use this, if you want to specify the distribution. Otherwise, it uses the gemstone formation distribution of the biome.    
+#    distribution:
+#      green: 0.82
+#      black: 0.03
+#      purple: 0.03
+#      blue: 0.03
+#      yellow: 0.03
+#      red: 0.03
+#      orange: 0.03
+  black forest:
+    low health: 45
+    high health: 150
+  swamp:
+    low health: 60
+    high health: 225
+  ash lands:
+    low health: 60
+    high health: 225
+  mountain:
+    low health: 90
+    high health: 375
+  plains:
+    low health: 120
+    high health: 500
+  mistlands:
+    low health: 150
+    high health: 800
+  ocean:
+    low health: 100
+    high health: 400
+  blacklist: []

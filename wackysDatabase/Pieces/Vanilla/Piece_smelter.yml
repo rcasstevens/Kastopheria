@@ -2,7 +2,7 @@ name: smelter
 piecehammer: Hammer
 m_name: $piece_smelter
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>'
+m_description: '<color=red>♻️<color=white>Low Efficiency'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -49,9 +49,9 @@ smelterData:
   fuelItem:
     name: Coal
   maxOre: 20
-  maxFuel: 40
+  maxFuel: 60
   fuelPerProduct: 3
-  secPerProduct: 90
+  secPerProduct: 75
   spawnStack: false
   requiresRoof: false
   addOreAnimationLength: 0

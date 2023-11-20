@@ -41,6 +41,7 @@ groups:
     - Seeker
     - SeekerBrood
   High Health Mobs:
+    - Serpent
     - Troll
     - Abomination
     - Stone Golem
@@ -114,7 +115,7 @@ Post Queen:
 # Prevent early creatures from being too annoying.
 creature:
   #Let there be more creatures!
-  amount: 1.12
+  amount: 1.08
   infusion:
     0:
       Lightning: 0
@@ -140,12 +141,13 @@ creature:
 
 # Prevent high health enemies from being too annoying
 High Health Mobs:
+  amount: default
   health per star:
-    0: 0.2
-    1: 0.25
-    2: 0.3
-    3: 0.35
-    4: 0.4
+    0: 0.3
+    1: 0.35
+    2: 0.4
+    3: 0.45
+    4: 0.5
 
 # Give certain enemies an innate resistance
 Lightning Resistant:
@@ -190,6 +192,20 @@ Lox:
     4: [18, 3, 0.1]
   Tamed:
     stars: default
+    
+# Nerf Boars
+Boar:
+  stars:
+    0: 0
+    1: [9, 1]
+    2: default
+    
+# Nerf Deer
+Deer:
+  stars:
+    0: 0
+    1: [9, 1]
+    2: default
 
 #Scary Skeeters
 Deathsquito:

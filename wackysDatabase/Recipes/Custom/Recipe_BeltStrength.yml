@@ -1,11 +1,11 @@
-name: GB_Parchment_Tool
-clonePrefabName: 
+name: Recipe_BeltStrength
+clonePrefabName: BeltStrength
 craftingStation: $piece_artisanstation
 minStationLevel: 1
 maxStationLevelCap: 
 repairStation: 
 amount: 1
-disabled: true
+disabled: false
 requireOnlyOneIngredient: false
 reqs:
-- FineWood:10:0:True
+- Coins:1250:1:True

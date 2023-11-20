@@ -1,13 +1,13 @@
-name: op_transmution_table
+name: forge_ext6
 piecehammer: Hammer
-m_name: $jc_transmution_table
+m_name: $piece_forge_ext6
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>$piece_craftingstation'
+m_description: Forge $piece_upgrade
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: ''
+craftingStation: $piece_workbench
 piecehammerCategory: Crafting
 minStationLevel: 1
 amount: 1
@@ -18,12 +18,12 @@ groundPiece: false
 ground: false
 waterPiece: false
 noInWater: true
-notOnFloor: false
+notOnFloor: true
 onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 200
+  health: 100
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
@@ -31,24 +31,20 @@ wearNTearData:
     m_chop: Weak
     m_pickaxe: Normal
     m_fire: Normal
-    m_frost: Normal
+    m_frost: Resistant
     m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
   noRoofWear: true
   noSupportWear: true
-  supports: true
+  supports: false
   triggerPrivateArea: true
-craftingStationData:
-  cStationCustomIcon: 
-  discoveryRange: 4
-  buildRange: 20
-  craftRequiresRoof: false
-  craftRequiresFire: false
-  showBasicRecipes: false
-  useDistance: 4
-  useAnimation: 1
-cSExtensionData: 
+craftingStationData: 
+cSExtensionData:
+  MainCraftingStationName: forge
+  maxStationDistance: 10
+  continousConnection: false
+  stack: false
 contData: 
 smelterData: 
 cookingStationData: 
@@ -56,6 +52,5 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
+- Iron:15:1:True
 - Wood:10:1:True
-- Flint:10:1:True
-- Resin:10:1:True

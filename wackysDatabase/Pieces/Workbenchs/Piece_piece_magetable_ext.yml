@@ -1,14 +1,14 @@
-name: Thorward
+name: piece_magetable_ext
 piecehammer: Hammer
-m_name: $piece_thorward
+m_name: $piece_magetable_ext
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>$piece_thorward_description'
+m_description: $piece_magetable $piece_upgrade
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_forge
-piecehammerCategory: Misc
+craftingStation: $piece_magetable
+piecehammerCategory: Crafting
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -17,30 +17,34 @@ comfort:
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: false
+noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 5000
+  health: 100
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
     m_pierce: Resistant
-    m_chop: Ignore
-    m_pickaxe: Ignore
+    m_chop: Weak
+    m_pickaxe: Normal
     m_fire: Normal
     m_frost: Resistant
     m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
-  noRoofWear: false
-  noSupportWear: false
+  noRoofWear: true
+  noSupportWear: true
   supports: false
   triggerPrivateArea: true
 craftingStationData: 
-cSExtensionData: 
+cSExtensionData:
+  MainCraftingStationName: piece_magetable
+  maxStationDistance: 10
+  continousConnection: false
+  stack: false
 contData: 
 smelterData: 
 cookingStationData: 
@@ -48,6 +52,6 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- FineWood:5:1:True
-- GreydwarfEye:5:1:True
-- SurtlingCore:1:1:True
+- BlackMarble:10:1:True
+- YggdrasilWood:5:1:True
+- Eitr:10:1:True

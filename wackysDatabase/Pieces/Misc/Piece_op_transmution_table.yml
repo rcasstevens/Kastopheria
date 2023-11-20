@@ -1,14 +1,14 @@
-name: stake_wall
+name: op_transmution_table
 piecehammer: Hammer
-m_name: $piece_stakewall
+m_name: $jc_transmution_table
 sizeMultiplier: 1
-m_description: 'Reinforced: 5k Health'
+m_description: '<color=red>♻️<color=white>$piece_craftingstation, <color=yellow>The table's station level controls number of available sockets.'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_workbench
-piecehammerCategory: Misc
+craftingStation: ''
+piecehammerCategory: Crafting
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -17,29 +17,37 @@ comfort:
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: false
+noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 5000
+  health: 200
   damageModifiers:
-    m_blunt: Resistant
+    m_blunt: Normal
     m_slash: Normal
     m_pierce: Resistant
     m_chop: Weak
     m_pickaxe: Normal
     m_fire: Normal
-    m_frost: Resistant
-    m_lightning: Resistant
+    m_frost: Normal
+    m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
-  noRoofWear: false
+  noRoofWear: true
   noSupportWear: true
   supports: true
   triggerPrivateArea: true
-craftingStationData: 
+craftingStationData:
+  cStationCustomIcon: 
+  discoveryRange: 4
+  buildRange: 20
+  craftRequiresRoof: false
+  craftRequiresFire: false
+  showBasicRecipes: false
+  useDistance: 4
+  useAnimation: 1
 cSExtensionData: 
 contData: 
 smelterData: 
@@ -48,5 +56,6 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- Wood:4:1:True
-- Resin:1:1:True
+- Wood:10:1:True
+- Flint:10:1:True
+- Resin:10:1:True

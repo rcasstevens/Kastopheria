@@ -1,11 +1,11 @@
-name: GB_Parchment_Tool
-clonePrefabName: 
+name: Recipe_HelmetDverger
+clonePrefabName: HelmetDverger
 craftingStation: $piece_artisanstation
 minStationLevel: 1
 maxStationLevelCap: 
 repairStation: 
 amount: 1
-disabled: true
+disabled: false
 requireOnlyOneIngredient: false
 reqs:
-- FineWood:10:0:True
+- Coins:850:1:True

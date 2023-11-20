@@ -1,14 +1,14 @@
-name: Raft
+name: piece_workbench
 piecehammer: Hammer
-m_name: $ship_raft
+m_name: $piece_workbench
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>Speed: 💨'
+m_description: '<color=red>♻️<color=white>$piece_craftingstation'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation:
-piecehammerCategory: Misc
+craftingStation: ''
+piecehammerCategory: Crafting
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -16,30 +16,38 @@ adminonly: false
 comfort: 
 groundPiece: false
 ground: false
-waterPiece: true
-noInWater: false
+waterPiece: false
+noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
-canBeRemoved: false
+canBeRemoved: true
 wearNTearData:
-  health: 400
+  health: 200
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
     m_pierce: Resistant
     m_chop: Weak
-    m_pickaxe: Resistant
+    m_pickaxe: Normal
     m_fire: Normal
-    m_frost: Resistant
-    m_lightning: Resistant
+    m_frost: Normal
+    m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
-  noRoofWear: false
-  noSupportWear: false
-  supports: true
+  noRoofWear: true
+  noSupportWear: true
+  supports: false
   triggerPrivateArea: true
-craftingStationData: 
+craftingStationData:
+  cStationCustomIcon: 
+  discoveryRange: 4
+  buildRange: 20
+  craftRequiresRoof: false
+  craftRequiresFire: false
+  showBasicRecipes: true
+  useDistance: 2
+  useAnimation: 1
 cSExtensionData: 
 contData: 
 smelterData: 
@@ -48,5 +56,4 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- RoundLog:20:1:True
-- LeatherScraps:10:1:True
+- Wood:10:1:True

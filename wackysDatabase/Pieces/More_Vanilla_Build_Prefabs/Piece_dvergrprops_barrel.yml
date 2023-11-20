@@ -1,14 +1,14 @@
-name: stake_wall
+name: dvergrprops_barrel
 piecehammer: Hammer
-m_name: $piece_stakewall
+m_name: Dvergr Fermenter
 sizeMultiplier: 1
-m_description: 'Reinforced: 5k Health'
+m_description: '<color=red>♻️<color=white>30% increased efficiency.'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
 craftingStation: $piece_workbench
-piecehammerCategory: Misc
+piecehammerCategory: Crafting
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -22,23 +22,7 @@ notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
-wearNTearData:
-  health: 5000
-  damageModifiers:
-    m_blunt: Resistant
-    m_slash: Normal
-    m_pierce: Resistant
-    m_chop: Weak
-    m_pickaxe: Normal
-    m_fire: Normal
-    m_frost: Resistant
-    m_lightning: Resistant
-    m_poison: Immune
-    m_spirit: Immune
-  noRoofWear: false
-  noSupportWear: true
-  supports: true
-  triggerPrivateArea: true
+wearNTearData: 
 craftingStationData: 
 cSExtensionData: 
 contData: 
@@ -48,5 +32,6 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- Wood:4:1:True
-- Resin:1:1:True
+- YggdrasilWood:20:1:True
+- Bronze:5:1:True
+- Resin:10:1:True

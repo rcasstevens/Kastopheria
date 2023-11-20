@@ -1,42 +1,42 @@
-name: MountainKit_brazier
+name: Thorward
 piecehammer: Hammer
-m_name: Standing brazier (everburning)
+m_name: $piece_thorward
 sizeMultiplier: 1
-m_description: 'Burns eternally without fuel.'
+m_description: '<color=red>♻️<color=white>Emits a magical seal on the nearby surroundings that prevents unfriendly players from preforming most actions.'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_forge
-piecehammerCategory: Furniture
+craftingStation:
+piecehammerCategory: Misc
 minStationLevel: 1
 amount: 1
 disabled: false
 adminonly: false
-comfort:
+comfort: 
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: true
+noInWater: false
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 100
+  health: 1000
   damageModifiers:
-    m_blunt: Normal
-    m_slash: Normal
-    m_pierce: Normal
-    m_chop: Normal
-    m_pickaxe: Normal
+    m_blunt: Immune
+    m_slash: Immune
+    m_pierce: Immune
+    m_chop: Immune
+    m_pickaxe: Immune
     m_fire: Immune
     m_frost: Immune
-    m_lightning: Normal
+    m_lightning: Immune
     m_poison: Immune
     m_spirit: Immune
   noRoofWear: false
-  noSupportWear: true
+  noSupportWear: false
   supports: false
   triggerPrivateArea: true
 craftingStationData: 
@@ -48,7 +48,6 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- Bronze:5:1:True
-- Coal:2:1:False
-- WolfClaw:3:1:True
-- SurtlingCore:5:1:True
+- FineWood:5:1:True
+- GreydwarfEye:5:1:True
+- SurtlingCore:1:1:True

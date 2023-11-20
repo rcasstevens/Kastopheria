@@ -1,0 +1,426 @@
+# Backpack parts can either be 'visible' or 'hidden'. To color them, use the hex code of the color you want to use.
+# Valid backpack parts are: ToolstrapBottom, Pickaxe, RingBottomLeft, BackpackBody, MetalclipLeft, ToolstrapTop, PouchFront, PouchLeft, Knifesheath, Knife, MetalclipFrontRight, Pot, Sleepbag, BackpackStrapTop, BackpackStrapBottom, MetalclipFrontLeft, BackpackFlap, Teapot.
+#
+# You can also use weight factor to make items in your backpack lighter!
+# weight factor: 0.8
+# Would mean that items in your backpack only weigh 80% of their original weight!
+# You can use teleport to allow every content in your backpack to be taken through a portal, even if it wouldn't work otherwise!
+# teleport: true
+# Would mean that you can put your ore into the backpack and take it through a portal!
+#
+# If you want no item restriction for your backpack, simply remove the "valid items" section of the config.
+#
+# Backpack parts can either be 'visible' or 'hidden'. To color them, use the hex code of the color you want to use.
+# Valid backpack parts are: ToolstrapBottom, Pickaxe, RingBottomLeft, BackpackBody, MetalclipLeft, ToolstrapTop, PouchFront, PouchLeft, Knifesheath, Knife, MetalclipFrontRight, Pot, Sleepbag, BackpackStrapTop, BackpackStrapBottom, MetalclipFrontLeft, BackpackFlap, Teapot.
+# Predefined item groups you can use for the valid items are:
+# ore, metal, food, potions, woods, trophy, boss trophy, valuable, seed, crop, stackable.
+# pants, chest, helmet, cape, armor.
+# axes, clubs, knives, pickaxes, polearms, spears, swords, bows, crossbows, weapon, arrows, bolts, ammo.
+# round shield, tower shield, shield.
+# special (fishing rod and megingjord), tool, equipment.
+#
+# You can also define your very own item groups!
+# groups:
+#   content of my backpack:
+#     - Stone
+#     - Wood
+#   content of my other backpack:
+#     - Silver
+#     - Iron
+# This would create the groups "content of my backpack" and "content of my other backpack" and allows you to use these groups as valid items for your backpack.
+
+groups:
+  gBuildingStage1:
+    - Wood
+    - Stone
+    - RoundLog
+    - BlackMarble
+  gOreStage1:
+    - CopperScrap
+    - CopperOre
+    - TinOre
+    - Copper
+    - Tin
+    - Bronze
+  gOreStage2:
+    - CopperScrap
+    - CopperOre
+    - TinOre
+    - Copper
+    - Tin
+    - Bronze
+    - IronScrap
+    - IronOre
+  gOreStage3:
+    - CopperScrap
+    - CopperOre
+    - TinOre
+    - Copper
+    - Tin
+    - Bronze
+    - IronScrap
+    - IronOre
+    - SilverOre
+    - Silver
+  gOreStage4:
+    - CopperScrap
+    - CopperOre
+    - TinOre
+    - Copper
+    - Tin
+    - Bronze
+    - IronScrap
+    - IronOre
+    - SilverOre
+    - Silver
+    - BlackMetalScrap
+    - BlackMetal
+
+"Explorers Satchel":
+  description: "An enchanted satchel which renders its contents 20% lighter."
+  size: 1x3
+  appearance:
+    Pot: hidden
+    Teapot: hidden
+    PouchFront: visible
+    PouchLeft: visible
+    MetalclipLeft: visible
+    ToolstrapBottom: visible
+    ToolstrapTop: hidden
+    Pickaxe: hidden
+    Knifesheath: hidden
+    Knife: hidden
+    RingBottomLeft: visible
+    Sleepbag: hidden
+    BackpackStrapTop: hidden
+    BackpackBody: visible
+    BackpackFlap: visible
+    BackpackStrapBottom: visible
+    MetalclipFrontRight: visible
+    MetalclipFrontLeft: visible
+  teleport: false
+  weight factor: 0.80
+  crafting:
+    station: Workbench
+    level: 4
+    costs:
+      GreydwarfEye: 21
+      TrollHide: 14
+      Bronze: 8
+      TrophyGreydwarfShaman: 1
+  upgrade:
+    1:
+      Bloodbag: 11
+      SerpentScale: 11
+      ScaleHide: 11
+      TrophyFenring: 1
+      size: 2x3
+    2:
+      Chain: 3
+      Carapace: 14
+      YmirRemains: 19
+      TrophyGoblinBrute: 1
+      size: 3x3
+
+"Portable Hole":
+  description: "A mysterious enchanted sack that displaces half of its weight to another plane."
+  size: 1x1
+  appearance:
+    Pot: hidden
+    Teapot: hidden
+    PouchFront: hidden
+    PouchLeft: hidden
+    MetalclipLeft: hidden
+    ToolstrapBottom: hidden
+    ToolstrapTop: hidden
+    Pickaxe: hidden
+    Knifesheath: hidden
+    Knife: hidden
+    RingBottomLeft: hidden
+    Sleepbag: hidden
+    BackpackStrapTop: hidden
+    BackpackBody: visible
+    BackpackFlap: visible
+    BackpackStrapBottom: hidden
+    MetalclipFrontRight: hidden
+    MetalclipFrontLeft: hidden
+  teleport: false
+  weight factor: 0.5
+  crafting:
+    station: Workbench
+    level: 6
+    costs:
+      Chain: 8
+      Entrails: 24
+      YmirRemains: 16
+      TrophyWraith: 1
+  upgrade:
+    1:
+      Thunderstone: 14
+      Amber: 6
+      SerpentScale: 17
+      TrophyGoblinShaman: 1
+      size: 1x3
+    2:
+      TrophyHare: 1
+      TrophyTick: 1
+      TrophyDvergr: 1
+      Ruby: 6
+      size: 1x5
+
+"Builders Satchel":
+  description: "An enchanted satchel that renders common building materials (wood,stone,roundlog,blackmarble) as light as feathers!"
+  size: 1x4
+  appearance:
+    Pot: hidden
+    Teapot: hidden
+    PouchFront: hidden
+    PouchLeft: hidden
+    MetalclipLeft: hidden
+    ToolstrapBottom: hidden
+    ToolstrapTop: hidden
+    Pickaxe: hidden
+    Knifesheath: hidden
+    Knife: hidden
+    RingBottomLeft: hidden
+    Sleepbag: hidden
+    BackpackStrapTop: hidden
+    BackpackBody: visible
+    BackpackFlap: visible
+    BackpackStrapBottom: hidden
+    MetalclipFrontRight: hidden
+    MetalclipFrontLeft: hidden
+  weight factor: 0.15
+  teleport: false
+  valid items:
+  - gBuildingStage1
+  crafting:
+    station: Workbench
+    level: 3
+    costs:
+      DeerHide: 18
+      GreydwarfEye: 27
+      Chitin: 21
+      TrophyEikthyr: 1
+  upgrade:
+    1:
+      SerpentScale: 13
+      Feathers: 34
+      LinenThread: 26
+      DragonTear: 13
+      size: 2x4
+
+"Shattered Backpack of Portability":
+  description: "A backpack enchanted with the spirit of The Elder capable of transporting copper, tin, and bronze through portals."
+  size: 1x1
+  appearance:
+    Pot: hidden
+    Teapot: hidden
+    PouchFront: hidden
+    PouchLeft: hidden
+    MetalclipLeft: hidden
+    ToolstrapBottom: hidden
+    ToolstrapTop: hidden
+    Pickaxe: hidden
+    Knifesheath: hidden
+    Knife: hidden
+    RingBottomLeft: hidden
+    Sleepbag: hidden
+    BackpackStrapTop: hidden
+    BackpackBody: visible
+    BackpackFlap: visible
+    BackpackStrapBottom: hidden
+    MetalclipFrontRight: hidden
+    MetalclipFrontLeft: hidden
+  valid items:
+  - gOreStage1
+  crafting:
+    station: Workbench
+    level: 4
+    costs:
+      TrollHide: 20
+      Shattered_Black_Crystal: 20
+      Shattered_Green_Crystal: 20
+      TrophyTheElder: 2
+  teleport: true
+  upgrade:
+    1:
+      TrophyTheElder: 1
+      Coins: 500
+      size: 2x1
+    2:
+      TrophyTheElder: 2
+      Coins: 1000
+      size: 3x1
+
+"Simple Backpack of Portability":
+  description: "A backpack enchanted with the spirit of Bonemass capable of transporting bronze and iron through portals."
+  size: 1x1
+  appearance:
+    Pot: hidden
+    Teapot: hidden
+    PouchFront: hidden
+    PouchLeft: visible
+    MetalclipLeft: visible
+    ToolstrapBottom: hidden
+    ToolstrapTop: hidden
+    Pickaxe: hidden
+    Knifesheath: hidden
+    Knife: hidden
+    RingBottomLeft: hidden
+    Sleepbag: visible
+    BackpackStrapTop: visible
+    BackpackBody: visible
+    BackpackFlap: visible
+    BackpackStrapBottom: visible
+    MetalclipFrontRight: visible
+    MetalclipFrontLeft: visible
+  valid items:
+  - gOreStage2
+  crafting:
+    station: Workbench
+    level: 5
+    costs:
+      ShatteredBackpackofPortability: 1
+      Simple_Green_Socket: 4
+      Simple_Black_Socket: 4
+      TrophyBonemass: 2
+  teleport: true
+  upgrade:
+    1:
+      TrophyBonemass: 1
+      Coins: 1000
+      size: 2x1
+    2:
+      TrophyBonemass: 2
+      Coins: 1500
+      size: 3x1
+
+"Advanced Backpack of Portability":
+  description: "A backpack enchanted with the spirit of Moder capable of transporting bronze, iron, and silver through portals."
+  size: 1x1
+  appearance:
+    Pot: hidden
+    Teapot: hidden
+    PouchFront: visible
+    PouchLeft: visible
+    MetalclipLeft: visible
+    ToolstrapBottom: hidden
+    ToolstrapTop: hidden
+    Pickaxe: hidden
+    Knifesheath: hidden
+    Knife: hidden
+    RingBottomLeft: visible
+    Sleepbag: hidden
+    BackpackStrapTop: hidden
+    BackpackBody: visible
+    BackpackFlap: visible
+    BackpackStrapBottom: visible
+    MetalclipFrontRight: visible
+    MetalclipFrontLeft: visible
+  valid items:
+  - gOreStage3
+  crafting:
+    station: Workbench
+    level: 6
+    costs:
+      SimpleBackpackofPortability: 1
+      Advanced_Red_Socket: 3
+      Advanced_Purple_Socket: 3
+      TrophyDragonQueen: 2
+  teleport: true
+  upgrade:
+    1:
+      TrophyDragonQueen: 1
+      Coins: 1500
+      size: 2x1
+    2:
+      TrophyDragonQueen: 2
+      Coins: 2000
+      size: 3x1
+
+"Perfect Backpack of Portability":
+  description: "A backpack enchanted with the spirit of Yagluth capable of transporting all known metals through portals."
+  size: 1x1
+  appearance:
+    Pot: visible
+    Teapot: visible
+    PouchFront: visible
+    PouchLeft: visible
+    MetalclipLeft: visible
+    ToolstrapBottom: visible
+    ToolstrapTop: visible
+    Pickaxe: visible
+    Knifesheath: visible
+    Knife: visible
+    RingBottomLeft: visible
+    Sleepbag: visible
+    BackpackStrapTop: visible
+    BackpackBody: visible
+    BackpackFlap: visible
+    BackpackStrapBottom: visible
+    MetalclipFrontRight: visible
+    MetalclipFrontLeft: visible
+  valid items:
+  - gOreStage4
+  crafting:
+    station: Workbench
+    level: 7
+    costs:
+      AdvancedBackpackofPortability: 1
+      TrophyGoblinKing: 2
+      Perfect_Blue_Socket: 2
+      Perfect_Yellow_Socket: 2
+  teleport: true
+  upgrade:
+    1:
+      TrophyGoblinKing: 1
+      Coins: 2000
+      size: 2x1
+    2:
+      TrophyGoblinKing: 2
+      Coins: 2500
+      size: 3x1
+
+"Mythical Backpack of Portability":
+  description: "The highest quality backpack enchanted with the spirit of The Queen capable of transporting all known metals through portals."
+  size: 4x1
+  appearance:
+    Pot: hidden
+    Teapot: hidden
+    PouchFront: visible
+    PouchLeft: visible
+    MetalclipLeft: visible
+    ToolstrapBottom: visible
+    ToolstrapTop: hidden
+    Pickaxe: hidden
+    Knifesheath: visible
+    Knife: visible
+    RingBottomLeft: visible
+    Sleepbag: hidden
+    BackpackStrapTop: hidden
+    BackpackBody: visible
+    BackpackFlap: visible
+    BackpackStrapBottom: visible
+    MetalclipFrontRight: visible
+    MetalclipFrontLeft: visible
+  valid items:
+  - gOreStage4
+  crafting:
+    station: Workbench
+    level: 7
+    costs:
+      PerfectBackpackofPortability: 1
+      TrophySeekerQueen: 1
+  teleport: true
+  upgrade:
+    1:
+      TrophySeekerQueen: 1
+      JC_Gacha_Coins: 10
+      Coins: 2500
+      size: 5x1
+    2:
+      TrophySeekerQueen: 1
+      JC_Gacha_Coins: 12
+      Coins: 5000
+      size: 3x2

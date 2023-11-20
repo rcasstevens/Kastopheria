@@ -1,4 +1,4 @@
-timezone: UTC
+timezone: America/New_York
 # Jobs checked every minute.
 interval: 60
 jobs:
@@ -48,8 +48,6 @@ jobs:
   - command: broadcast center <color=orange>Recycling... Ocean</color>
     schedule: "2 6 * * 1"
   - command: zones_reset safeZones=3 biomes=Ocean start
-    schedule: "2 6 * * 1"
-  - command: chests_reset looted biomes=Ocean
     schedule: "2 6 * * 1"
     #Swamp
   - command: broadcast center <color=orange>Recycling... Swamp</color>

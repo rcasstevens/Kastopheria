@@ -1,14 +1,14 @@
-name: Trailership
+name: forge_ext1
 piecehammer: Hammer
-m_name: 'Knarr'
+m_name: $piece_forge_ext1
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>Speed: 💨'
+m_description: $piece_forge $piece_upgrade
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
 craftingStation: $piece_workbench
-piecehammerCategory: Misc
+piecehammerCategory: Crafting
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -16,31 +16,35 @@ adminonly: false
 comfort: 
 groundPiece: false
 ground: false
-waterPiece: true
-noInWater: false
+waterPiece: false
+noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
-canBeRemoved: false
+canBeRemoved: true
 wearNTearData:
-  health: 2000
+  health: 100
   damageModifiers:
-    m_blunt: Resistant
-    m_slash: Resistant
+    m_blunt: Normal
+    m_slash: Normal
     m_pierce: Resistant
     m_chop: Weak
-    m_pickaxe: Resistant
-    m_fire: Weak
+    m_pickaxe: Normal
+    m_fire: Normal
     m_frost: Resistant
-    m_lightning: Resistant
+    m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
-  noRoofWear: false
-  noSupportWear: false
-  supports: true
+  noRoofWear: true
+  noSupportWear: true
+  supports: false
   triggerPrivateArea: true
 craftingStationData: 
-cSExtensionData: 
+cSExtensionData:
+  MainCraftingStationName: forge
+  maxStationDistance: 10
+  continousConnection: false
+  stack: false
 contData: 
 smelterData: 
 cookingStationData: 
@@ -48,7 +52,6 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- IronNails:100:1:True
-- DeerHide:40:1:True
-- FineWood:30:1:True
-- ElderBark:70:1:True
+- Wood:5:1:True
+- DeerHide:5:1:True
+- Chain:4:1:True

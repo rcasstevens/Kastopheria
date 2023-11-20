@@ -2,3 +2,61 @@ magnetic:
   slot: spear
   gem: black
   power: [30, 60, 95]
+
+gems:
+  meadows:
+    green: 0.88
+    black: 0.02
+    purple: 0.02
+    blue: 0.02
+    yellow: 0.02
+    red: 0.02
+    orange: 0.02
+  black forest:
+    green: 0.02
+    black: 0.88
+    purple: 0.02
+    blue: 0.02
+    yellow: 0.02
+    red: 0.02
+    orange: 0.02
+  swamp:
+    green: 0.02
+    black: 0.02
+    purple: 0.67
+    blue: 0.02
+    yellow: 0.02
+    red: 0.23
+    orange: 0.02
+  mountain:
+    green: 0.02
+    black: 0.02
+    purple: 0.02
+    blue: 0.72
+    yellow: 0.02
+    red: 0.18
+    orange: 0.02
+  plains:
+    green: 0.02
+    black: 0.02
+    purple: 0.02
+    blue: 0.02
+    yellow: 0.77
+    red: 0.13
+    orange: 0.02
+  mistlands:
+    green: 0.02
+    black: 0.02
+    purple: 0.02
+    blue: 0.02
+    yellow: 0.02
+    red: 0.08
+    orange: 0.82
+  ash lands:
+    green: 0.0
+    black: 0.0
+    purple: 0.0
+    blue: 0.0
+    yellow: 0.0
+    red: 0.0
+    orange: 0.0
