@@ -1,7 +1,7 @@
-name: CapeTrollHide
-m_weight: 4
-m_name: $item_cape_trollhide
-m_description: $item_cape_trollhide_description
+name: GB_Parchment_Tool
+m_weight: 2
+m_name: $GB_Parchment_Tool
+m_description: '<color=red>This tool is not needed. Please use the Hammer instead.</color>'
 clonePrefabName: 
 mockName: 
 customIcon: 
@@ -14,15 +14,14 @@ Secondary_Attack:
 Damage: 
 Damage_Per_Level: 
 Armor:
-  armor: 1
+  armor: 10
   armorPerLevel: 1
 FoodStats: 
 Moddifiers:
   m_movementModifier: 0
   m_EitrRegen: 0
 SE_Equip: 
-SE_SET_Equip:
-  EffectName: delete
+SE_SET_Equip: 
 ShieldStats:
   m_blockPower: 10
   m_blockPowerPerLevel: 0
@@ -43,22 +42,22 @@ m_knockback: 10
 m_useDurability: true
 m_useDurabilityDrain: 1
 m_durabilityDrain: 0
-m_maxDurability: 500
-m_durabilityPerLevel: 50
-m_equipDuration: 2
+m_maxDurability: 600
+m_durabilityPerLevel: 100
+m_equipDuration: 0
 m_skillType: Swords
 m_animationState: OneHanded
-m_itemType: Shoulder
-m_toolTier: 1
-m_maxQuality: 4
+m_itemType: Tool
+m_toolTier: 0
+m_maxQuality: 3
 m_value: 0
 ConsumableStatusEffect: 
-damageModifiers:
-- Water:Resistant
+damageModifiers: []
 GEffects:
   Hit_Effects: 
   Hit_Terrain_Effects: 
   Start_Effect: 
   Hold_Start_Effects: 
-  Trigger_Effect: 
+  Trigger_Effect:
+  - sfx_build_hammer_default
   Trail_Effect: 

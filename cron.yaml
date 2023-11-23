@@ -1,4 +1,4 @@
-timezone: America/New_York
+timezone: Eastern Standard Time
 # Jobs checked every minute.
 interval: 60
 jobs:

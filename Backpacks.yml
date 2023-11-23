@@ -77,8 +77,8 @@ groups:
     - BlackMetal
 
 "Explorers Satchel":
-  description: "An enchanted satchel which renders its contents 20% lighter."
-  size: 1x3
+  description: 'An enchanted satchel which renders its contents 20% lighter. <color=orange>Cannot transport metal.</color>'
+  size: 2x2
   appearance:
     Pot: hidden
     Teapot: hidden
@@ -102,29 +102,106 @@ groups:
   weight factor: 0.80
   crafting:
     station: Workbench
-    level: 4
+    level: 2
     costs:
-      GreydwarfEye: 21
-      TrollHide: 14
-      Bronze: 8
-      TrophyGreydwarfShaman: 1
+      TrollHide: 15
+      Feathers: 12
+      Tin: 8
+      TrophyEikthyr: 1
   upgrade:
     1:
-      Bloodbag: 11
-      SerpentScale: 11
-      ScaleHide: 11
+      Bloodbag: 15
+      SerpentScale: 12
       TrophyFenring: 1
-      size: 2x3
-    2:
-      Chain: 3
-      Carapace: 14
-      YmirRemains: 19
-      TrophyGoblinBrute: 1
-      size: 3x3
+      size: 3x2
+
+"Builders Satchel":
+  description: 'An enchanted satchel that reduces the weight of common building materials by 40%. (wood, stone, roundlog, blackmarble)'
+  size: 1x4
+  appearance:
+    Pot: hidden
+    Teapot: hidden
+    PouchFront: hidden
+    PouchLeft: hidden
+    MetalclipLeft: hidden
+    ToolstrapBottom: hidden
+    ToolstrapTop: hidden
+    Pickaxe: hidden
+    Knifesheath: hidden
+    Knife: hidden
+    RingBottomLeft: hidden
+    Sleepbag: hidden
+    BackpackStrapTop: hidden
+    BackpackBody: visible
+    BackpackFlap: visible
+    BackpackStrapBottom: hidden
+    MetalclipFrontRight: hidden
+    MetalclipFrontLeft: hidden
+  weight factor: 0.60
+  teleport: false
+  valid items:
+  - gBuildingStage1
+  crafting:
+    station: Workbench
+    level: 2
+    costs:
+      DeerHide: 15
+      LeatherScraps: 12
+      Tin: 8
+      TrophyFrostTroll: 1
+  upgrade:
+    1:
+      TrollHide: 15
+      Chain: 8
+      Bronze: 8
+      Tar: 2
+      size: 2x4
+
+"Builders Backpack":
+  description: 'An enchanted backpack that reduces the weight of common building materials by 80%. (wood, stone, roundlog, blackmarble)'
+  size: 2x5
+  appearance:
+    Pot: hidden
+    Teapot: hidden
+    PouchFront: visible
+    PouchLeft: visible
+    MetalclipLeft: visible
+    ToolstrapBottom: hidden
+    ToolstrapTop: hidden
+    Pickaxe: hidden
+    Knifesheath: hidden
+    Knife: hidden
+    RingBottomLeft: visible
+    Sleepbag: hidden
+    BackpackStrapTop: hidden
+    BackpackBody: visible
+    BackpackFlap: visible
+    BackpackStrapBottom: visible
+    MetalclipFrontRight: visible
+    MetalclipFrontLeft: visible
+  weight factor: 0.2
+  teleport: false
+  valid items:
+  - gBuildingStage1
+  crafting:
+    station: Workbench
+    level: 4
+    costs:
+      BuildersSatchel: 1
+      WolfPelt: 15
+      Chain: 6
+      Bronze: 6
+  upgrade:
+    1:
+      SerpentScale: 12
+      WolfPelt: 15
+      Silver: 8
+      Chain: 8
+      size: 2x6
 
 "Portable Hole":
-  description: "A mysterious enchanted sack that displaces half of its weight to another plane."
-  size: 1x1
+  description: 'An enchanted sack of mystery that displaces half of its weight to another plane of existence. <color=orange>Cannot transport metal.</color>'
+  size: 2x3
   appearance:
     Pot: hidden
     Teapot: hidden
@@ -148,67 +225,19 @@ groups:
   weight factor: 0.5
   crafting:
     station: Workbench
-    level: 6
+    level: 5
     costs:
-      Chain: 8
-      Entrails: 24
-      YmirRemains: 16
-      TrophyWraith: 1
+      bp_explorer: 1
+      SerpentScale: 12
+      Silver: 8
+      TrophyDragonQueen: 1
   upgrade:
     1:
-      Thunderstone: 14
-      Amber: 6
-      SerpentScale: 17
-      TrophyGoblinShaman: 1
-      size: 1x3
-    2:
-      TrophyHare: 1
-      TrophyTick: 1
-      TrophyDvergr: 1
-      Ruby: 6
-      size: 1x5
-
-"Builders Satchel":
-  description: "An enchanted satchel that renders common building materials (wood,stone,roundlog,blackmarble) as light as feathers!"
-  size: 1x4
-  appearance:
-    Pot: hidden
-    Teapot: hidden
-    PouchFront: hidden
-    PouchLeft: hidden
-    MetalclipLeft: hidden
-    ToolstrapBottom: hidden
-    ToolstrapTop: hidden
-    Pickaxe: hidden
-    Knifesheath: hidden
-    Knife: hidden
-    RingBottomLeft: hidden
-    Sleepbag: hidden
-    BackpackStrapTop: hidden
-    BackpackBody: visible
-    BackpackFlap: visible
-    BackpackStrapBottom: hidden
-    MetalclipFrontRight: hidden
-    MetalclipFrontLeft: hidden
-  weight factor: 0.15
-  teleport: false
-  valid items:
-  - gBuildingStage1
-  crafting:
-    station: Workbench
-    level: 3
-    costs:
-      DeerHide: 18
-      GreydwarfEye: 27
-      Chitin: 21
-      TrophyEikthyr: 1
-  upgrade:
-    1:
-      SerpentScale: 13
-      Feathers: 34
-      LinenThread: 26
-      DragonTear: 13
-      size: 2x4
+      ScaleHide: 14
+      Silver: 12
+      Chain: 6
+      DragonTear: 10
+      size: 2x5
 
 "Shattered Backpack of Portability":
   description: "A backpack enchanted with the spirit of The Elder capable of transporting copper, tin, and bronze through portals."

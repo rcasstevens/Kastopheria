@@ -14,6 +14,29 @@ amount: 1
 disabled: false
 adminonly: false
 comfort: 
+  comfort: 1
+  comfortGroup: None
+  comfortObject: &o0
+    transform: []
+    layer: 0
+    active: false
+    activeSelf: false
+    activeInHierarchy: false
+    isStatic: false
+    tag: Untagged
+    scene:
+      handle: 0
+      path: 
+      name: 
+      isLoaded: false
+      buildIndex: -1
+      isDirty: false
+      rootCount: 0
+      isSubScene: true
+    sceneCullingMask: 16140901064495857664
+    gameObject: *o0
+    name: Burning
+    hideFlags: None
 groundPiece: false
 ground: false
 waterPiece: false

@@ -18,6 +18,10 @@
   Stack: 1
   Price: 1200
   Required Global Key: 'defeated_bonemass'
+- Prefab: Demister
+  Stack: 1
+  Price: 2500
+  Required Global Key: 'defeated_yagluth'
 - Prefab: QueenBee
   Stack: 1
   Price: 1200

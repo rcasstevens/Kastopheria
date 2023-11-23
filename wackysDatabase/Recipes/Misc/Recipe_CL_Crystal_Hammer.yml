@@ -1,6 +1,6 @@
-name: GB_Parchment_Tool
+name: CL_Crystal_Hammer
 clonePrefabName: 
-craftingStation: $piece_artisanstation
+craftingStation: $piece_workbench
 minStationLevel: 1
 maxStationLevelCap: 
 repairStation: 
@@ -8,4 +8,6 @@ amount: 1
 disabled: true
 requireOnlyOneIngredient: false
 reqs:
-- FineWood:10:0:True
+- SledgeCheat:1:0:True
+- Uncut_Red_Stone:1:0:True
+- Wood:1:0:True

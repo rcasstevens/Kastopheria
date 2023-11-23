@@ -2,7 +2,7 @@ name: portal_wood
 piecehammer: Hammer
 m_name: $piece_portal
 sizeMultiplier: 1
-m_description: '<color=red>♻</color>Teleports:<color=#AFC> Players, tamed followers, carts, <color=white>and a chance of nearby <color=orange>Hostiles<color=white>.'
+m_description: '<color=red>♻</color>'
 customIcon: 
 clonePrefabName: 
 material: 

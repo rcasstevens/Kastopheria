@@ -1,7 +1,7 @@
-name: SurtlingCore
-m_weight: 10
-m_name: $item_surtlingcore
-m_description: $item_surtlingcore_description
+name: bp_explorer
+m_weight: 4
+m_name: ExplorersBackpack
+m_description: 'An enchanted backpack which renders its contents 35% lighter. <color=orange>Cannot transport metal.</color>'
 clonePrefabName: 
 mockName: 
 customIcon: 
@@ -14,7 +14,7 @@ Secondary_Attack:
 Damage: 
 Damage_Per_Level: 
 Armor:
-  armor: 10
+  armor: 1
   armorPerLevel: 1
 FoodStats: 
 Moddifiers:
@@ -28,9 +28,9 @@ ShieldStats:
   m_timedBlockBonus: 1.5
   m_deflectionForce: 0
   m_deflectionForcePerLevel: 0
-m_maxStackSize: 20
-m_canBeReparied: true
-m_destroyBroken: true
+m_maxStackSize: 1
+m_canBeReparied: false
+m_destroyBroken: false
 m_dodgeable: false
 Attack_status_effect: 
 spawn_on_hit: 
@@ -38,18 +38,18 @@ spawn_on_terrain_hit:
 m_questItem: false
 m_teleportable: true
 m_backstabbonus: 4
-m_knockback: 50
+m_knockback: 10
 m_useDurability: false
 m_useDurabilityDrain: 1
 m_durabilityDrain: 0
-m_maxDurability: 100
+m_maxDurability: 1200
 m_durabilityPerLevel: 50
-m_equipDuration: 1
+m_equipDuration: 2
 m_skillType: Swords
 m_animationState: OneHanded
-m_itemType: Material
+m_itemType: Misc
 m_toolTier: 0
-m_maxQuality: 1
+m_maxQuality: 2
 m_value: 0
 ConsumableStatusEffect: 
 damageModifiers: []

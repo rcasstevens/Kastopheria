@@ -1,7 +1,7 @@
-name: bp_explorer
-m_weight: 4
-m_name: $item_explorer
-m_description: '<color=red>Unused - <color=orange>This backpack is not meant to be used in-game. Please craft the Explorers Satchel'
+name: CL_Crystal_Hammer
+m_weight: 2
+m_name: $CL_Crystal_Hammer
+m_description: '<color=red>This tool is not needed. Please use the Hammer instead.</color>'
 clonePrefabName: 
 mockName: 
 customIcon: 
@@ -14,7 +14,7 @@ Secondary_Attack:
 Damage: 
 Damage_Per_Level: 
 Armor:
-  armor: 1
+  armor: 10
   armorPerLevel: 1
 FoodStats: 
 Moddifiers:
@@ -29,7 +29,7 @@ ShieldStats:
   m_deflectionForce: 0
   m_deflectionForcePerLevel: 0
 m_maxStackSize: 1
-m_canBeReparied: false
+m_canBeReparied: true
 m_destroyBroken: false
 m_dodgeable: false
 Attack_status_effect: 
@@ -39,17 +39,17 @@ m_questItem: false
 m_teleportable: true
 m_backstabbonus: 4
 m_knockback: 10
-m_useDurability: false
+m_useDurability: true
 m_useDurabilityDrain: 1
 m_durabilityDrain: 0
-m_maxDurability: 1200
-m_durabilityPerLevel: 50
-m_equipDuration: 2
+m_maxDurability: 100
+m_durabilityPerLevel: 100
+m_equipDuration: 0
 m_skillType: Swords
 m_animationState: OneHanded
-m_itemType: Misc
+m_itemType: Tool
 m_toolTier: 0
-m_maxQuality: 5
+m_maxQuality: 3
 m_value: 0
 ConsumableStatusEffect: 
 damageModifiers: []
@@ -58,5 +58,6 @@ GEffects:
   Hit_Terrain_Effects: 
   Start_Effect: 
   Hold_Start_Effects: 
-  Trigger_Effect: 
+  Trigger_Effect:
+  - sfx_build_hammer_default
   Trail_Effect: 

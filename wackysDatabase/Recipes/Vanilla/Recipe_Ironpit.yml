@@ -8,5 +8,5 @@ amount: 1
 disabled: false
 requireOnlyOneIngredient: false
 reqs:
-- Iron:20:1:True
-- Coal:10:1:True
+- Iron:10:1:True
+- Coal:5:1:True

@@ -1,21 +1,17 @@
 PlayerHair (Instance)
 PlayerMaterial (Instance)
-neck
-Guardstone_Oden_marble (Instance)
-Guardstone_OdenGlow_mat (Instance)
-portal (Instance)
 bossstone_metal (Instance)
 bossstone_yagluth_mat (Instance)
-bossstone_metal (Instance)
-bossstone_seekerqueen_mat (Instance)
 bossstone_dragonqueen_mat (Instance)
 bossstone_metal (Instance)
-bossstone_eikthyr (Instance)
 bossstone_metal (Instance)
-bossstone_metal (Instance)
-bossstone_theelder (Instance)
+bossstone_seekerqueen_mat (Instance)
 bossstone_metal (Instance)
 bossstone_bonemass (Instance)
+bossstone_metal (Instance)
+bossstone_theelder (Instance)
+bossstone_eikthyr (Instance)
+bossstone_metal (Instance)
 water (Instance)
 Heightmap_basematerial
 water (Instance)
@@ -66,6 +62,313 @@ water (Instance)
 Heightmap_basematerial
 water (Instance)
 Heightmap_basematerial
+cloud_plane (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance) (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
+BackPack (Instance)
 Heightmap_basematerial_lod
 Heightmap_basematerial_lod
 Heightmap_basematerial_lod
@@ -80,7 +383,6 @@ PostFX - Uber Shader
 Hidden/Internal-CombineDepthNormals
 PostFX - Fog
 PostFX - Temporal Anti-aliasing
-cloud_plane (Instance)
 minimap(Clone)
 minimap(Clone)
 Hidden/SimpleClear
@@ -88,6 +390,10 @@ Hidden/SunShaftsComposite
 _REPLACE_beech_stump (Instance)
 _REPLACE_fi_village_forge (Instance)
 shieldwood (Instance)
+CustomArmorStand
+Blue (Instance)
+Green (Instance)
+Red (Instance)
 Standard (Instance)
 Standard (Instance)
 Standard (Instance)
@@ -332,7 +638,8 @@ stone_mat_worn (Instance)
 stone_mat_worn (Instance)
 stone_mat (Instance)
 stone_mat (Instance)
-JVLmock_stone_mat (Instance)
+fog (Instance)(Clone)
+fog (Instance)
 Hidden/Internal-MotionVectors
 Hidden/CubeBlend
 Hidden/CubeCopy
@@ -362,110 +669,189 @@ Hidden/BlitCopy
 Hidden/BlitCopy
 Hidden/Internal-DeferredReflections
 ToonDeferredShading2017
+CustomStoneColor (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+CustomStoneColor (Instance)
+CustomStoneColor (Instance)
+CustomStoneColor (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomStoneColor (Instance)
+CustomStoneColor (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+CustomStoneColor (Instance)
+CustomStoneColor (Instance)
+CustomStoneColor (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomRawStone (Instance)
+CustomStoneColor (Instance)
+CustomStoneColor (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+JC_Material_High (Instance)
+JC_Material_Low (Instance)
+JC_Material_Low (Instance)
+CustomStoneColor (Instance)
 Default UI Material
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_Low (Instance)
-JC_Material_High (Instance)
-JC_Material_Low (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_Low (Instance)
-JC_Material_High (Instance)
-JC_Material_Low (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_High (Instance)
-JC_Material_Low (Instance)
-JC_Material_Low (Instance)
-JC_Material_High (Instance)
-JC_Material_Low (Instance)
-JC_Material_Low (Instance)
-JC_Material_High (Instance)
-JC_Material_Low (Instance)
-JC_Material_Low (Instance)
-JC_Material_High (Instance)
-JC_Material_Low (Instance)
-JC_Material_Low (Instance)
-JC_Material_High (Instance)
-JC_Material_Low (Instance)
-JC_Material_Low (Instance)
-JC_Material_High (Instance)
-JC_Material_Low (Instance)
-JC_Material_Low (Instance)
-JC_Material_High (Instance)
-JC_Material_Low (Instance)
-JC_Material_Low (Instance)
-JC_Material_High (Instance)
-JC_Material_Low (Instance)
-JC_Material_Low (Instance)
-JC_Material_High (Instance)
-JC_Material_Low (Instance)
-JC_Material_Low (Instance)
-JC_Material_High (Instance)
-JC_Material_Low (Instance)
-JC_Material_Low (Instance)
-JC_Material_High (Instance)
-JC_Material_Low (Instance)
-JC_Material_Low (Instance)
-JC_Material_High (Instance)
-JC_Material_Low (Instance)
-JC_Material_Low (Instance)
-CustomRawStone (Instance)
-CustomRawStone (Instance)
-CustomRawStone (Instance)
-CustomRawStone (Instance)
-CustomRawStone (Instance)
-CustomRawStone (Instance)
-CustomRawStone (Instance)
-CustomRawStone (Instance)
-CustomRawStone (Instance)
-CustomRawStone (Instance)
-CustomRawStone (Instance)
-CustomRawStone (Instance)
-CustomRawStone (Instance)
-CustomStoneColor (Instance)
-CustomStoneColor (Instance)
-CustomStoneColor (Instance)
-CustomStoneColor (Instance)
-CustomStoneColor (Instance)
-CustomStoneColor (Instance)
 Sprites/Mask
 
 Sprites-Default
@@ -578,8 +964,67 @@ Font Material
 TextMeshPro/Sprite
 TextMeshPro/Sprite
 Default-Skybox
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
 _REPLACE_beech_stump
 _REPLACE_fi_village_forge
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
+Font Material
+ForceFieldBasicTriplanar08
+block_wave
+Guardstone_OdenGlow_mat 2
+pixel_unlit
+fog
+glow_pulse
+gnista
+shield
+Guardstone_Oden_mat 1
+glow
+lighting
+lightning_sparcs
+rune_01_mat 3
+inrange_material
+thorGlow
+extensionconnection
+stone
+Plane004Mat
+Plane003Mat
+rune_01_mat 1
+aoe_shockwave
+sawdust
+light_glow
+Plane002Mat
+dust_particle
+Default-Particle
+ForceFieldDistortion08
+rune_01_mat 2
+station_radius
+rune_01_mat
+item_particle
+vds_dvergerhat
+vds_dvergerhat_stone
 JVLmock_stone_mat_worn
 JVLmock_stone_mat
 JVLmock_straw_roof_alpha
@@ -597,6 +1042,10 @@ Norsebold SDF Material
 JVLmock_ironchest
 JVLmock_stonefloor_2x2
 JVLmock_stonefloor_2x2_worn
+JVLmock_lithud
+Green
+Blue
+Red
 Floor_Cobblestone_Mat3
 pixel_unlit
 fog
@@ -643,6 +1092,11 @@ dfk_wall_b8
 dfk_wall_b5
 Floor_Wood6
 4421
+Floor_Cobblestone_Mat7
+HearthAshes_mat
+Fire_B
+aoe_smoke
+HearthAshesBurn_mat
 _REPLACE_GLASS_MAT
 _REPLACE_Wood_Floor_2
 Floor_Cobblestone_Mat6
@@ -660,14 +1114,12 @@ dfk_moldings_01
 dfk_gatewall_large
 dfk_irongrate_01_albedoalpha
 dfk_ironfence
+fire_log
 Ladder_Mat
 dfk_flag_pattern
 Cauldron_01_Mat
 _REPLACE_Tile_Roof_3
-Floor_Cobblestone_Mat7
 dfk_wall_b4
-Fire_B
-fire_log
 dfk_irongrate_01
 Furniture_01_Mat
 dfk_chair_01
@@ -702,6 +1154,9 @@ Potions_01_Mat
 Floor_Cobblestone_Mat13
 Barrel_Break_Mat
 dfk_tablecloth_run1
+item_particle
+Default-Material
+BackPack
 Trail48cg
 Ice3
 Gradient17cg2
@@ -921,7 +1376,6 @@ Uncommon Pulse
 Epic Back Glow
 Common Front Beam
 Common Back Beam
-StoneBlue 10
 Rare Spark
 sparkle_ADD
 sparkle2_ADD
@@ -1001,6 +1455,27 @@ axe9_d
 spear6_d1
 mace2_d1
 sword10_d
+light_glow
+HearthAshesBurn_mat
+p01_or_04
+HearthNew_mat
+flame2
+RavenThrone_Mat
+potion_03_glass
+item_particle
+fog
+flame
+rug_fur
+p01_or_04
+fireplace_ash
+fire_log
+smoke
+stone
+fireplace_ash_glowing
+ashrain_zinder
+flame2_large
+flame_large
+Bonfire_mat
 Material.002
 Material
 Default-Particle

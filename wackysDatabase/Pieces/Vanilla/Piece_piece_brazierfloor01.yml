@@ -1,14 +1,14 @@
-name: fire_pit_iron
+name: piece_brazierfloor01
 piecehammer: Hammer
-m_name: $piece_firepit_iron
+m_name: $piece_brazierfloor01
 sizeMultiplier: 1
 m_description: '<color=red>♻️<color=white>'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: ''
-piecehammerCategory: Misc
+craftingStation: $piece_forge
+piecehammerCategory: Furniture
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -16,17 +16,49 @@ adminonly: false
 comfort:
   comfort: 1
   comfortGroup: Fire
-  comfortObject:
+  comfortObject: &o0
+    transform:
+    - []
+    - []
+    - []
+    - []
+    - []
+    - []
+    - - []
+      - []
+      - []
+    - - []
+      - []
+      - []
+    layer: 10
+    active: false
+    activeSelf: false
+    activeInHierarchy: false
+    isStatic: false
+    tag: Untagged
+    scene:
+      handle: 0
+      path: 
+      name: 
+      isLoaded: false
+      buildIndex: -1
+      isDirty: false
+      rootCount: 0
+      isSubScene: true
+    sceneCullingMask: 16140901064495857664
+    gameObject: *o0
+    name: _enabled_high
+    hideFlags: None
 groundPiece: false
 ground: false
 waterPiece: false
 noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
-allowedInDungeons: true
+allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 200
+  health: 100
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
@@ -51,5 +83,6 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- Ironpit:1:1:True
-- Wood:1:1:False
+- Bronze:5:1:True
+- Coal:2:1:False
+- WolfClaw:3:1:True

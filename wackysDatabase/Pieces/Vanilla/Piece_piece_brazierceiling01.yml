@@ -1,6 +1,6 @@
-name: piece_brazierfloor01
+name: piece_brazierceiling01
 piecehammer: Hammer
-m_name: $piece_brazierfloor01
+m_name: $piece_brazierceiling01
 sizeMultiplier: 1
 m_description: '<color=red>♻️<color=white>'
 customIcon: 
@@ -16,7 +16,39 @@ adminonly: false
 comfort:
   comfort: 1
   comfortGroup: Fire
-  comfortObject:
+  comfortObject: &o0
+    transform:
+    - []
+    - []
+    - []
+    - []
+    - []
+    - []
+    - - []
+      - []
+      - []
+    - - []
+      - []
+      - []
+    layer: 10
+    active: false
+    activeSelf: false
+    activeInHierarchy: false
+    isStatic: false
+    tag: Untagged
+    scene:
+      handle: 0
+      path: 
+      name: 
+      isLoaded: false
+      buildIndex: -1
+      isDirty: false
+      rootCount: 0
+      isSubScene: true
+    sceneCullingMask: 16140901064495857664
+    gameObject: *o0
+    name: _enabled_high
+    hideFlags: None
 groundPiece: false
 ground: false
 waterPiece: false
@@ -40,7 +72,7 @@ wearNTearData:
     m_spirit: Immune
   noRoofWear: false
   noSupportWear: true
-  supports: false
+  supports: true
   triggerPrivateArea: true
 craftingStationData: 
 cSExtensionData: 
@@ -53,4 +85,4 @@ sapData:
 build:
 - Bronze:5:1:True
 - Coal:2:1:False
-- WolfClaw:3:1:True
+- Chain:1:1:True

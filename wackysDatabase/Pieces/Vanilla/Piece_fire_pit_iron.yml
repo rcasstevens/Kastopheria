@@ -1,8 +1,8 @@
-name: fire_pit_haldor
+name: fire_pit_iron
 piecehammer: Hammer
-m_name: Campfire (everburning)
+m_name: $piece_firepit_iron
 sizeMultiplier: 1
-m_description: Burns eternally without fuel.
+m_description: '<color=red>♻️<color=white>'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -11,14 +11,13 @@ craftingStation: ''
 piecehammerCategory: Misc
 minStationLevel: 1
 amount: 1
-disabled: true
+disabled: false
 adminonly: false
 comfort:
   comfort: 1
   comfortGroup: Fire
   comfortObject: &o0
     transform:
-    - []
     - []
     - []
     - []
@@ -56,9 +55,25 @@ waterPiece: false
 noInWater: true
 notOnFloor: false
 onlyinTeleportArea: false
-allowedInDungeons: false
+allowedInDungeons: true
 canBeRemoved: true
-wearNTearData: 
+wearNTearData:
+  health: 200
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Normal
+    m_chop: Normal
+    m_pickaxe: Normal
+    m_fire: Immune
+    m_frost: Immune
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: false
+  noSupportWear: true
+  supports: false
+  triggerPrivateArea: true
 craftingStationData: 
 cSExtensionData: 
 contData: 
@@ -68,6 +83,5 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- Stone:5:1:True
-- Wood:2:1:True
-- BlackCore:1:1:True
+- Ironpit:1:1:True
+- Wood:1:1:False

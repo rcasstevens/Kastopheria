@@ -1,22 +1,48 @@
-name: piece_brazierceiling01
+name: hearth
 piecehammer: Hammer
-m_name: $piece_brazierceiling01
+m_name: $piece_hearth
 sizeMultiplier: 1
 m_description: '<color=red>♻️<color=white>'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_forge
-piecehammerCategory: Furniture
+craftingStation: $piece_stonecutter
+piecehammerCategory: Misc
 minStationLevel: 1
 amount: 1
 disabled: false
 adminonly: false
 comfort:
-  comfort: 1
+  comfort: 2
   comfortGroup: Fire
-  comfortObject:
+  comfortObject: &o0
+    transform:
+    - []
+    - []
+    - []
+    - []
+    - []
+    - []
+    layer: 10
+    active: false
+    activeSelf: false
+    activeInHierarchy: false
+    isStatic: false
+    tag: Untagged
+    scene:
+      handle: 0
+      path: 
+      name: 
+      isLoaded: false
+      buildIndex: -1
+      isDirty: false
+      rootCount: 0
+      isSubScene: true
+    sceneCullingMask: 16140901064495857664
+    gameObject: *o0
+    name: _enabled
+    hideFlags: None
 groundPiece: false
 ground: false
 waterPiece: false
@@ -26,12 +52,12 @@ onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 100
+  health: 1500
   damageModifiers:
-    m_blunt: Normal
-    m_slash: Normal
-    m_pierce: Normal
-    m_chop: Normal
+    m_blunt: Resistant
+    m_slash: Resistant
+    m_pierce: Resistant
+    m_chop: Resistant
     m_pickaxe: Normal
     m_fire: Immune
     m_frost: Immune
@@ -51,6 +77,4 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- Bronze:5:1:True
-- Coal:2:1:False
-- Chain:1:1:True
+- Stone:15:1:True
