@@ -54,7 +54,7 @@ m_maxQuality: 4
 m_value: 0
 ConsumableStatusEffect: 
 damageModifiers:
-- Water:Resistant
+- Water:VeryResistant
 GEffects:
   Hit_Effects: 
   Hit_Terrain_Effects: 

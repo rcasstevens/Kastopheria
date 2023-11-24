@@ -42,10 +42,6 @@ wearNTearData:
 craftingStationData: 
 cSExtensionData: 
 contData:
-  Width: 6
-  Height: 4
-  CheckWard: true
-  AutoDestoryIfEmpty: false
 smelterData: 
 cookingStationData: 
 fermStationData: 

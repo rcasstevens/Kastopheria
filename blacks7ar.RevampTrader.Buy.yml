@@ -21,7 +21,7 @@
 - Prefab: Demister
   Stack: 1
   Price: 2500
-  Required Global Key: 'defeated_yagluth'
+  Required Global Key: 'defeated_goblinking'
 - Prefab: QueenBee
   Stack: 1
   Price: 1200

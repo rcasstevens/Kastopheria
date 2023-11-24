@@ -42,10 +42,6 @@ wearNTearData:
 craftingStationData: 
 cSExtensionData: 
 contData:
-  Width: 8
-  Height: 4
-  CheckWard: true
-  AutoDestoryIfEmpty: false
 smelterData: 
 cookingStationData: 
 beehiveData: 
