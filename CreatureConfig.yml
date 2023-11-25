@@ -49,82 +49,15 @@ groups:
     - Lox
     - Seeker Soldier
     - Gjall
-  Event Mobs:
-    - Wolf
-  Uggos:
-    - Fuling
-    - Fuling Berzerker
-    - Fuling Shaman
 
-#Greydwarf
-# Lowers night frequency; nerfs meadow apperances
-Post Eikthyr:
-  Night:
-    Meadows:
-      amount:
-        0: 0.7
-        1: default
-    Black Forest:
-      amount:
-        0: 0.8
-        1: default
-  Meadows:
-    damage taken:
-      0: 1.25
-      1: default
-    damage:
-      0: 0.75
-      1: default
-
-#Greydwarf Brute, Shaman
-# Lowers night frequency; nerfs meadow stats
-Post Elder:
-  Night:
-    Meadows:
-      amount:
-        0: 0.7
-        1: default
-    Black Forest:
-      amount:
-        0: 0.8
-        1: default
-  Meadows:
-    stars:
-      0: 0
-      1: default
-    damage taken:
-      0: 1.2
-      1: default
-    damage:
-      0: 0.8
-      1: default
-
-#Fuling
-# Prevents any post-yagluth spawns.
-Post Yagluth:
-  Night:
-    Meadows:
-      override:
-        amount: 0
-    Black Forest:
-      override:
-        amount: 0
-
-#Tick, Seeker
-# Prevents any post-queen spawns.
-Post Queen:
-  Night:
-    Meadows:
-      override:
-        amount: 0
-    Black Forest:
-      override:
-        amount: 0
-
-# Prevent early creatures from being too annoying.
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 creature:
-  #Let there be more creatures!
-  amount: 1.08
+  #Keep starting area safe.
+  stars:
+    0: 0
+    1: [9, 0]
+    2: default
+  #Keep the local area closer to vanilla
   infusion:
     0:
       Lightning: 0
@@ -147,19 +80,78 @@ creature:
       Poison: default
       Chaos: default
       Spirit: default
-
-# Prevent high health enemies from being too annoying
-High Health Mobs:
-  override:
+  #Dungeons are fair game.
+  Dungeon:
+    stars:
+      0: 0
+      1: default
     amount: default
+    infusion: default
+
+#Greydwarf
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Post Eikthyr:
+  Meadows:
+    Override:
+      amount:
+        0: 0.50
+        1: 0.75
+        2: default
+      damage taken:
+        0: 1.25
+        1: default
+      damage:
+        0: 0.75
+        1: default
+
+#Greydwarf Brute, Shaman
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Post Elder:
+  Meadows:
+    Override:
+      amount:
+        0: 0.50
+        1: 0.75
+        2: default
+      damage taken:
+        0: 1.25
+        1: default
+      damage:
+        0: 0.75
+        1: default
+
+#Fuling
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Post Yagluth:
+  Night:
+    Override:
+      Meadows:
+        amount: 0
+      Black Forest:
+        amount: 0
+
+#Tick, Seeker
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Post Queen:
+  Night:
+    Override:
+      Meadows:
+        amount: 0
+      Black Forest:
+        amount: 0
+
+# Nerf higher health mobs.
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+High Health Mobs:
   health per star:
-    0: 0.4
-    1: 0.45
-    2: 0.5
-    3: 0.55
-    4: 0.6
+    0: default
+    1: default
+    2: 0.7
+    3: 0.6
+    4: 0.5
 
 # Give certain enemies an innate resistance
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Lightning Resistant:
   damage taken:
     Lightning: 0.3
@@ -177,79 +169,100 @@ Poison Resistant:
   damage taken:
     Poison: 0.3
 
-# Nerf wolfs
+# Wolves
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Wolf:
-  Day:
-    stars: 0
-  Mountain:
-    Night:
-      stars:
-        0: 0
-        1: [9, 1]
-        2: [12, 3]
-        3: [15, 5, 0.1]
-        4: [18, 7, 1]
-  Tamed:
-    stars: default
+  size: 0.3
+  Override:
+    Day:
+      stars: 0
+    Mountain:
+      Night:
+        stars:
+          0: 0
+          1: 0
+          2: [9, 1]
+          3: [12, 2]
+          4: [15, 3, 0.1]
+    Tamed:
+      stars: default
 
-# Nerf loxes
+# loxes
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Lox:
-  stars:
-    0: 0
-    1: [9]
-    2: [12, 0.1]
-    3: [15, 1]
-    4: [18, 3, 0.1]
-  Tamed:
-    stars: default
+  size: 0.2
+  Override:
+    stars:
+      0: 0
+      1: 0
+      2: [9]
+      3: [12, 1]
+      4: [15, 2, 0.1]
+    Tamed:
+      stars: default
 
-# Nerf Boars
+# Boars
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Boar:
-  stars:
-    0: 0
-    1: [9, 1]
-    2: default
+  size: 0.3
+  Override:
+    amount: 1.15
+    stars:
+      0: 0
+      1: [9, 1]
+      2: default
 
-# Nerf Deer
+# Deer
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Deer:
-  stars:
-    0: 0
-    1: [9, 1]
-    2: default
+  size: 0.3
+  Override:
+    amount: 1.15
+    stars:
+      0: 0
+      1: [9, 1]
+      2: default
+
+# Neck
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Deer:
+  size: 0.3
+  Override:
+    amount: 1.15
+    stars:
+      0: 0
+      1: [9, 1]
+      2: default
 
 #Scary Skeeters
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Deathsquito:
-  size: 1.2
-  movement speed per star: 1.05
+  size: 1.5
+  movement speed per star: 1.02
+  health per star: 1
   damage per star: 1
-  stars:
-    0: 0
-    1: 0
-    2: [12, 0.1]
-    3: [15, 1]
-    4: [18, 3, 0.1]
+  Override:
+    stars:
+      0: 0
+      1: 0
+      2: [9]
+      3: [12, 1]
+      4: [15, 2, 0, 0, 0.1]
 
-#Scary Serpents. Nerf their stars.
+#Scary Serpents.
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Serpent:
   size: 1.5
-  movement speed per star: 1.05
+  movement speed per star: 1.02
+  health per star: 1
   damage per star: 1
-  stars:
-    0: 0
-    1: 0
-    2: [12, 0.1]
-    3: [15, 1]
-    4: [18, 3, 0, 0, 1]
-
-boss:
-  damage: 0.85
-
-####
-#Nerf Cultist Fire Damage
-Cultist:
-  damage:
-    fire: 0.75
-
+  Override:
+    stars:
+      0: 0
+      1: 0
+      2: [9]
+      3: [12, 1]
+      4: [15, 2, 0, 0, 0.1]
 
 # Example yaml file. Feel free to customize this. Everything that is not defined in this file will use the configuration file instead.
 # Find some detailed documentation at the bottom of this file.

@@ -1,7 +1,7 @@
 name: Demister
 m_weight: 0.1
 m_name: $item_demister
-m_description: '$item_demister_description <color=yellow>Socketable</color>'
+m_description: '$item_demister_description <color=yellow>This is a utility gem!</color>'
 clonePrefabName: 
 mockName: 
 customIcon: 
