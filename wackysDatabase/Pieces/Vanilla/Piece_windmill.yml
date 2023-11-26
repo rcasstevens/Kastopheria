@@ -2,7 +2,7 @@ name: windmill
 piecehammer: Hammer
 m_name: $piece_windmill
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>'
+m_description: '<color=red>♻️</color>'
 customIcon: 
 clonePrefabName: 
 material: 

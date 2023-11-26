@@ -1,19 +1,22 @@
-name: CL_Raw_Yellow
+name: bed
 piecehammer: Hammer
-m_name: $CL_Raw_Yellow
+m_name: $piece_bed
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>'
+m_description: '<color=red>♻️</color>'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: ''
-piecehammerCategory: Gem Lighting
+craftingStation: $piece_workbench
+piecehammerCategory: Furniture
 minStationLevel: 1
 amount: 1
 disabled: false
 adminonly: false
-comfort: 
+comfort:
+  comfort: 1
+  comfortGroup: Bed
+  comfortObject: 
 groundPiece: false
 ground: false
 waterPiece: false
@@ -23,21 +26,21 @@ onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 300
+  health: 100
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
-    m_pierce: Normal
-    m_chop: Normal
+    m_pierce: Resistant
+    m_chop: Weak
     m_pickaxe: Normal
-    m_fire: Immune
-    m_frost: Immune
+    m_fire: Normal
+    m_frost: Normal
     m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
-  noRoofWear: false
+  noRoofWear: true
   noSupportWear: true
-  supports: false
+  supports: true
   triggerPrivateArea: true
 craftingStationData: 
 cSExtensionData: 
@@ -48,4 +51,4 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- Uncut_Yellow_Stone:15:1:True
+- Wood:8:1:True

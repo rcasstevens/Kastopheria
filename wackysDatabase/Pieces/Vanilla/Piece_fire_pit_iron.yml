@@ -2,7 +2,7 @@ name: fire_pit_iron
 piecehammer: Hammer
 m_name: $piece_firepit_iron
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>'
+m_description: '<color=red>♻️</color>'
 customIcon: 
 clonePrefabName: 
 material: 

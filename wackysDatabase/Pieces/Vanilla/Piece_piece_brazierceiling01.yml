@@ -2,7 +2,7 @@ name: piece_brazierceiling01
 piecehammer: Hammer
 m_name: $piece_brazierceiling01
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>'
+m_description: '<color=red>♻️</color>'
 customIcon: 
 clonePrefabName: 
 material: 

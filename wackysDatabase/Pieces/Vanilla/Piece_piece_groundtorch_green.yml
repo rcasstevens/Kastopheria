@@ -2,7 +2,7 @@ name: piece_groundtorch_green
 piecehammer: Hammer
 m_name: $piece_groundtorchgreen
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>'
+m_description: '<color=red>♻️</color>'
 customIcon: 
 clonePrefabName: 
 material: 

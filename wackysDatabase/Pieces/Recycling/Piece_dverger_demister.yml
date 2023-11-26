@@ -2,7 +2,7 @@ name: dverger_demister
 piecehammer: Hammer
 m_name: Dvergr demister
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>'
+m_description: '<color=red>♻️</color>'
 customIcon: 
 clonePrefabName: 
 material: 
