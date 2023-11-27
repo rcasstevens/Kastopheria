@@ -5,10 +5,10 @@ minStationLevel: 1
 maxStationLevelCap: 
 repairStation: 
 amount: 2
-disabled: false
+disabled: true
 requireOnlyOneIngredient: false
 reqs:
-- Dandelion:48:0:True
+- SwordCheat:1:0:True
 - AncientSeed:12:0:True
 - GreydwarfEye:24:0:True
 - Resin:36:0:True

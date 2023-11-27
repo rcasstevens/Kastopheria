@@ -5,10 +5,10 @@ minStationLevel: 5
 maxStationLevelCap: 
 repairStation: 
 amount: 2
-disabled: false
+disabled: true
 requireOnlyOneIngredient: false
 reqs:
-- Eitr:12:0:True
+- SwordCheat:1:0:True
 - Carapace:36:0:True
 - Wisp:24:0:True
 - DragonEgg:2:0:True
