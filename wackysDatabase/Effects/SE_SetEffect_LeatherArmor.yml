@@ -1,7 +1,7 @@
 Name: SetEffect_LeatherArmor
 Status_m_name: 'Leather Attire'
 Category: ''
-IconName: ArmorLeatherChest
+IconName: ArmorLeatherLegs
 CustomIcon: 
 FlashIcon: false
 CooldownIcon: false

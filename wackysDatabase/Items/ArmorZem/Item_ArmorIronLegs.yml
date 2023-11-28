@@ -1,7 +1,7 @@
-name: CapeTrollHide
-m_weight: 4
-m_name: $item_cape_trollhide
-m_description: $item_cape_trollhide_description
+name: ArmorIronLegs
+m_weight: 15
+m_name: $item_legs_iron
+m_description: $item_legs_iron_description
 clonePrefabName: 
 mockName: 
 customIcon: 
@@ -14,15 +14,14 @@ Secondary_Attack:
 Damage: 
 Damage_Per_Level: 
 Armor:
-  armor: 1
-  armorPerLevel: 1
+  armor: 14
+  armorPerLevel: 2
 FoodStats: 
 Moddifiers:
-  m_movementModifier: 0
+  m_movementModifier: -0.05
   m_EitrRegen: 0
 SE_Equip: 
-SE_SET_Equip:
-  EffectName: delete
+SE_SET_Equip: 
 ShieldStats:
   m_blockPower: 10
   m_blockPowerPerLevel: 0
@@ -43,18 +42,17 @@ m_knockback: 10
 m_useDurability: true
 m_useDurabilityDrain: 1
 m_durabilityDrain: 0
-m_maxDurability: 500
-m_durabilityPerLevel: 50
+m_maxDurability: 1000
+m_durabilityPerLevel: 200
 m_equipDuration: 2
 m_skillType: Swords
 m_animationState: OneHanded
-m_itemType: Shoulder
-m_toolTier: 1
+m_itemType: Legs
+m_toolTier: 2
 m_maxQuality: 5
 m_value: 0
 ConsumableStatusEffect: 
-damageModifiers:
-- Water:VeryResistant
+damageModifiers: []
 GEffects:
   Hit_Effects: 
   Hit_Terrain_Effects: 

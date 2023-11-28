@@ -1,6 +1,6 @@
 name: ct_campfireinabottle
 clonePrefabName: 
-craftingStation: piece_cauldron
+craftingStation: $piece_cauldron
 minStationLevel: 1
 maxStationLevelCap: 
 repairStation: 
