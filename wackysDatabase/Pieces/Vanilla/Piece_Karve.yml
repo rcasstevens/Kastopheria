@@ -2,7 +2,7 @@ name: Karve
 piecehammer: Hammer
 m_name: $ship_karve
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>Speed: 💨💨'
+m_description: '<color=red>♻️<color=white> Speed: 💨💨'
 customIcon: 
 clonePrefabName: 
 material: 

@@ -2,7 +2,7 @@ name: charcoal_kiln
 piecehammer: Hammer
 m_name: $piece_charcoalkiln
 sizeMultiplier: 1
-m_description: '<color=red>♻️</color>'
+m_description: '<color=red>♻️</color> Processes Wood, Fine Wood, Core Wood, and Ancient Bark.'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -60,6 +60,8 @@ smelterData:
   - FromName: FineWood
     ToName: Coal
   - FromName: RoundLog
+    ToName: Coal
+  - FromName: ElderBark
     ToName: Coal
 cookingStationData: 
 beehiveData: 
