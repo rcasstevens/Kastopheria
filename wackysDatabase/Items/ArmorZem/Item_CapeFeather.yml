@@ -15,7 +15,7 @@ Damage:
 Damage_Per_Level: 
 Armor:
   armor: 1
-  armorPerLevel: 1
+  armorPerLevel: 2
 FoodStats: 
 Moddifiers:
   m_movementModifier: 0
@@ -55,6 +55,7 @@ m_value: 0
 ConsumableStatusEffect: 
 damageModifiers:
 - Frost:Resistant
+- Water:Resistant
 GEffects:
   Hit_Effects: 
   Hit_Terrain_Effects: 

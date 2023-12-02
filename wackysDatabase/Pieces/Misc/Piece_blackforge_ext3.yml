@@ -1,0 +1,57 @@
+name: blackforge_ext3
+piecehammer: Hammer
+m_name: 'Dvergr Polishing Kit'
+sizeMultiplier: 1
+m_description: $piece_blackforge $piece_upgrade
+customIcon: 
+clonePrefabName: cauldron_ext5_mortarandpestle
+material: 
+damagedMaterial: 
+craftingStation: $piece_blackforge
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 100
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Resistant
+    m_chop: Weak
+    m_pickaxe: Normal
+    m_fire: Normal
+    m_frost: Resistant
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: true
+  noSupportWear: true
+  supports: false
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData:
+  MainCraftingStationName: blackforge
+  maxStationDistance: 10
+  continousConnection: false
+  stack: false
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+build:
+- Iron:5:1:True
+- Copper:8:1:True
+- TrophyDvergr:2:1:True

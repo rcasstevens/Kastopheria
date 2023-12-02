@@ -67,37 +67,28 @@ equipment:
       - chitin
   blacklist:
     - jewelers bag
-      
+
 gem drops:
   meadows:
-    low health: 15
+    low health: 30
     high health: 75
-# Use this, if you want to specify the distribution. Otherwise, it uses the gemstone formation distribution of the biome.    
-#    distribution:
-#      green: 0.82
-#      black: 0.03
-#      purple: 0.03
-#      blue: 0.03
-#      yellow: 0.03
-#      red: 0.03
-#      orange: 0.03
   black forest:
-    low health: 45
+    low health: 55
     high health: 150
   swamp:
-    low health: 60
+    low health: 70
     high health: 225
   ash lands:
-    low health: 60
+    low health: 70
     high health: 225
   mountain:
-    low health: 90
+    low health: 110
     high health: 375
   plains:
-    low health: 120
+    low health: 140
     high health: 500
   mistlands:
-    low health: 150
+    low health: 180
     high health: 800
   ocean:
     low health: 100

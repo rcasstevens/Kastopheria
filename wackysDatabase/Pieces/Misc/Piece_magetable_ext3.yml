@@ -1,0 +1,58 @@
+name: piece_magetable_ext3
+piecehammer: Hammer
+m_name: 'Bonemeal Millstone'
+sizeMultiplier: 1
+m_description: $piece_magetable $piece_upgrade
+customIcon: 
+clonePrefabName: forge_ext3
+material: 
+damagedMaterial: 
+craftingStation: $piece_magetable
+piecehammerCategory: Crafting
+minStationLevel: 1
+amount: 1
+disabled: false
+adminonly: false
+comfort: 
+groundPiece: false
+ground: false
+waterPiece: false
+noInWater: true
+notOnFloor: false
+onlyinTeleportArea: false
+allowedInDungeons: false
+canBeRemoved: true
+wearNTearData:
+  health: 100
+  damageModifiers:
+    m_blunt: Normal
+    m_slash: Normal
+    m_pierce: Resistant
+    m_chop: Weak
+    m_pickaxe: Normal
+    m_fire: Normal
+    m_frost: Resistant
+    m_lightning: Normal
+    m_poison: Immune
+    m_spirit: Immune
+  noRoofWear: true
+  noSupportWear: true
+  supports: false
+  triggerPrivateArea: true
+craftingStationData: 
+cSExtensionData:
+  MainCraftingStationName: piece_magetable
+  maxStationDistance: 10
+  continousConnection: false
+  stack: false
+contData: 
+smelterData: 
+cookingStationData: 
+beehiveData: 
+fermStationData: 
+sapData: 
+build:
+- BlackMarble:10:1:True
+- TrophyGjall:1:1:True
+- Eitr:10:1:True
+- Guck:15:1:True

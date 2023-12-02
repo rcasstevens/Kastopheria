@@ -50,7 +50,31 @@ groups:
   - Shattered_Orange_Crystal
   - Shattered_redish_Crystal
   - Shattered_blueish_Crystal
-  Non Meats:
+  gMeats:
+  - RawMeat
+  - DeerMeat
+  - NeckTail
+  - FishRaw
+  - SerpentMeat
+  - WolfMeat
+  - LoxMeat
+  - HareMeat
+  - ChickenMeat
+  - BugMeat
+  gFish:
+  - Fish1
+  - Fish10
+  - Fish11
+  - Fish12
+  - Fish2
+  - Fish3
+  - Fish4_cave
+  - Fish5
+  - Fish6
+  - Fish7
+  - Fish8
+  - Fish9
+  gVeggies:
   - CloudBerry
   - RaspBerry
   - BlueBerries
@@ -64,41 +88,25 @@ groups:
   - Onion
   - Thistle
   - Dandelion
-  Fishies:
-  - Fish1
-  - Fish10
-  - Fish11
-  - Fish12
-  - Fish2
-  - Fish3
-  - Fish4_cave
-  - Fish5
-  - Fish6
-  - Fish7
-  - Fish8
-  - Fish9
-  Raw Meats:
-  - RawMeat
-  - SerpentMeat
-  - DeerMeat
-  - NeckTail
-  - LoxMeat
-  - WolfMeat
-  - FishRaw
-  - HareMeat
-  - ChickenMeat
-  - BugMeat
-  Building Materials:
+  gBuilding:
   - Stone
   - Coal
   - BlackMarble
   - Crystal
+  - Wood
+  - RoundLog
+  - FineWood
   - YggdrasilWood
-  Misc Twenty:
+  gStackTwenty:
   - SurtlingCore
   - YmirRemains
   - Thunderstone
-  Misc Fifty:
+  - CryptKey
+  - Wishbone
+  - DvergrKey
+  - DvergrKeyFragment
+  - Wisplight
+  gStackFifty:
   - AncientSeed
   - WitheredBone
   - GoblinTotem
@@ -107,7 +115,7 @@ groups:
   - SoftTissue
   - ChickenEgg
   - WolfClaw
-  Misc Hundred:
+  gStackHundred:
   - GreydwarfEye
   - BoneFragments
   - Entrails
@@ -123,13 +131,13 @@ groups:
   - Tar
   - JuteRed
   - JuteBlue
-  Misc Extra:
-  - Resin
-  - Pukeberries
   - WitheredBone
   - AncientSeed
   - GoblinTotem
-  More Quarter:
+  gStackTwoHundred:
+  - Resin
+  - Pukeberries
+  gDropQuarter:
   - Coal
   - Honey
   - Chitin
@@ -142,7 +150,7 @@ groups:
   - Flax
   - SerpentScale
   - Wisp
-  More Third:
+  gDropThird:
   - BlackMetalScrap
   - Flint
   - RaspBerry
@@ -173,7 +181,7 @@ groups:
   - Sap
   - CopperOre
   - SilverOre
-  More Half:
+  gDropHalf:
   - Stone
   - Wood
   - BlackMarble
@@ -208,120 +216,111 @@ groups:
   - LoxPelt
   - ScaleHide
   - Root
-  More Double:
+  gDropDouble:
   - Acorn
   - BirchSeeds
   - FirCone
   - PineCone
-  Keys:
-  - CryptKey
-  - Wishbone
-  - DvergrKey
-  - DvergrKeyFragment
-  - Wisplight
-  Lockouts:
-  - TrophyBonemass    #Week3
-  - TrophyDragonQueen #Week3
-  - TrophyGoblinKing  #Week5
-  - TrophySeekerQueen #Week5
-  Floatable:
+  gFloats:
   - armor
   - weapon
   - ammo
   - equipment
   - shield
-#  - ShatteredBackpackofPortability
-#  - SimpleBackpackofPortability
-#  - AdvancedBackpackofPortability
-#  - PerfectBackpackofPortability
-#  - MythicalBackpackofPortability
-#  - ExplorersSatchel
-#  - BuildersSatchel
-#  - PortableHole
+  gPortals:
+  - Ironpit
+  Lockouts:
+  #- TrophyBonemass    #Week3
+  #- TrophyDragonQueen #Week3
+  - TrophyGoblinKing  #Week5
+  - TrophySeekerQueen #Week5
 
-#Block necessary stuff
-Lockouts:
-  amount: 0
-  teleportable: no
-  weight: 999
-
-Floatable:
-  floating: yes
-
-#Coins.
+#Coins get special treatment.
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 coins:
   stack: 5000
   weight factor: 0.33
 
 #Special category `seeds`
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 seed:
   stack: 200
 
 #Special category `valuable`
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 valuable:
   stack: 100
 
 #Special category `trophy`
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 trophy:
   stack: 50
   weight factor: 0.33
 
 #Special category `boss trophy`
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 boss trophy:
   stack: 50
   weight factor: 0.33
 
-#Special category `woods`
-woods:
-  stack: 100
-  weight factor: 0.80
+#Restrict Boss Trophies.
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Lockouts:
+  amount: 0
+  teleportable: no
+  weight: 999
 
-#Prevents weird behavior with `wood` doubling it's stack-size.
-wood:
-  stack: 100
+#General QoL
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+gFloats:
+  floating: yes
 
-#Defined categories
-Building Materials:
+gPortals:
+  teleportable: yes
+
+gBuilding:
   stack: 100
   weight factor: 0.75
 
-Fishies:
-  stack: 20
-
-Keys:
-  stack: 20
-
-Misc Twenty:
-  stack: 20
-
-Misc Fifty:
+#QoL Stack Increase
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+gMeats:
   stack: 50
 
-Misc Hundred:
+gVeggies:
   stack: 100
 
-Misc Extra:
+gFish:
+  stack: 20
+
+gStackTwenty:
+  stack: 20
+
+gStackFifty:
+  stack: 50
+
+gStackHundred:
+  stack: 100
+
+gStackTwoHundred:
   stack: 200
 
-Raw Meats:
-  stack: 50
-
-Non Meats:
-  stack: 100
-
-More Quarter:
+#QoL Drop Increase
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+gDropQuarter:
   amount: 1.25
 
-More Third:
+gDropThird:
   amount: 1.33
 
-More Half:
+gDropHalf:
   amount: 1.5
 
-More Double:
+gDropDouble:
   amount: 2.02
 
 #Jewelcrafting
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Jewelcrafting Chests:
   stack: 20
 
@@ -332,15 +331,10 @@ Jewelcrafting Cut Gems:
   stack: 50
 
 Jewelcrafting Broken Gems:
-  stack: 100
-
-#Let the iron pit be teleported.
-Ironpit:
-  teleportable: yes
+  stack: 200
 
 # Example ItemConfig.yml
-# Do not forget to turn the YAML file on in the settings.
-
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 # Predefined groups:
 # all, ore, metal, food, potions, woods, trophy, boss trophy, valuable, seed, crop, stackable.
 # pants, chest, helmet, cape, armor.
@@ -350,17 +344,3 @@ Ironpit:
 
 # Things you can change: amount, weight, weight factor, stack, stack factor, pickup, floating, teleportable, loss.
 # Things you can configure per world level: amount, pickup, teleportable, loss.
-
-# Note: If you are using mods that create custom items / prefabs, you might need to add and configure them
-#       explicitly by creating your own groups for those. Predefined groups only contain Valheim's original
-#       items.
-
-# Define your own groups here and assign items via display name (or the internal ID) to your groups.
-# Hint: If you want to find the internal ID of an item, you can look it up in the wiki.
-# https://valheim.fandom.com
-# For custom items, please refer to the documentation of the mod that adds them.
-#
-# groups:
-#   My Group:
-#      - Display Name
-#      - InternalID

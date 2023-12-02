@@ -1,7 +1,7 @@
 name: CapeTrollHide
 m_weight: 4
 m_name: $item_cape_trollhide
-m_description: $item_cape_trollhide_description
+m_description: '$item_cape_trollhide_description <color=orange>The water resistance causes all notifications to be delayed.</color>'
 clonePrefabName: 
 mockName: 
 customIcon: 
@@ -15,7 +15,7 @@ Damage:
 Damage_Per_Level: 
 Armor:
   armor: 1
-  armorPerLevel: 1
+  armorPerLevel: 2
 FoodStats: 
 Moddifiers:
   m_movementModifier: 0
