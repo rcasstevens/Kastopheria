@@ -2,7 +2,7 @@ name: piece_sapcollector
 piecehammer: Hammer
 m_name: $piece_sapcollector
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>$piece_sapcollector_description'
+m_description: '<color=red>♻️<color=white> $piece_sapcollector_description'
 customIcon: 
 clonePrefabName: 
 material: 

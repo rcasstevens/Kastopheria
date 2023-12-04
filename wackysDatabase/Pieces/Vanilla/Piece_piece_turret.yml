@@ -1,14 +1,14 @@
-name: piece_wisplure
+name: piece_turret
 piecehammer: Hammer
-m_name: $piece_wisplure
+m_name: $piece_turret
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>$piece_wisplure_description'
+m_description: '<color=red>♻️<color=white> $piece_turret_description'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_stonecutter
-piecehammerCategory: Crafting
+craftingStation: $piece_workbench
+piecehammerCategory: Misc
 minStationLevel: 1
 amount: 1
 disabled: false
@@ -17,22 +17,22 @@ comfort:
 groundPiece: false
 ground: false
 waterPiece: false
-noInWater: true
+noInWater: false
 notOnFloor: false
 onlyinTeleportArea: false
-allowedInDungeons: false
+allowedInDungeons: true
 canBeRemoved: true
 wearNTearData:
-  health: 100
+  health: 1000
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
     m_pierce: Resistant
-    m_chop: Weak
-    m_pickaxe: Normal
-    m_fire: Normal
+    m_chop: Normal
+    m_pickaxe: Resistant
+    m_fire: Resistant
     m_frost: Resistant
-    m_lightning: Normal
+    m_lightning: Immune
     m_poison: Immune
     m_spirit: Immune
   noRoofWear: true
@@ -48,5 +48,6 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- Stone:10:1:True
-- YagluthDrop:1:1:True
+- BlackMetal:10:1:True
+- YggdrasilWood:10:1:True
+- MechanicalSpring:3:1:True

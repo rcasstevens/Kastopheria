@@ -2,7 +2,7 @@ name: Cart
 piecehammer: Hammer
 m_name: $tool_cart
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>Reinforced'
+m_description: '<color=red>♻️<color=white> Reinforced'
 customIcon: 
 clonePrefabName: 
 material: 

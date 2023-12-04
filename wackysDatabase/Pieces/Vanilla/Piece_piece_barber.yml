@@ -2,7 +2,7 @@ name: piece_barber
 piecehammer: Hammer
 m_name: $piece_barber
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>$piece_barber_description'
+m_description: '<color=red>♻️<color=white> $piece_barber_description'
 customIcon: 
 clonePrefabName: 
 material: 

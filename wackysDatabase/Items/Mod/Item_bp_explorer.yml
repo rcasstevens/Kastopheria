@@ -1,6 +1,6 @@
 name: bp_explorer
 m_weight: 4
-m_name: ExplorersBackpack
+m_name: 'Explorers Backpack'
 m_description: 'An enchanted backpack which renders its contents 35% lighter. <color=orange>Cannot transport metal.</color>'
 clonePrefabName: 
 mockName: 

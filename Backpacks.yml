@@ -35,6 +35,13 @@ groups:
     - Stone
     - RoundLog
     - BlackMarble
+  gBuildingStage2:
+    - Wood
+    - Stone
+    - RoundLog
+    - BlackMarble
+    - FineWood
+    - Crystal
   gOreStage1:
     - CopperScrap
     - CopperOre
@@ -161,7 +168,7 @@ groups:
       size: 2x4
 
 "Builders Backpack":
-  description: 'An enchanted backpack that reduces the weight of common building materials by 80%. (wood, stone, roundlog, blackmarble)'
+  description: 'An enchanted backpack that reduces the weight of common building materials by 80%. (wood, stone, roundlog, blackmarble, finewood, crystal)'
   size: 2x5
   appearance:
     Pot: hidden
@@ -185,7 +192,7 @@ groups:
   weight factor: 0.2
   teleport: false
   valid items:
-  - gBuildingStage1
+  - gBuildingStage2
   crafting:
     station: Workbench
     level: 4

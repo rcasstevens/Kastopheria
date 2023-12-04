@@ -1,13 +1,13 @@
-name: op_transmution_table
+name: piece_wisplure
 piecehammer: Hammer
-m_name: $jc_transmution_table
+m_name: $piece_wisplure
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>$piece_craftingstation, <color=yellow>Station level controls number of sockets available.'
+m_description: '<color=red>♻️<color=white> $piece_wisplure_description'
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: ''
+craftingStation: $piece_stonecutter
 piecehammerCategory: Crafting
 minStationLevel: 1
 amount: 1
@@ -23,7 +23,7 @@ onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 200
+  health: 100
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
@@ -31,23 +31,15 @@ wearNTearData:
     m_chop: Weak
     m_pickaxe: Normal
     m_fire: Normal
-    m_frost: Normal
+    m_frost: Resistant
     m_lightning: Normal
     m_poison: Immune
     m_spirit: Immune
   noRoofWear: true
   noSupportWear: true
-  supports: true
+  supports: false
   triggerPrivateArea: true
-craftingStationData:
-  cStationCustomIcon: 
-  discoveryRange: 4
-  buildRange: 20
-  craftRequiresRoof: false
-  craftRequiresFire: false
-  showBasicRecipes: false
-  useDistance: 4
-  useAnimation: 1
+craftingStationData: 
 cSExtensionData: 
 contData: 
 smelterData: 
@@ -56,6 +48,5 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- Wood:10:1:True
-- Flint:10:1:True
-- Resin:10:1:True
+- Stone:10:1:True
+- YagluthDrop:1:1:True

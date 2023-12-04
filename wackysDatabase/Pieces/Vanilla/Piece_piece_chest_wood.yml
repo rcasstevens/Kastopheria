@@ -2,7 +2,7 @@ name: piece_chest_wood
 piecehammer: Hammer
 m_name: $piece_chestwood
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>Storage 7x2'
+m_description: '<color=red>♻️<color=white> Storage 7x2'
 customIcon: 
 clonePrefabName: 
 material: 

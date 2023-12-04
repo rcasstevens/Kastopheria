@@ -1,8 +1,8 @@
-name: piece_artisanstation
+name: op_transmution_table
 piecehammer: Hammer
-m_name: $piece_artisanstation
+m_name: $jc_transmution_table
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white> $piece_craftingstation'
+m_description: '<color=red>♻️<color=white> $piece_craftingstation, <color=yellow>Station level controls number of sockets available.'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -37,16 +37,16 @@ wearNTearData:
     m_spirit: Immune
   noRoofWear: true
   noSupportWear: true
-  supports: false
+  supports: true
   triggerPrivateArea: true
 craftingStationData:
   cStationCustomIcon: 
   discoveryRange: 4
-  buildRange: 40
+  buildRange: 20
   craftRequiresRoof: false
   craftRequiresFire: false
   showBasicRecipes: false
-  useDistance: 2
+  useDistance: 4
   useAnimation: 1
 cSExtensionData: 
 contData: 
@@ -57,4 +57,5 @@ fermStationData:
 sapData: 
 build:
 - Wood:10:1:True
-- DragonTear:2:1:True
+- Flint:10:1:True
+- Resin:10:1:True

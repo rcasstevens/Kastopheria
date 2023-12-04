@@ -95,7 +95,7 @@ jobs:
   - command: say Recycling... Complete
     schedule: "7 6 * * 1"
   #Bring Gems Back
-  - command: broadcast center <color=green>Respawning Gems... Estimate: 20-30 Minutes</color>
+  - command: broadcast center <color=green>Respawning Gems... Around 30 Minutes</color>
     schedule: "8 6 * * 1"
   - command: say Respawning Gems...
     schedule: "8 6 * * 1"

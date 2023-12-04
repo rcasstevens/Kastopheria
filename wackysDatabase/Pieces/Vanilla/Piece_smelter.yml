@@ -2,7 +2,7 @@ name: smelter
 piecehammer: Hammer
 m_name: $piece_smelter
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>Low Efficiency'
+m_description: '<color=red>♻️<color=white> Low Efficiency'
 customIcon: 
 clonePrefabName: 
 material: 

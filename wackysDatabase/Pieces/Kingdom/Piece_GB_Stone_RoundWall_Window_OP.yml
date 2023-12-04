@@ -1,17 +1,17 @@
-name: piece_turret
+name: GB_Stone_RoundWall_Window_OP
 piecehammer: Hammer
-m_name: $piece_turret
+m_name: $GB_Stone_RoundWall_Window_OP
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white>$piece_turret_description'
+m_description: $GB_Stone_RoundWall_Window_OP_Description
 customIcon: 
 clonePrefabName: 
 material: 
 damagedMaterial: 
 craftingStation: $piece_workbench
-piecehammerCategory: Misc
+piecehammerCategory: Kingdom
 minStationLevel: 1
 amount: 1
-disabled: false
+disabled: true
 adminonly: false
 comfort: 
 groundPiece: false
@@ -20,24 +20,24 @@ waterPiece: false
 noInWater: false
 notOnFloor: false
 onlyinTeleportArea: false
-allowedInDungeons: true
+allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 1000
+  health: 6000
   damageModifiers:
     m_blunt: Normal
     m_slash: Normal
-    m_pierce: Resistant
+    m_pierce: Normal
     m_chop: Normal
-    m_pickaxe: Resistant
+    m_pickaxe: Normal
     m_fire: Resistant
     m_frost: Resistant
     m_lightning: Immune
     m_poison: Immune
     m_spirit: Immune
-  noRoofWear: true
+  noRoofWear: false
   noSupportWear: true
-  supports: false
+  supports: true
   triggerPrivateArea: true
 craftingStationData: 
 cSExtensionData: 
@@ -48,6 +48,5 @@ beehiveData:
 fermStationData: 
 sapData: 
 build:
-- BlackMetal:10:1:True
-- YggdrasilWood:10:1:True
-- MechanicalSpring:3:1:True
+- Stone:12:1:True
+- Crystal:2:1:True
