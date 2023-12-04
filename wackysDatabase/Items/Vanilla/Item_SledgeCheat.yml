@@ -1,20 +1,20 @@
-name: SwordCheat
-m_weight: 1
-m_name: "Mysterious Blade"
-m_description: "<color=red>What purpose could this serve?</color>"
+name: SledgeCheat
+m_weight: 4
+m_name: "Enchanted Hammer"
+m_description: "<color=purple>What purpose could this serve?</color>"
 clonePrefabName: 
 mockName: 
 customIcon: 
 material: 
 customVisual: 
-sizeMultiplier: 0.8
+sizeMultiplier: 1
 scale_weight_by_quality: 0
 Primary_Attack:
-  AttackType: Horizontal
-  Attack_Animation: swing_longsword
+  AttackType: Area
+  Attack_Animation: swing_sledge
   Attack_Random_Animation: 0
-  Chain_Attacks: 3
-  Hit_Terrain: false
+  Chain_Attacks: 0
+  Hit_Terrain: true
   Custom_AttackSpeed: 1
   m_attackStamina: 10
   m_eitrCost: 20
@@ -23,10 +23,10 @@ Primary_Attack:
   SpeedFactor: 0.3
   DmgMultiplier: 1
   ForceMultiplier: 1
-  StaggerMultiplier: 1
+  StaggerMultiplier: 2
   RecoilMultiplier: 0
-  AttackRange: 2.4
-  AttackHeight: 1
+  AttackRange: 2
+  AttackHeight: 0
   Spawn_On_Trigger: 
   Requires_Reload: false
   Reload_Animation: ''
@@ -37,15 +37,15 @@ Primary_Attack:
   Bow_Stamina_Drain: 0
   Bow_Animation_State: ''
   Attack_Angle: 90
-  Attack_Ray_Width: 0.5
+  Attack_Ray_Width: 20
   Lower_Dmg_Per_Hit: false
   Hit_Through_Walls: false
   Multi_Hit: true
   Pickaxe_Special: false
   Last_Chain_Dmg_Multiplier: 2
   Attack_Projectile: 
-  Projectile_Vel: 10
-  Projectile_Accuraccy: 10
+  Projectile_Vel: 0
+  Projectile_Accuraccy: 0
   Projectiles: 1
   AEffects:
     Hit_Effects: 
@@ -56,22 +56,22 @@ Primary_Attack:
     Burst_Effect: 
 Secondary_Attack:
   AttackType: Horizontal
-  Attack_Animation: sword_secondary
+  Attack_Animation: ''
   Attack_Random_Animation: 0
   Chain_Attacks: 0
-  Hit_Terrain: false
+  Hit_Terrain: true
   Custom_AttackSpeed: 1
   m_attackStamina: 10
   m_eitrCost: 20
   AttackHealthCost: 0
   m_attackHealthPercentage: 0
   SpeedFactor: 0.2
-  DmgMultiplier: 3
+  DmgMultiplier: 1
   ForceMultiplier: 1
   StaggerMultiplier: 1
   RecoilMultiplier: 0
-  AttackRange: 2.7
-  AttackHeight: 1
+  AttackRange: 1.5
+  AttackHeight: 0.6
   Spawn_On_Trigger: 
   Requires_Reload: false
   Reload_Animation: ''
@@ -81,8 +81,8 @@ Secondary_Attack:
   Bow_Duration_Min: 0
   Bow_Stamina_Drain: 0
   Bow_Animation_State: ''
-  Attack_Angle: 10
-  Attack_Ray_Width: 0.7
+  Attack_Angle: 90
+  Attack_Ray_Width: 0
   Lower_Dmg_Per_Hit: true
   Hit_Through_Walls: false
   Multi_Hit: true
@@ -111,7 +111,7 @@ Damage:
   Poison: 0
   Slash: 0
   Spirit: 0
-Damage_Per_Level: 
+Damage_Per_Level:      
 Armor:
   armor: 1
   armorPerLevel: 1
@@ -122,7 +122,7 @@ Moddifiers:
 SE_Equip: 
 SE_SET_Equip: 
 ShieldStats:
-  m_blockPower: 10
+  m_blockPower: 15
   m_blockPowerPerLevel: 0
   m_timedBlockBonus: 2
   m_deflectionForce: 0
@@ -138,29 +138,29 @@ m_questItem: false
 m_teleportable: true
 m_backstabbonus: 3
 m_knockback: 200
-m_useDurability: false
+m_useDurability: true
 m_useDurabilityDrain: 1
 m_durabilityDrain: 0
 m_maxDurability: 1000
 m_durabilityPerLevel: 50
 m_equipDuration: 0.2
-m_skillType: Swords
-m_animationState: OneHanded
-m_itemType: OneHandedWeapon
+m_skillType: Clubs
+m_animationState: TwoHandedClub
+m_itemType: TwoHandedWeapon
 m_toolTier: 0
 m_maxQuality: 4
 m_value: 0
 ConsumableStatusEffect: 
 damageModifiers: []
 GEffects:
-  Hit_Effects:
-  - vfx_HitSparks
-  - sfx_sword_hit
-  - fx_hit_camshake
+  Hit_Effects: 
   Hit_Terrain_Effects: 
-  Start_Effect: 
+  Start_Effect:
+  - sfx_sledge_swing
   Hold_Start_Effects: 
   Trigger_Effect:
   - fx_swing_camshake
+  - vfx_sledge_iron_hit
+  - sfx_sledge_iron_hit
   Trail_Effect:
-  - sfx_sword_swing
+  - sfx_sledge_swing

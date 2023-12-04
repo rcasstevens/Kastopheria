@@ -51,6 +51,7 @@ groups:
     - Bronze
     - IronScrap
     - IronOre
+    - Iron
   gOreStage3:
     - CopperScrap
     - CopperOre
@@ -60,6 +61,7 @@ groups:
     - Bronze
     - IronScrap
     - IronOre
+    - Iron
     - SilverOre
     - Silver
   gOreStage4:
@@ -71,6 +73,7 @@ groups:
     - Bronze
     - IronScrap
     - IronOre
+    - Iron
     - SilverOre
     - Silver
     - BlackMetalScrap

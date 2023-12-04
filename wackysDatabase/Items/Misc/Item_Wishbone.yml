@@ -1,7 +1,7 @@
 name: Wishbone
 m_weight: 0.1
 m_name: $item_wishbone
-m_description: '$item_wishbone_description <color=yellow>This is a utility gem!</color>'
+m_description: '$item_wishbone_description <color=yellow>This is a utility gem, socket it!</color>'
 clonePrefabName: 
 mockName: 
 customIcon: 

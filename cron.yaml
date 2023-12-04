@@ -16,76 +16,88 @@ jobs:
   #  schedule: "59 5 * * 5"
   #- command: save
   #  schedule: "59 5 * * 5"
-  #Recycle the world every Tuesday @ ~6am.
+  #Recycle the world every Monday @ ~6am.
   #Alert players.
   - command: broadcast center <color=red>Warning - ♻ World Recycling ♻ in 5 Minutes!</color>
-    schedule: "55 5 * * 2"
+    schedule: "55 5 * * 1"
   - command: broadcast center <color=red>Warning - ♻ World Recycling ♻ in 4 Minutes!</color>
-    schedule: "56 5 * * 2"
+    schedule: "56 5 * * 1"
   - command: broadcast center <color=red>Warning - ♻ World Recycling ♻ in 3 Minutes!</color>
-    schedule: "57 5 * * 2"
+    schedule: "57 5 * * 1"
   - command: broadcast center <color=red>Warning - ♻ World Recycling ♻ in 2 Minutes!</color>
-    schedule: "58 5 * * 2"
+    schedule: "58 5 * * 1"
   - command: broadcast center <color=red>Warning - ♻ World Recycling ♻ in 1 Minutes!</color>
-    schedule: "59 5 * * 2"
+    schedule: "59 5 * * 1"
   - command: backup
-    schedule: "59 5 * * 2"
+    schedule: "59 5 * * 1"
   #Meadows
   - command: broadcast center <color=orange>Recycling... Meadows</color>
-    schedule: "0 6 * * 2"
+    schedule: "0 6 * * 1"
   - command: zones_reset safeZones=3 biomes=Meadows start
-    schedule: "0 6 * * 2"
+    schedule: "0 6 * * 1"
+  - command: chests_reset biomes=Meadows
+    schedule: "0 6 * * 1"
   - command: chests_reset looted biomes=Meadows
-    schedule: "0 6 * * 2"
+    schedule: "0 6 * * 1"
   #BlackForest
   - command: broadcast center <color=orange>Recycling... BlackForest</color>
-    schedule: "1 6 * * 2"
+    schedule: "1 6 * * 1"
   - command: zones_reset safeZones=3 biomes=BlackForest start
-    schedule: "1 6 * * 2"
+    schedule: "1 6 * * 1"
+  - command: chests_reset biomes=BlackForest
+    schedule: "1 6 * * 1"
   - command: chests_reset looted biomes=BlackForest
-    schedule: "1 6 * * 2"
+    schedule: "1 6 * * 1"
   #Ocean
   - command: broadcast center <color=orange>Recycling... Ocean</color>
-    schedule: "2 6 * * 2"
+    schedule: "2 6 * * 1"
   - command: zones_reset safeZones=3 biomes=Ocean start
-    schedule: "2 6 * * 2"
+    schedule: "2 6 * * 1"
   #Swamp
   - command: broadcast center <color=orange>Recycling... Swamp</color>
-    schedule: "3 6 * * 2"
+    schedule: "3 6 * * 1"
   - command: zones_reset safeZones=3 biomes=Swamp start
-    schedule: "3 6 * * 2"
+    schedule: "3 6 * * 1"
+  - command: chests_reset biomes=Swamp
+    schedule: "3 6 * * 1"
   - command: chests_reset looted biomes=Swamp
-    schedule: "3 6 * * 2"
+    schedule: "3 6 * * 1"
   #Mountain
   - command: broadcast center <color=orange>Recycling... Mountain</color>
-    schedule: "4 6 * * 2"
+    schedule: "4 6 * * 1"
   - command: zones_reset safeZones=3 biomes=Mountain start
-    schedule: "4 6 * * 2"
+    schedule: "4 6 * * 1"
+  - command: chests_reset biomes=Mountain
+    schedule: "4 6 * * 1"
   - command: chests_reset looted biomes=Mountain
-    schedule: "4 6 * * 2"
+    schedule: "4 6 * * 1"
   #Plains
   - command: broadcast center <color=orange>Recycling... Plains</color>
-    schedule: "5 6 * * 2"
+    schedule: "5 6 * * 1"
   - command: zones_reset safeZones=3 biomes=Plains start
-    schedule: "5 6 * * 2"
+    schedule: "5 6 * * 1"
+  - command: chests_reset biomes=Plains
+    schedule: "5 6 * * 1"
   - command: chests_reset looted biomes=Plains
-    schedule: "5 6 * * 2"
+    schedule: "5 6 * * 1"
   #Mistlands
   - command: broadcast center <color=orange>Recycling... Mistlands</color>
-    schedule: "6 6 * * 2"
+    schedule: "6 6 * * 1"
   - command: zones_reset safeZones=3 biomes=Mistlands start
-    schedule: "6 6 * * 2"
+    schedule: "6 6 * * 1"
+  - command: chests_reset biomes=Mistlands
+    schedule: "6 6 * * 1"
   - command: chests_reset looted biomes=Mistlands
-    schedule: "6 6 * * 2"
+    schedule: "6 6 * * 1"
   #Complete
   - command: broadcast center <color=green>Recycling... Complete</color>
-    schedule: "7 6 * * 2"
+    schedule: "7 6 * * 1"
   - command: say Recycling... Complete
-    schedule: "7 6 * * 2"
+    schedule: "7 6 * * 1"
   #Bring Gems Back
-  - command: broadcast center <color=green>Respawning Gems...</color>
-    schedule: "8 6 * * 2"
+  - command: broadcast center <color=green>Respawning Gems... Estimate: 20-30 Minutes</color>
+    schedule: "8 6 * * 1"
   - command: say Respawning Gems...
-    schedule: "8 6 * * 2"
+    schedule: "8 6 * * 1"
   - command: jewelcrafting generate
-    schedule: "8 6 * * 2"
+    schedule: "8 6 * * 1"

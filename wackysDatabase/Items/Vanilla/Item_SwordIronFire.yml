@@ -1,7 +1,7 @@
 name: SwordIronFire
 m_weight: 1
-m_name: "Enchanted Iron Blade"
-m_description: "<color=purple>This is used for something... but what?</color>"
+m_name: "Enchanted Blade"
+m_description: "<color=purple>What purpose could this serve?</color>"
 clonePrefabName: 
 mockName: 
 customIcon: 
@@ -16,8 +16,8 @@ Primary_Attack:
   Chain_Attacks: 3
   Hit_Terrain: false
   Custom_AttackSpeed: 1
-  m_attackStamina: 14
-  m_eitrCost: 0
+  m_attackStamina: 10
+  m_eitrCost: 20
   AttackHealthCost: 0
   m_attackHealthPercentage: 0
   SpeedFactor: 0.3
@@ -61,8 +61,8 @@ Secondary_Attack:
   Chain_Attacks: 0
   Hit_Terrain: false
   Custom_AttackSpeed: 1
-  m_attackStamina: 28
-  m_eitrCost: 0
+  m_attackStamina: 10
+  m_eitrCost: 20
   AttackHealthCost: 0
   m_attackHealthPercentage: 0
   SpeedFactor: 0.2
@@ -120,11 +120,11 @@ Moddifiers:
 SE_Equip: 
 SE_SET_Equip: 
 ShieldStats:
-  m_blockPower: 21
+  m_blockPower: 15
   m_blockPowerPerLevel: 0
   m_timedBlockBonus: 2
-  m_deflectionForce: 20
-  m_deflectionForcePerLevel: 5
+  m_deflectionForce: 0
+  m_deflectionForcePerLevel: 0
 m_maxStackSize: 1
 m_canBeReparied: true
 m_destroyBroken: false
@@ -139,13 +139,13 @@ m_knockback: 40
 m_useDurability: true
 m_useDurabilityDrain: 1
 m_durabilityDrain: 0
-m_maxDurability: 200
+m_maxDurability: 1000
 m_durabilityPerLevel: 50
 m_equipDuration: 0.2
 m_skillType: Swords
 m_animationState: OneHanded
 m_itemType: OneHandedWeapon
-m_toolTier: 10
+m_toolTier: 0
 m_maxQuality: 1
 m_value: 0
 ConsumableStatusEffect: 

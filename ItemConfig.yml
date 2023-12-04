@@ -74,20 +74,20 @@ groups:
   - Fish7
   - Fish8
   - Fish9
-  gVeggies:
+  gSweets:
   - CloudBerry
   - RaspBerry
   - BlueBerries
   - Honey
+  gCrops:
+  - Carrot
+  - Turnip
+  - Onion
+  gShrooms:
   - Mushroom
   - MushroomYellow
   - MushroomJotunPuffs
   - MushroomMagecap
-  - Carrot
-  - Turnip
-  - Onion
-  - Thistle
-  - Dandelion
   gBuilding:
   - Stone
   - Coal
@@ -129,6 +129,8 @@ groups:
   - Wisp
   - Carapace
   - Tar
+  - Thistle
+  - Dandelion
   - JuteRed
   - JuteBlue
   - WitheredBone
@@ -156,9 +158,6 @@ groups:
   - RaspBerry
   - BlueBerries
   - YggdrasilWood
-  - Mushroom
-  - MushroomYellow
-  - MushroomBlue
   - Thistle
   - Dandelion
   - RawMeat
@@ -282,12 +281,22 @@ gBuilding:
   stack: 100
   weight factor: 0.75
 
+#Otherwise `wood` gets stack:200
+wood:
+  stack: 100
+
 #QoL Stack Increase
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 gMeats:
   stack: 50
 
-gVeggies:
+gSweets:
+  stack: 100
+
+gShrooms:
+  stack: 100
+
+gCrops:
   stack: 100
 
 gFish:
@@ -307,6 +316,12 @@ gStackTwoHundred:
 
 #QoL Drop Increase
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+gCrops:
+  amount: 1.1
+  
+gShrooms:
+  amount: 1.33
+
 gDropQuarter:
   amount: 1.25
 
@@ -326,6 +341,7 @@ Jewelcrafting Chests:
 
 Jewelcrafting Raw Gems:
   stack: 50
+  amount: 1.1
 
 Jewelcrafting Cut Gems:
   stack: 50
