@@ -85,9 +85,9 @@ smelterData:
   fuelItem:
     name: Wood
   maxOre: 0
-  maxFuel: 100
+  maxFuel: 200
   fuelPerProduct: 1
-  secPerProduct: 5000
+  secPerProduct: 10000
   spawnStack: false
   requiresRoof: false
   addOreAnimationLength: 0

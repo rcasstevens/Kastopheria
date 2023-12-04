@@ -2,7 +2,7 @@ name: blastfurnace
 piecehammer: Hammer
 m_name: $piece_blastfurnace
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white> High Efficiency'
+m_description: '<color=red>♻️</color> High Efficiency'
 customIcon: 
 clonePrefabName: 
 material: 

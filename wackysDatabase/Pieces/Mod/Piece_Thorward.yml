@@ -2,7 +2,7 @@ name: Thorward
 piecehammer: Hammer
 m_name: $piece_thorward
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white> Emits a magical seal on the nearby surroundings that prevents unfriendly players from preforming most actions.'
+m_description: '<color=red>♻️</color> Emits a magical seal on the nearby surroundings that prevents unfriendly players from preforming most actions.'
 customIcon: 
 clonePrefabName: 
 material: 

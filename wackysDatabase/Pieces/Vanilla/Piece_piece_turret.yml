@@ -2,7 +2,7 @@ name: piece_turret
 piecehammer: Hammer
 m_name: $piece_turret
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white> $piece_turret_description'
+m_description: '<color=red>♻️</color> $piece_turret_description'
 customIcon: 
 clonePrefabName: 
 material: 

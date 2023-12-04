@@ -2,7 +2,7 @@ name: Trailership
 piecehammer: Hammer
 m_name: 'Knarr'
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white> Speed: 💨'
+m_description: '<color=red>♻️</color> Speed: 💨'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -21,7 +21,7 @@ noInWater: false
 notOnFloor: false
 onlyinTeleportArea: false
 allowedInDungeons: false
-canBeRemoved: false
+canBeRemoved: true
 wearNTearData:
   health: 2000
   damageModifiers:

@@ -285,40 +285,11 @@ gBuilding:
 wood:
   stack: 100
 
-#QoL Stack Increase
-#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-gMeats:
-  stack: 50
-
-gSweets:
-  stack: 100
-
-gShrooms:
-  stack: 100
-
-gCrops:
-  stack: 100
-
-gFish:
-  stack: 20
-
-gStackTwenty:
-  stack: 20
-
-gStackFifty:
-  stack: 50
-
-gStackHundred:
-  stack: 100
-
-gStackTwoHundred:
-  stack: 200
-
 #QoL Drop Increase
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 gCrops:
   amount: 1.1
-  
+
 gShrooms:
   amount: 1.33
 
@@ -347,6 +318,35 @@ Jewelcrafting Cut Gems:
   stack: 50
 
 Jewelcrafting Broken Gems:
+  stack: 200
+
+#QoL Stack Increase
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+gMeats:
+  stack: 50
+
+gSweets:
+  stack: 100
+
+gShrooms:
+  stack: 100
+
+gCrops:
+  stack: 100
+
+gFish:
+  stack: 20
+
+gStackTwenty:
+  stack: 20
+
+gStackFifty:
+  stack: 50
+
+gStackHundred:
+  stack: 100
+
+gStackTwoHundred:
   stack: 200
 
 # Example ItemConfig.yml

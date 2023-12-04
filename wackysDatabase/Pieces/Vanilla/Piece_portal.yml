@@ -2,7 +2,7 @@ name: portal
 piecehammer: Hammer
 m_name: 'Stone $piece_portal'
 sizeMultiplier: 1
-m_description: '<color=red>♻<color=orange>Portal cannot be removed after placement.'
+m_description: '<color=red>♻<color=orange>Portal cannot be removed after placement.</color>'
 customIcon: 
 clonePrefabName: 
 material: 

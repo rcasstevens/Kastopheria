@@ -2,7 +2,7 @@ name: piece_sapcollector
 piecehammer: Hammer
 m_name: $piece_sapcollector
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white> $piece_sapcollector_description'
+m_description: '<color=red>♻️</color> $piece_sapcollector_description'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -51,11 +51,6 @@ sapData:
   maxLevel: 10
   producedItem: Sap
   connectedToWhat: YggdrasilRoot
-  extractText: $piece_sapcollector_extract
-  drainingText: $piece_sapcollector_draining
-  drainingSlowText: $piece_sapcollector_drainingslow
-  notConnectedText: $piece_sapcollector_notconnected
-  fullText: $piece_sapcollector_isfull
 build:
 - YggdrasilWood:10:1:True
 - BlackMetal:5:1:True

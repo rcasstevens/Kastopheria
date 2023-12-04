@@ -48,8 +48,8 @@ smelterData:
   emptyOreTooltip: $piece_smelter_empty
   fuelItem:
     name: Sap
-  maxOre: 20
-  maxFuel: 20
+  maxOre: 30
+  maxFuel: 30
   fuelPerProduct: 1
   secPerProduct: 40
   spawnStack: false

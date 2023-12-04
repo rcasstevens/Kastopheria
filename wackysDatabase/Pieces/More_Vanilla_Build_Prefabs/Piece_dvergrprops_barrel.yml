@@ -2,7 +2,7 @@ name: dvergrprops_barrel
 piecehammer: Hammer
 m_name: Dvergr Fermenter
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white> 30% increased efficiency.'
+m_description: '<color=red>♻️</color> 30% increased efficiency.'
 customIcon: 
 clonePrefabName: 
 material: 

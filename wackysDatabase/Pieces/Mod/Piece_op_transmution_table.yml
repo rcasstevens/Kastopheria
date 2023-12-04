@@ -2,7 +2,7 @@ name: op_transmution_table
 piecehammer: Hammer
 m_name: $jc_transmution_table
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white> $piece_craftingstation, <color=yellow>Station level controls number of sockets available.'
+m_description: '<color=red>♻️</color> $piece_craftingstation, <color=yellow>Station level controls number of sockets available.'
 customIcon: 
 clonePrefabName: 
 material: 

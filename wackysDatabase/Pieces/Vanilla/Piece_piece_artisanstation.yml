@@ -2,7 +2,7 @@ name: piece_artisanstation
 piecehammer: Hammer
 m_name: $piece_artisanstation
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white> $piece_craftingstation'
+m_description: '<color=red>♻️</color> $piece_craftingstation'
 customIcon: 
 clonePrefabName: 
 material: 

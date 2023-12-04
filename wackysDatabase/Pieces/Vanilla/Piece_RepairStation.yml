@@ -2,7 +2,7 @@ name: RepairStation
 piecehammer: Hammer
 m_name: $piece_repairstation
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white> Repairs all of your equipment at once.'
+m_description: '<color=red>♻️</color> Repairs all of your equipment at once.'
 customIcon: 
 clonePrefabName: 
 material: 

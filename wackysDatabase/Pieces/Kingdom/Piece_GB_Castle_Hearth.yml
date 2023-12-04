@@ -2,7 +2,7 @@ name: GB_Castle_Hearth
 piecehammer: Hammer
 m_name: $GB_Castle_Hearth
 sizeMultiplier: 1
-m_description: '<color=red>♻️</color>$GB_Castle_Hearth_Description'
+m_description: '<color=red>♻️</color> $GB_Castle_Hearth_Description'
 customIcon: 
 clonePrefabName: 
 material: 

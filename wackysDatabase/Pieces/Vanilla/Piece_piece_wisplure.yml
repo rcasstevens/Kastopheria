@@ -2,7 +2,7 @@ name: piece_wisplure
 piecehammer: Hammer
 m_name: $piece_wisplure
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white> $piece_wisplure_description'
+m_description: '<color=red>♻️</color> $piece_wisplure_description'
 customIcon: 
 clonePrefabName: 
 material: 

@@ -2,7 +2,7 @@ name: piece_workbench
 piecehammer: Hammer
 m_name: $piece_workbench
 sizeMultiplier: 1
-m_description: '<color=red>♻️<color=white> $piece_craftingstation'
+m_description: '<color=red>♻️</color> $piece_craftingstation'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -41,11 +41,11 @@ wearNTearData:
   triggerPrivateArea: true
 craftingStationData:
   cStationCustomIcon: 
-  discoveryRange: 4
-  buildRange: 20
+  discoveryRange: 2
+  buildRange: 40
   craftRequiresRoof: false
   craftRequiresFire: false
-  showBasicRecipes: true
+  showBasicRecipes: false
   useDistance: 2
   useAnimation: 1
 cSExtensionData: 
