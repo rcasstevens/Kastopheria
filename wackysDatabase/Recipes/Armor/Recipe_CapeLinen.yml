@@ -1,0 +1,12 @@
+name: CapeLinen
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 2
+maxStationLevelCap: 5
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- LinenThread:20:4:True
+- Silver:1:0:True

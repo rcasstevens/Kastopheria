@@ -1,7 +1,7 @@
 name: GB_Parchment_Tool
 m_weight: 2
-m_name: $GB_Parchment_Tool
-m_description: '<color=red>This tool is not needed. Please use the Hammer instead.</color>'
+m_name: 'Castle Parchment'
+m_description: '<color=green>Building Tool: \n- Odins Kingdom\n- Crystal Lights</color>'
 clonePrefabName: 
 mockName: 
 customIcon: 
@@ -42,14 +42,14 @@ m_knockback: 10
 m_useDurability: true
 m_useDurabilityDrain: 1
 m_durabilityDrain: 0
-m_maxDurability: 600
-m_durabilityPerLevel: 100
+m_maxDurability: 300
+m_durabilityPerLevel: 150
 m_equipDuration: 0
 m_skillType: Swords
 m_animationState: OneHanded
 m_itemType: Tool
 m_toolTier: 0
-m_maxQuality: 3
+m_maxQuality: 8
 m_value: 0
 ConsumableStatusEffect: 
 damageModifiers: []

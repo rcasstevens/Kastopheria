@@ -1,5 +1,5 @@
 name: GB_StoneWindow_OdinPlus
-piecehammer: Hammer
+piecehammer: GB_Parchment_Tool
 m_name: $GB_StoneWindow_OdinPlus
 sizeMultiplier: 1
 m_description: $GB_StoneWindow_OdinPlus_Description

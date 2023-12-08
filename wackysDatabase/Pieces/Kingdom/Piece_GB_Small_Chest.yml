@@ -1,5 +1,5 @@
 name: GB_Small_Chest
-piecehammer: Hammer
+piecehammer: GB_Parchment_Tool
 m_name: $GB_Small_Chest
 sizeMultiplier: 1
 m_description: $GB_Small_Chest_Description

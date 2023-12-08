@@ -1,5 +1,5 @@
 name: GB_Stone_RoundWall_Window_OP
-piecehammer: Hammer
+piecehammer: GB_Parchment_Tool
 m_name: $GB_Stone_RoundWall_Window_OP
 sizeMultiplier: 1
 m_description: $GB_Stone_RoundWall_Window_OP_Description

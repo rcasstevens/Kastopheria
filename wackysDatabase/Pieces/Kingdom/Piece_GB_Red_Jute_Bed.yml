@@ -1,8 +1,8 @@
 name: GB_Red_Jute_Bed
-piecehammer: Hammer
+piecehammer: GB_Parchment_Tool
 m_name: $GB_Red_Jute_Bed
 sizeMultiplier: 1
-m_description: '<color=red>♻️</color>'
+m_description: '<color=red>♻ </color>$GB_Red_Jute_Bed_Description'
 customIcon: 
 clonePrefabName: 
 material: 

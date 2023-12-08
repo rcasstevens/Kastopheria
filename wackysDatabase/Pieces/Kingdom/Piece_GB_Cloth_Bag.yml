@@ -1,5 +1,5 @@
 name: GB_Cloth_Bag
-piecehammer: Hammer
+piecehammer: GB_Parchment_Tool
 m_name: $GB_Cloth_Bag
 sizeMultiplier: 1
 m_description: $GB_Cloth_Bag_Description

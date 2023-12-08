@@ -1,0 +1,13 @@
+name: CapeWolf
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 2
+maxStationLevelCap: 5
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- WolfPelt:6:4:True
+- Silver:4:2:True
+- TrophyWolf:1:0:True

@@ -2,8 +2,8 @@ name: HelmetPadded
 clonePrefabName: 
 craftingStation: $piece_forge
 minStationLevel: 1
-maxStationLevelCap: 
-repairStation: 
+maxStationLevelCap: 7
+repairStation: $piece_forge
 amount: 1
 disabled: false
 requireOnlyOneIngredient: false

@@ -278,12 +278,11 @@ gPortals:
   teleportable: yes
 
 gBuilding:
-  stack: 100
+  stack: 150
   weight factor: 0.75
 
-#Otherwise `wood` gets stack:200
 wood:
-  stack: 100
+  stack: 150
 
 #QoL Drop Increase
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

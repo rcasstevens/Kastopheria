@@ -291,6 +291,10 @@ groups:
       TrophyTheElder: 2
       Coins: 1000
       size: 3x1
+    3:
+      TrophyTheElder: 2
+      Coins: 1000
+      size: 4x1
 
 "Simple Backpack of Portability":
   description: "A backpack enchanted with the spirit of Bonemass capable of transporting bronze and iron through portals."
@@ -334,6 +338,10 @@ groups:
       TrophyBonemass: 2
       Coins: 1500
       size: 3x1
+    3:
+      TrophyBonemass: 2
+      Coins: 1500
+      size: 4x1
 
 "Advanced Backpack of Portability":
   description: "A backpack enchanted with the spirit of Moder capable of transporting bronze, iron, and silver through portals."
@@ -377,6 +385,10 @@ groups:
       TrophyDragonQueen: 2
       Coins: 2000
       size: 3x1
+    3:
+      TrophyDragonQueen: 2
+      Coins: 2000
+      size: 4x1
 
 "Perfect Backpack of Portability":
   description: "A backpack enchanted with the spirit of Yagluth capable of transporting all known metals through portals."
@@ -420,6 +432,10 @@ groups:
       TrophyGoblinKing: 2
       Coins: 2500
       size: 3x1
+    3:
+      TrophyGoblinKing: 2
+      Coins: 2500
+      size: 4x1
 
 "Mythical Backpack of Portability":
   description: "The highest quality backpack enchanted with the spirit of The Queen capable of transporting all known metals through portals."
@@ -455,11 +471,16 @@ groups:
   upgrade:
     1:
       TrophySeekerQueen: 1
-      JC_Gacha_Coins: 10
+      JC_Gacha_Coins: 5
       Coins: 2500
       size: 5x1
     2:
       TrophySeekerQueen: 1
-      JC_Gacha_Coins: 12
-      Coins: 5000
+      JC_Gacha_Coins: 10
+      Coins: 3500
       size: 3x2
+    3:
+      TrophySeekerQueen: 1
+      JC_Gacha_Coins: 15
+      Coins: 4500
+      size: 4x2

@@ -2,7 +2,7 @@ name: portal_wood
 piecehammer: Hammer
 m_name: $piece_portal
 sizeMultiplier: 1
-m_description: '<color=red>♻</color>'
+m_description: '<color=red>♻ <color=green>Indestructible\n<color=orange>Consumes surtling cores.</color>'
 customIcon: 
 clonePrefabName: 
 material: 
@@ -23,16 +23,16 @@ onlyinTeleportArea: false
 allowedInDungeons: false
 canBeRemoved: true
 wearNTearData:
-  health: 1000
+  health: 20000
   damageModifiers:
-    m_blunt: Normal
-    m_slash: Normal
-    m_pierce: Normal
-    m_chop: Normal
-    m_pickaxe: Normal
-    m_fire: Normal
-    m_frost: Normal
-    m_lightning: Normal
+    m_blunt: Immune
+    m_slash: Immune
+    m_pierce: Immune
+    m_chop: Immune
+    m_pickaxe: Immune
+    m_fire: Immune
+    m_frost: Immune
+    m_lightning: Immune
     m_poison: Immune
     m_spirit: Immune
   noRoofWear: false
@@ -50,4 +50,4 @@ sapData:
 build:
 - GreydwarfEye:10:1:True
 - YggdrasilWood:20:1:True
-- SurtlingCore:2:1:True
+- SurtlingCore:2:1:False

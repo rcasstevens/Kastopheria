@@ -1,7 +1,7 @@
 name: Hammer
 m_weight: 2
 m_name: $item_hammer
-m_description: $item_hammer_description
+m_description: '<color=green>Building Tool\n- Vanilla\n- More_Vanilla_Build_Prefabs</color>'
 clonePrefabName: 
 mockName: 
 customIcon: 

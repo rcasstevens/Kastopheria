@@ -1,0 +1,13 @@
+name: ArmorWolfChest
+clonePrefabName: 
+craftingStation: $piece_forge
+minStationLevel: 2
+maxStationLevelCap: 7
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Silver:20:5:True
+- WolfPelt:5:2:True
+- Chain:1:0:True

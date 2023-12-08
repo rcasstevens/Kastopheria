@@ -1,8 +1,8 @@
 name: GB_Black_Cloth_Bed
-piecehammer: Hammer
+piecehammer: GB_Parchment_Tool
 m_name: $GB_Black_Cloth_Bed
 sizeMultiplier: 1
-m_description: '<color=red>♻️</color>'
+m_description: '<color=red>♻ </color>$GB_Black_Cloth_Bed_Description'
 customIcon: 
 clonePrefabName: 
 material: 

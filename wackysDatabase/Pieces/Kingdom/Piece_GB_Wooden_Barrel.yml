@@ -1,5 +1,5 @@
 name: GB_Wooden_Barrel
-piecehammer: Hammer
+piecehammer: GB_Parchment_Tool
 m_name: $GB_Wooden_Barrel
 sizeMultiplier: 1
 m_description: $GB_Wooden_Barrel_Description

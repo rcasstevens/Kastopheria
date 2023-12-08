@@ -1,5 +1,5 @@
 name: GB_Large_Cupboard
-piecehammer: Hammer
+piecehammer: GB_Parchment_Tool
 m_name: $GB_Large_Cupboard
 sizeMultiplier: 1
 m_description: $GB_Large_Cupboard_Description

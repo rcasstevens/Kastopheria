@@ -2,7 +2,7 @@ name: ArmorPaddedGreaves
 clonePrefabName: 
 craftingStation: $piece_forge
 minStationLevel: 2
-maxStationLevelCap: 
+maxStationLevelCap: 7
 repairStation: 
 amount: 1
 disabled: false

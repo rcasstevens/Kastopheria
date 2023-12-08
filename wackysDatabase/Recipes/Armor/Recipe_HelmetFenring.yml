@@ -1,0 +1,13 @@
+name: HelmetFenring
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 2
+maxStationLevelCap: 5
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- WolfHairBundle:20:5:True
+- WolfPelt:2:4:True
+- TrophyCultist:1:0:True

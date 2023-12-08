@@ -1,0 +1,14 @@
+name: ArmorCarapaceLegs
+clonePrefabName: 
+craftingStation: $piece_blackforge
+minStationLevel: 1
+maxStationLevelCap: 4
+repairStation: $piece_blackforge
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- Carapace:20:10:True
+- ScaleHide:3:1:True
+- Iron:5:0:True
+- Eitr:4:2:True

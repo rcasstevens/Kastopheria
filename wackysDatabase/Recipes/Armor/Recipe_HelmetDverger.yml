@@ -2,8 +2,8 @@ name: Recipe_HelmetDverger
 clonePrefabName: HelmetDverger
 craftingStation: $piece_artisanstation
 minStationLevel: 1
-maxStationLevelCap: 
-repairStation: 
+maxStationLevelCap: 5
+repairStation: $piece_workbench
 amount: 1
 disabled: false
 requireOnlyOneIngredient: false
