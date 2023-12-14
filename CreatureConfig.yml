@@ -265,7 +265,7 @@ Neck:
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Deathsquito:
   size: 1.5
-  movement speed per star: 1.02
+  movement speed per star: 0.15
   health per star: 0
   damage per star: 0
   stars:
@@ -277,7 +277,7 @@ Deathsquito:
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Serpent:
   size: 1.5
-  movement speed per star: 1.02
+  movement speed per star: 0.15
   damage per star: 0
   stars:
     2: [9]
