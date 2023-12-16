@@ -228,11 +228,17 @@ groups:
   - shield
   gPortals:
   - Ironpit
-  Lockouts:
-  #- TrophyBonemass    #Week3
-  #- TrophyDragonQueen #Week3
-  - TrophyGoblinKing  #Week5
-  - TrophySeekerQueen #Week5
+  gBackpacks:
+  - Explorers Satchel
+  - Builders Satchel
+  - Explorers Backpack
+  - Builders Backpack
+  - Portable Hole
+  - Shattered Backpack of Portability
+  - Simple Backpack of Portability
+  - Advanced Backpack of Portability
+  - Perfect Backpack of Portability
+  - Mythical Backpack of Portability
 
 #Coins get special treatment.
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -262,16 +268,11 @@ boss trophy:
   stack: 50
   weight factor: 0.33
 
-#Restrict Boss Trophies.
-#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-Lockouts:
-  amount: 0
-  teleportable: no
-  weight: 999
-
 #General QoL
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 gFloats:
+  floating: yes
+gBackpacks:
   floating: yes
 
 gPortals:

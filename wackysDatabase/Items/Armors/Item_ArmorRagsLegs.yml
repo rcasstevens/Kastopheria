@@ -21,6 +21,7 @@ Moddifiers:
   m_movementModifier: 0
   m_EitrRegen: 0
 SE_Equip: 
+  EffectName: SetEffect_RagArmor
 SE_SET_Equip: 
   SetName: raggedattire
   Size: 2
@@ -52,7 +53,7 @@ m_skillType: Swords
 m_animationState: OneHanded
 m_itemType: Legs
 m_toolTier: 0
-m_maxQuality: 5
+m_maxQuality: 4
 m_value: 0
 ConsumableStatusEffect: 
 damageModifiers: []
