@@ -1,24 +1,3 @@
-# Backpack parts can either be 'visible' or 'hidden'. To color them, use the hex code of the color you want to use.
-# Valid backpack parts are: ToolstrapBottom, Pickaxe, RingBottomLeft, BackpackBody, MetalclipLeft, ToolstrapTop, PouchFront, PouchLeft, Knifesheath, Knife, MetalclipFrontRight, Pot, Sleepbag, BackpackStrapTop, BackpackStrapBottom, MetalclipFrontLeft, BackpackFlap, Teapot.
-#
-# You can also use weight factor to make items in your backpack lighter!
-# weight factor: 0.8
-# Would mean that items in your backpack only weigh 80% of their original weight!
-# You can use teleport to allow every content in your backpack to be taken through a portal, even if it wouldn't work otherwise!
-# teleport: true
-# Would mean that you can put your ore into the backpack and take it through a portal!
-#
-# If you want no item restriction for your backpack, simply remove the "valid items" section of the config.
-#
-# Backpack parts can either be 'visible' or 'hidden'. To color them, use the hex code of the color you want to use.
-# Valid backpack parts are: ToolstrapBottom, Pickaxe, RingBottomLeft, BackpackBody, MetalclipLeft, ToolstrapTop, PouchFront, PouchLeft, Knifesheath, Knife, MetalclipFrontRight, Pot, Sleepbag, BackpackStrapTop, BackpackStrapBottom, MetalclipFrontLeft, BackpackFlap, Teapot.
-# Predefined item groups you can use for the valid items are:
-# ore, metal, food, potions, woods, trophy, boss trophy, valuable, seed, crop, stackable.
-# pants, chest, helmet, cape, armor.
-# axes, clubs, knives, pickaxes, polearms, spears, swords, bows, crossbows, weapon, arrows, bolts, ammo.
-# round shield, tower shield, shield.
-# special (fishing rod and megingjord), tool, equipment.
-#
 # You can also define your very own item groups!
 # groups:
 #   content of my backpack:
@@ -86,6 +65,33 @@ groups:
     - BlackMetalScrap
     - BlackMetal
 
+# You can also use weight factor to make items in your backpack lighter!
+# weight factor: 0.8
+# Would mean that items in your backpack only weigh 80% of their original weight!
+# You can use teleport to allow every content in your backpack to be taken through a portal, even if it wouldn't work otherwise!
+# teleport: true
+# Would mean that you can put your ore into the backpack and take it through a portal!
+
+# If you want no item restriction for your backpack, simply remove the "valid items" section of the config.
+
+# Unique flags:
+# global: Exclusive with any other backpack.
+# restricted: Exclusive with backpacks that have no item restrictions.
+# type: Exclusive with backpacks with the same type.
+# bypass: Not exclusive, bypass all restrictions. Supersedes any other flag.
+# none: Same as bypass, but doesn't overrule all other flags.
+
+# Backpack parts can either be 'visible' or 'hidden'. To color them, use the hex code of the color you want to use.
+# Valid backpack parts are: 
+#       ToolstrapBottom, Pickaxe, RingBottomLeft, BackpackBody, MetalclipLeft, ToolstrapTop, PouchFront, PouchLeft, Knifesheath, Knife, 
+#       MetalclipFrontRight, Pot, Sleepbag, BackpackStrapTop, BackpackStrapBottom, MetalclipFrontLeft, BackpackFlap, Teapot.
+# Predefined item groups you can use for the valid items are:
+# ore, metal, food, potions, woods, trophy, boss trophy, valuable, seed, crop, stackable.
+# pants, chest, helmet, cape, armor.
+# axes, clubs, knives, pickaxes, polearms, spears, swords, bows, crossbows, weapon, arrows, bolts, ammo.
+# round shield, tower shield, shield.
+# special (fishing rod and megingjord), tool, equipment.
+
 "Explorers Satchel":
   description: 'An enchanted satchel which renders its contents 20% lighter. <color=orange>Cannot transport metal.</color>'
   size: 2x2
@@ -112,7 +118,7 @@ groups:
   weight factor: 0.80
   crafting:
     station: Workbench
-    level: 2
+    level: 1
     costs:
       TrollHide: 15
       Feathers: 12
@@ -153,7 +159,7 @@ groups:
   - gBuildingStage1
   crafting:
     station: Workbench
-    level: 2
+    level: 1
     costs:
       DeerHide: 15
       LeatherScraps: 12
@@ -169,7 +175,7 @@ groups:
 
 "Builders Backpack":
   description: 'An enchanted backpack that reduces the weight of common building materials by 80%. (wood, stone, roundlog, blackmarble, finewood, crystal)'
-  size: 2x5
+  size: 5x2
   appearance:
     Pot: hidden
     Teapot: hidden
@@ -195,7 +201,7 @@ groups:
   - gBuildingStage2
   crafting:
     station: Workbench
-    level: 4
+    level: 1
     costs:
       BuildersSatchel: 1
       WolfPelt: 15
@@ -207,7 +213,7 @@ groups:
       WolfPelt: 15
       Silver: 8
       Chain: 8
-      size: 2x6
+      size: 6x2
 
 "Portable Hole":
   description: 'An enchanted sack of mystery that displaces half of its weight to another plane of existence. <color=orange>Cannot transport metal.</color>'
@@ -235,7 +241,7 @@ groups:
   weight factor: 0.5
   crafting:
     station: Workbench
-    level: 5
+    level: 1
     costs:
       bp_explorer: 1
       SerpentScale: 12
@@ -275,7 +281,7 @@ groups:
   - gOreStage1
   crafting:
     station: Workbench
-    level: 4
+    level: 1
     costs:
       TrollHide: 20
       Shattered_Black_Crystal: 20
@@ -322,7 +328,7 @@ groups:
   - gOreStage2
   crafting:
     station: Workbench
-    level: 5
+    level: 1
     costs:
       ShatteredBackpackofPortability: 1
       Simple_Green_Socket: 4
@@ -369,7 +375,7 @@ groups:
   - gOreStage3
   crafting:
     station: Workbench
-    level: 6
+    level: 1
     costs:
       SimpleBackpackofPortability: 1
       Advanced_Red_Socket: 3
@@ -416,7 +422,7 @@ groups:
   - gOreStage4
   crafting:
     station: Workbench
-    level: 7
+    level: 1
     costs:
       AdvancedBackpackofPortability: 1
       TrophyGoblinKing: 2
@@ -463,7 +469,7 @@ groups:
   - gOreStage4
   crafting:
     station: Workbench
-    level: 7
+    level: 1
     costs:
       PerfectBackpackofPortability: 1
       TrophySeekerQueen: 1

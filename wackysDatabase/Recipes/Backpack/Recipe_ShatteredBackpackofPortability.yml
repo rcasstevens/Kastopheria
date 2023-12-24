@@ -1,0 +1,20 @@
+name: ShatteredBackpackofPortability
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 5
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- TrollHide:20:0:True
+- Shattered_Black_Crystal:20:0:True
+- Shattered_Green_Crystal:20:0:True
+- TrophyTheElder:2:0:True
+- TrophyTheElder:0:1:True
+- Coins:0:500:True
+- TrophyTheElder:0:2:True
+- Coins:0:1000:True
+- TrophyTheElder:0:2:True
+- Coins:0:1000:True

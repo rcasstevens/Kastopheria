@@ -1,0 +1,20 @@
+name: PerfectBackpackofPortability
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 5
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- AdvancedBackpackofPortability:1:0:True
+- TrophyGoblinKing:2:0:True
+- Perfect_Blue_Socket:2:0:True
+- Perfect_Yellow_Socket:2:0:True
+- TrophyGoblinKing:0:1:True
+- Coins:0:2000:True
+- TrophyGoblinKing:0:2:True
+- Coins:0:2500:True
+- TrophyGoblinKing:0:2:True
+- Coins:0:2500:True

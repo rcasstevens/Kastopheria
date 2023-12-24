@@ -1,0 +1,21 @@
+name: MythicalBackpackofPortability
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 5
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- PerfectBackpackofPortability:1:0:True
+- TrophySeekerQueen:1:0:True
+- TrophySeekerQueen:0:1:True
+- JC_Gacha_Coins:0:5:True
+- Coins:0:2500:True
+- TrophySeekerQueen:0:1:True
+- JC_Gacha_Coins:0:10:True
+- Coins:0:3500:True
+- TrophySeekerQueen:0:1:True
+- JC_Gacha_Coins:0:15:True
+- Coins:0:4500:True

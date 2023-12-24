@@ -1,0 +1,17 @@
+name: ExplorersSatchel
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 5
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- TrollHide:15:0:True
+- Feathers:12:0:True
+- Tin:8:0:True
+- TrophyEikthyr:1:0:True
+- Bloodbag:0:15:True
+- SerpentScale:0:12:True
+- TrophyFenring:0:1:True

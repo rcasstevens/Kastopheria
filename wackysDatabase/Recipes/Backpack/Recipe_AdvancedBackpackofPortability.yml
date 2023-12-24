@@ -1,0 +1,20 @@
+name: AdvancedBackpackofPortability
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 4
+maxStationLevelCap: 5
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- SimpleBackpackofPortability:1:0:True
+- Advanced_Red_Socket:3:0:True
+- Advanced_Purple_Socket:3:0:True
+- TrophyDragonQueen:2:0:True
+- TrophyDragonQueen:0:1:True
+- Coins:0:1500:True
+- TrophyDragonQueen:0:2:True
+- Coins:0:2000:True
+- TrophyDragonQueen:0:2:True
+- Coins:0:2000:True

@@ -1,0 +1,17 @@
+name: PortableHole
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 5
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- bp_explorer:1:0:True
+- SerpentScale:12:0:True
+- Silver:8:12:True
+- TrophyDragonQueen:1:0:True
+- ScaleHide:0:14:True
+- Chain:0:6:True
+- DragonTear:0:10:True

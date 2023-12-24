@@ -1,0 +1,18 @@
+name: BuildersSatchel
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 5
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- DeerHide:15:0:True
+- LeatherScraps:12:0:True
+- Tin:8:0:True
+- TrophyFrostTroll:1:0:True
+- TrollHide:0:15:True
+- Chain:0:8:True
+- Bronze:0:8:True
+- Tar:0:2:True

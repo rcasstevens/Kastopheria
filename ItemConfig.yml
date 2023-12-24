@@ -220,12 +220,6 @@ groups:
   - BirchSeeds
   - FirCone
   - PineCone
-  gFloats:
-  - armor
-  - weapon
-  - ammo
-  - equipment
-  - shield
   gPortals:
   - Ironpit
   gBackpacks:
@@ -239,6 +233,17 @@ groups:
   - Advanced Backpack of Portability
   - Perfect Backpack of Portability
   - Mythical Backpack of Portability
+  gJewelcrafting:
+  - Jewelcrafting Chests
+  - Jewelcrafting Raw Gems
+  gFloats:
+  - armor
+  - weapon
+  - ammo
+  - equipment
+  - shield
+  - gBackpacks
+  - gJewelcrafting
 
 #Coins get special treatment.
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -271,8 +276,6 @@ boss trophy:
 #General QoL
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 gFloats:
-  floating: yes
-gBackpacks:
   floating: yes
 
 gPortals:
@@ -308,7 +311,7 @@ gDropDouble:
 #Jewelcrafting
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 Jewelcrafting Chests:
-  stack: 20
+  stack: 1
 
 Jewelcrafting Raw Gems:
   stack: 50

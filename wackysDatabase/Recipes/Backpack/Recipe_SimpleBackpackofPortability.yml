@@ -1,0 +1,20 @@
+name: SimpleBackpackofPortability
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 5
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- ShatteredBackpackofPortability:1:0:True
+- Simple_Green_Socket:4:0:True
+- Simple_Black_Socket:4:0:True
+- TrophyBonemass:2:0:True
+- TrophyBonemass:0:1:True
+- Coins:0:1000:True
+- TrophyBonemass:0:2:True
+- Coins:0:1500:True
+- TrophyBonemass:0:2:True
+- Coins:0:1500:True

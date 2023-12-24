@@ -1,0 +1,16 @@
+name: BuildersBackpack
+clonePrefabName: 
+craftingStation: $piece_workbench
+minStationLevel: 1
+maxStationLevelCap: 5
+repairStation: 
+amount: 1
+disabled: false
+requireOnlyOneIngredient: false
+reqs:
+- BuildersSatchel:1:0:True
+- WolfPelt:15:15:True
+- Chain:6:8:True
+- Bronze:6:0:True
+- SerpentScale:0:12:True
+- Silver:0:8:True

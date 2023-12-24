@@ -7,7 +7,7 @@ customIcon:
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation:
+craftingStation: ''
 piecehammerCategory: Misc
 minStationLevel: 1
 amount: 1
