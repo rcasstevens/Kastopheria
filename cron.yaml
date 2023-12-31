@@ -1,4 +1,4 @@
-timezone: Eastern Standard Time
+timezone: America/New_York / EST
 # Jobs checked every minute.
 interval: 60
 jobs:
@@ -36,59 +36,75 @@ jobs:
     schedule: "0 6 * * 1"
   - command: zones_reset safeZones=3 biomes=Meadows start
     schedule: "0 6 * * 1"
-  - command: chests_reset biomes=Meadows
+  - command: chests_reset TreasureChest_meadows looted
     schedule: "0 6 * * 1"
-  - command: chests_reset looted biomes=Meadows
+  - command: chests_reset TreasureChest_meadows_buried looted
     schedule: "0 6 * * 1"
   #BlackForest
   - command: broadcast center <color=orange>Recycling... BlackForest</color>
     schedule: "1 6 * * 1"
   - command: zones_reset safeZones=3 biomes=BlackForest start
     schedule: "1 6 * * 1"
-  - command: chests_reset biomes=BlackForest
+  - command: chests_reset TreasureChest_blackforest looted
     schedule: "1 6 * * 1"
-  - command: chests_reset looted biomes=BlackForest
+  - command: chests_reset TreasureChest_fCrypt looted
+    schedule: "1 6 * * 1"
+  - command: chests_reset TreasureChest_forestcrypt looted
+    schedule: "1 6 * * 1"
+  - command: chests_reset TreasureChest_forestcrypt_hildir looted
+    schedule: "1 6 * * 1"
+  - command: chests_reset TreasureChest_trollcave looted
     schedule: "1 6 * * 1"
   #Ocean
   - command: broadcast center <color=orange>Recycling... Ocean</color>
     schedule: "2 6 * * 1"
   - command: zones_reset safeZones=3 biomes=Ocean start
     schedule: "2 6 * * 1"
+  - command: chests_reset shipwreck_karve_chest looted
+    schedule: "2 6 * * 1"
   #Swamp
   - command: broadcast center <color=orange>Recycling... Swamp</color>
     schedule: "3 6 * * 1"
   - command: zones_reset safeZones=3 biomes=Swamp start
     schedule: "3 6 * * 1"
-  - command: chests_reset biomes=Swamp
+  - command: chests_reset TreasureChest_sunkencrypt looted
     schedule: "3 6 * * 1"
-  - command: chests_reset looted biomes=Swamp
+  - command: chests_reset TreasureChest_swamp looted
     schedule: "3 6 * * 1"
   #Mountain
   - command: broadcast center <color=orange>Recycling... Mountain</color>
     schedule: "4 6 * * 1"
   - command: zones_reset safeZones=3 biomes=Mountain start
     schedule: "4 6 * * 1"
-  - command: chests_reset biomes=Mountain
+  - command: chests_reset TreasureChest_mountaincave looted
     schedule: "4 6 * * 1"
-  - command: chests_reset looted biomes=Mountain
+  - command: chests_reset TreasureChest_mountaincave_hildir looted
+    schedule: "4 6 * * 1"
+  - command: chests_reset TreasureChest_mountains looted
     schedule: "4 6 * * 1"
   #Plains
   - command: broadcast center <color=orange>Recycling... Plains</color>
     schedule: "5 6 * * 1"
   - command: zones_reset safeZones=3 biomes=Plains start
     schedule: "5 6 * * 1"
-  - command: chests_reset biomes=Plains
+  - command: chests_reset TreasureChest_heath looted
     schedule: "5 6 * * 1"
-  - command: chests_reset looted biomes=Plains
+  - command: chests_reset TreasureChest_heath_hildir looted
+    schedule: "5 6 * * 1"
+  - command: chests_reset TreasureChest_plains_stone looted
+    schedule: "5 6 * * 1"
+  - command: chests_reset TreasureChest_plainsfortress_hildir looted
     schedule: "5 6 * * 1"
   #Mistlands
   - command: broadcast center <color=orange>Recycling... Mistlands</color>
     schedule: "6 6 * * 1"
   - command: zones_reset safeZones=3 biomes=Mistlands start
     schedule: "6 6 * * 1"
-  - command: chests_reset biomes=Mistlands
+  - command: chests_reset TreasureChest_dvergr_loose_stone looted
     schedule: "6 6 * * 1"
-  - command: chests_reset looted biomes=Mistlands
+  - command: chests_reset TreasureChest_dvergrtower looted
+    schedule: "6 6 * * 1"
+  - command: chests_reset TreasureChest_dvergrtown looted
     schedule: "6 6 * * 1"
   #Complete
   - command: broadcast center <color=green>Recycling... Complete</color>
@@ -96,7 +112,7 @@ jobs:
   - command: say Recycling... Complete
     schedule: "7 6 * * 1"
   #Bring Gems Back
-  - command: broadcast center <color=green>Respawning Gems... Around 30 Minutes</color>
+  - command: broadcast center <color=green>Respawning Gems... ~30 Minutes.</color>
     schedule: "8 6 * * 1"
   - command: say Respawning Gems...
     schedule: "8 6 * * 1"
